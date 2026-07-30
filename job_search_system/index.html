@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yogeshwari Job Search System</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --navy: #14213d;
+      --teal: #2a9d8f;
+      --coral: #e76f51;
+      --gold: #d59b2d;
+      --paper: #f7f3e8;
+      --panel: #ffffff;
+      --soft: #fffaf0;
+      --line: #d9d2c4;
+      --muted: #596273;
+      --shadow: 0 12px 30px rgba(20, 33, 61, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      border-bottom: 5px solid var(--teal);
+      padding: 28px clamp(18px, 4vw, 44px);
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 24px;
+      align-items: end;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.8rem, 4vw, 3.1rem);
+      line-height: 1.06;
+    }
+
+    .lead {
+      margin: 0;
+      color: #dbe7ef;
+      line-height: 1.5;
+      max-width: 760px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: var(--teal);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      border: 1px solid transparent;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: white;
+      border-color: rgba(255, 255, 255, 0.45);
+    }
+
+    main {
+      padding: 22px clamp(18px, 4vw, 44px) 48px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      min-height: 92px;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--navy);
+      font-size: 1.9rem;
+      line-height: 1.1;
+    }
+
+    section {
+      margin-top: 18px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.22rem;
+      color: var(--navy);
+    }
+
+    .note {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.94rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .wide-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: var(--shadow);
+      min-height: 132px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      color: var(--navy);
+      font-size: 1rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.93rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      border-radius: 8px;
+      padding: 0 9px;
+      background: #e8f3f1;
+      border: 1px solid #c6e2dd;
+      color: var(--navy);
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    .pill.gold {
+      background: #fff1d6;
+      border-color: #f0d08b;
+    }
+
+    .pill.coral {
+      background: #fde8e1;
+      border-color: #f0b5a3;
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 190px minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .row strong {
+      color: var(--navy);
+    }
+
+    .row span {
+      color: var(--muted);
+      line-height: 1.35;
+      font-size: 0.9rem;
+    }
+
+    .row a {
+      color: var(--teal);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+      counter-reset: step;
+    }
+
+    .step {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 14px 14px 54px;
+      box-shadow: var(--shadow);
+      position: relative;
+      min-height: 70px;
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--navy);
+      color: white;
+      font-weight: 800;
+    }
+
+    .step strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--navy);
+    }
+
+    .step span {
+      color: var(--muted);
+      line-height: 1.4;
+      font-size: 0.93rem;
+    }
+
+    footer {
+      padding: 18px clamp(18px, 4vw, 44px) 36px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .stats,
+      .grid,
+      .wide-grid,
+      .row {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions,
+      .section-head {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <div>
+        <h1>Yogeshwari's AI Job Search System</h1>
+        <p class="lead">A Codex-ready job search workspace built from your resume, with a job board, application agent, trackers, platform links, and FAANG-style watchlist.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="button" href="job_board.html">Open Job Board</a>
+        <a class="button secondary" href="profile/job_search_profile.md">View Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="stats" aria-label="System stats">
+        <div class="stat"><span>Core Files</span><strong>20+</strong></div>
+        <div class="stat"><span>Watchlist Companies</span><strong>10</strong></div>
+        <div class="stat"><span>Logged-In Platforms</span><strong>2</strong></div>
+        <div class="stat"><span>Jobs Imported</span><strong>12</strong></div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Built So Far</h2>
+          <p class="note">The system is ready for searches, scoring, tailoring, and application workflows.</p>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <h3>Personal Job Board</h3>
+            <p>Self-contained HTML dashboard with Add Job, local saving, fit scoring, filters, stats, CSV export, and Apply Now prompt copying.</p>
+            <div class="pill-row"><span class="pill">Ready</span><span class="pill gold">Local storage</span></div>
+          </div>
+          <div class="card">
+            <h3>Resume Brain</h3>
+            <p>Candidate profile extracted from your UCR resume, including education, experience, projects, skills, proof points, and tailoring guardrails.</p>
+            <div class="pill-row"><span class="pill">Grounded claims</span><span class="pill">STEM OPT</span></div>
+          </div>
+          <div class="card">
+            <h3>Application Agent</h3>
+            <p>Full 8-step workflow for company research, fit analysis, contact research, tailored resume, cover letter, outreach, answers, and send sequence.</p>
+            <div class="pill-row"><span class="pill">Codex prompt</span><span class="pill">Resume PDFs</span><span class="pill coral">Review before submit</span></div>
+          </div>
+          <div class="card">
+            <h3>Trackers</h3>
+            <p>Applications CSV, networking CSV, and Notion-compatible columns for easy copy/paste or future Notion integration.</p>
+            <div class="pill-row"><span class="pill">CSV</span><span class="pill">Notion-ready</span></div>
+          </div>
+          <div class="card">
+            <h3>Search Platforms</h3>
+            <p>LinkedIn, Handshake, Indeed, Simplify, Wellfound, RippleMatch, Jobright, GradLeaders, UCR, company pages, and search templates.</p>
+            <div class="pill-row"><span class="pill">All platforms</span><span class="pill gold">Login tabs open</span></div>
+          </div>
+          <div class="card">
+            <h3>Scoring Script</h3>
+            <p>Lightweight scorer that compares base resume match, tailored resume match, keyword coverage, missing keywords, seniority risks, and next actions.</p>
+            <div class="pill-row"><span class="pill">Base vs tailored</span><span class="pill">Interview actions</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Your Search Strategy</h2>
+          <p class="note">Current preferences encoded from your answers.</p>
+        </div>
+        <div class="wide-grid">
+          <div class="card">
+            <h3>Positioning</h3>
+            <p>M.S. Computational Data Science candidate with manufacturing analytics experience across Bajaj Auto and Rolls-Royce. Strongest angle: SQL, Python, data quality, KPI dashboards, statistical analysis, anomaly detection, SAP datasets, and process optimization.</p>
+            <div class="pill-row">
+              <span class="pill">Data Analyst</span>
+              <span class="pill">Data Science Intern</span>
+              <span class="pill">BI Analyst</span>
+              <span class="pill">Operations Analyst</span>
+              <span class="pill">Data Engineer Intern</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Application Rules</h3>
+            <p>Open to all U.S. locations and relocation. Open to internships, co-ops, part-time, full-time, and early-career roles. Available ASAP. Expected graduation: Jan 2027. Work authorization: STEM OPT.</p>
+            <div class="pill-row">
+              <span class="pill">United States</span>
+              <span class="pill">Relocation OK</span>
+              <span class="pill">ASAP</span>
+              <span class="pill coral">Sensitive fields need care</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Daily Refresh</h2>
+          <p class="note">The board imports refreshed listings from a local extraction file every time it opens.</p>
+        </div>
+        <div class="wide-grid">
+          <div class="card">
+            <h3>Current Import</h3>
+            <p>Today's refresh file contains 12 extracted jobs from Jobright and GradLeaders, including Foxconn Industrial Internet, Hays Electrical Services, Anduril, Morgan Stanley, Applied Materials, and Capital One.</p>
+            <div class="pill-row">
+              <span class="pill">Jobright</span>
+              <span class="pill">GradLeaders</span>
+              <span class="pill gold">Auto-import on board load</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Refresh Loop</h3>
+            <p>Ask Codex to run the daily refresh. Codex extracts from logged-in pages and watchlist company career sites, writes `data/extracted_jobs.json`, generates top-15 ATS resume PDFs, then the job board imports new roles and skips duplicates.</p>
+            <div class="pill-row">
+              <span class="pill">De-duplicates</span>
+              <span class="pill">Re-scores</span>
+              <span class="pill">Top-15 PDFs</span>
+              <span class="pill">Match lift</span>
+              <span class="pill coral">No applying during refresh</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Company Watchlist</h2>
+          <p class="note">Official career pages and priority role queries.</p>
+        </div>
+        <div class="list">
+          <div class="row"><strong>Microsoft</strong><span>Data Analyst, Data Science, Business Analytics, Program Manager - Data, Operations Analyst</span><a href="https://careers.microsoft.com/v2/global/en/home.html">Open</a></div>
+          <div class="row"><strong>Google / Alphabet</strong><span>Data Analyst, Business Analyst, Data Science, Early Career, Intern</span><a href="https://www.google.com/about/careers/applications/jobs/results/?hl=en_US">Open</a></div>
+          <div class="row"><strong>NVIDIA</strong><span>Data Science, Data Analyst, Operations Analyst, Supply Chain, AI</span><a href="https://www.nvidia.com/en-us/about-nvidia/careers/">Open</a></div>
+          <div class="row"><strong>OpenAI</strong><span>Data, Analytics, Applied AI, Operations, Emerging Talent, Residency</span><a href="https://openai.com/careers/">Open</a></div>
+          <div class="row"><strong>X / xAI</strong><span>Data, Operations, AI, Product Analytics, Business Operations</span><a href="https://x.ai/careers">Open</a></div>
+          <div class="row"><strong>Netflix</strong><span>Data Science, Analytics, Data Engineering, Operations</span><a href="https://www.jobs.netflix.com/">Open</a></div>
+          <div class="row"><strong>Disney</strong><span>Data Science and Analytics, Technology, Operations, Internships</span><a href="https://www.disneycareers.com/en/search_jobs/search-results?c=US">Open</a></div>
+          <div class="row"><strong>Meta</strong><span>Data Analyst, Data Science, Product Analytics, University Grad, Internship</span><a href="https://www.metacareers.com/jobs/">Open</a></div>
+          <div class="row"><strong>Amazon</strong><span>Business Analyst, Data Analyst, Data Engineer, Operations, Supply Chain</span><a href="https://www.amazon.jobs/en/">Open</a></div>
+          <div class="row"><strong>Apple</strong><span>Data Science, AIML, Operations, Business Analytics, New Grad</span><a href="https://jobs.apple.com/en-us/search?location=united-states-USA">Open</a></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Next Workflow</h2>
+          <p class="note">This is the loop we run now that the system exists.</p>
+        </div>
+        <div class="timeline">
+          <div class="step"><strong>Search</strong><span>Use Jobright, GradLeaders, direct company pages, and watchlist queries to find current roles.</span></div>
+          <div class="step"><strong>Score</strong><span>Add each promising role to the board, score it, and keep anything above 70 unless there is a strategic reason.</span></div>
+          <div class="step"><strong>Tailor</strong><span>Generate a role-specific resume, cover letter, screening answers, and outreach message.</span></div>
+          <div class="step"><strong>Apply</strong><span>Fill the application. Pause on sensitive fields if wording is unclear. Submit after final review.</span></div>
+          <div class="step"><strong>Track</strong><span>Update the CSV tracker and schedule follow-ups for 5 to 7 business days later.</span></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    Built locally in C:\Users\hp\OneDrive\Documents\resume\job_search_system
+  </footer>
+</body>
+</html>

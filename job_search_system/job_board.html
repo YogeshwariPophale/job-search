@@ -1,0 +1,1023 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yogeshwari Pophale Job Board</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --navy: #14213d;
+      --panel: #fffaf0;
+      --paper: #f7f3e8;
+      --line: #d9d2c4;
+      --teal: #2a9d8f;
+      --coral: #e76f51;
+      --gold: #d59b2d;
+      --muted: #596273;
+      --white: #ffffff;
+      --shadow: 0 12px 30px rgba(20, 33, 61, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      letter-spacing: 0;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+    }
+
+    .shell {
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 24px clamp(16px, 4vw, 42px);
+      border-bottom: 5px solid var(--teal);
+    }
+
+    .header-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: end;
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.6rem, 3vw, 2.5rem);
+      line-height: 1.08;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #d9e3ee;
+      max-width: 760px;
+      line-height: 1.5;
+      font-size: 0.96rem;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .btn {
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: var(--teal);
+      color: var(--white);
+      font-weight: 700;
+      box-shadow: none;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      color: var(--white);
+    }
+
+    .btn.light {
+      background: var(--white);
+      color: var(--navy);
+      border: 1px solid var(--line);
+    }
+
+    main {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 22px clamp(16px, 4vw, 42px) 46px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .stat {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      min-height: 84px;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.8rem;
+      line-height: 1.25;
+      margin-top: 5px;
+      color: var(--navy);
+    }
+
+    .toolbar,
+    .add-panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) 170px 150px auto;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+    }
+
+    label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--ink);
+      padding: 10px 11px;
+      min-height: 42px;
+    }
+
+    textarea {
+      min-height: 150px;
+      resize: vertical;
+      line-height: 1.45;
+    }
+
+    .toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 42px;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .toggle input {
+      width: 18px;
+      min-height: 18px;
+    }
+
+    .add-panel[hidden] {
+      display: none;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .form-grid .wide {
+      grid-column: 1 / -1;
+    }
+
+    .form-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .job-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: grid;
+      min-height: 320px;
+    }
+
+    .job-top {
+      padding: 16px 16px 12px;
+      border-top: 5px solid var(--teal);
+    }
+
+    .job-top.high {
+      border-top-color: var(--teal);
+    }
+
+    .job-top.medium {
+      border-top-color: var(--gold);
+    }
+
+    .job-top.low {
+      border-top-color: var(--coral);
+    }
+
+    .title-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: start;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.08rem;
+      line-height: 1.25;
+      color: var(--navy);
+    }
+
+    .company {
+      margin-top: 4px;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    .score {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--navy);
+      color: var(--white);
+      font-size: 1.18rem;
+      font-weight: 800;
+      flex: 0 0 auto;
+    }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 12px;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      min-height: 28px;
+      padding: 0 9px;
+      border-radius: 8px;
+      font-weight: 800;
+      color: var(--navy);
+      background: #e8f3f1;
+      border: 1px solid #c6e2dd;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+    }
+
+    .status.applied,
+    .status.interview,
+    .status.offer {
+      background: #fff1d6;
+      border-color: #f0d08b;
+    }
+
+    .status.rejected,
+    .status.closed {
+      background: #fde8e1;
+      border-color: #f0b5a3;
+    }
+
+    .positioning {
+      padding: 0 16px 14px;
+      line-height: 1.48;
+    }
+
+    .positioning h3 {
+      margin: 8px 0 5px;
+      font-size: 0.9rem;
+      color: var(--navy);
+    }
+
+    .positioning p {
+      margin: 0 0 8px;
+      color: var(--ink);
+      font-size: 0.92rem;
+    }
+
+    .signals {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 9px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px 16px;
+      border-top: 1px solid var(--line);
+      align-self: end;
+      flex-wrap: wrap;
+    }
+
+    .card-actions a {
+      color: var(--navy);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 26px;
+      box-shadow: var(--shadow);
+      line-height: 1.55;
+    }
+
+    .empty h2 {
+      margin-bottom: 8px;
+    }
+
+    .toast {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      background: var(--navy);
+      color: var(--white);
+      padding: 12px 14px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      pointer-events: none;
+      max-width: min(420px, calc(100vw - 36px));
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 920px) {
+      .header-grid,
+      .toolbar,
+      .board,
+      .stats,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .header-actions,
+      .form-actions {
+        justify-content: flex-start;
+      }
+
+      .title-row {
+        grid-template-columns: 1fr;
+      }
+
+      .score {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="header-grid">
+        <div>
+          <h1>Yogeshwari Pophale Job Board</h1>
+          <p class="subtitle">A personalized Codex job search dashboard for data analytics, data science, BI, manufacturing analytics, operations analytics, and early-career data roles.</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn secondary" id="refreshImportBtn" type="button">Import Daily Refresh</button>
+          <button class="btn secondary" id="exportBtn" type="button">Export CSV</button>
+          <button class="btn" id="toggleAddBtn" type="button">Add Job</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="stats" aria-label="Job board stats">
+        <div class="stat"><span>Total roles</span><strong id="totalRoles">0</strong></div>
+        <div class="stat"><span>Applied</span><strong id="appliedRoles">0</strong></div>
+        <div class="stat"><span>Highest fit</span><strong id="highestFit">0</strong></div>
+        <div class="stat"><span>Average fit</span><strong id="averageFit">0</strong></div>
+      </section>
+
+      <section class="toolbar" aria-label="Filters">
+        <div class="field">
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="Company, role, keyword, location">
+        </div>
+        <div class="field">
+          <label for="statusFilter">Status</label>
+          <select id="statusFilter">
+            <option value="all">All statuses</option>
+            <option>To Apply</option>
+            <option>Applied</option>
+            <option>Interview</option>
+            <option>Offer</option>
+            <option>Rejected</option>
+            <option>Closed</option>
+          </select>
+        </div>
+        <label class="toggle" for="fitToggle">
+          <input id="fitToggle" type="checkbox">
+          Fit 70+
+        </label>
+        <button class="btn light" id="clearFiltersBtn" type="button">Clear</button>
+      </section>
+
+      <section class="add-panel" id="addPanel" hidden>
+        <form id="jobForm">
+          <div class="form-grid">
+            <div class="field">
+              <label for="company">Company</label>
+              <input id="company" required placeholder="Company name">
+            </div>
+            <div class="field">
+              <label for="role">Role</label>
+              <input id="role" required placeholder="Role title">
+            </div>
+            <div class="field">
+              <label for="location">Location</label>
+              <input id="location" placeholder="City, remote, hybrid">
+            </div>
+            <div class="field">
+              <label for="salary">Salary</label>
+              <input id="salary" placeholder="If known">
+            </div>
+            <div class="field">
+              <label for="source">Source</label>
+              <input id="source" placeholder="LinkedIn, company site, Handshake">
+            </div>
+            <div class="field">
+              <label for="posted">Posted</label>
+              <input id="posted" placeholder="2 days ago, unknown">
+            </div>
+            <div class="field wide">
+              <label for="url">Job URL</label>
+              <input id="url" type="url" placeholder="https://...">
+            </div>
+            <div class="field wide">
+              <label for="description">Job Description</label>
+              <textarea id="description" required placeholder="Paste the job description here. The board will score it against Yogeshwari's profile."></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button class="btn light" id="cancelAddBtn" type="button">Cancel</button>
+            <button class="btn" type="submit">Score And Save</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="board" id="board" aria-label="Job cards"></section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const storageKey = "yogeshwari_job_board_v1";
+    const importedRefreshKey = "yogeshwari_job_board_imported_refresh_ids_v1";
+    const extractedJobsUrl = "data/extracted_jobs.json";
+
+    const candidate = {
+      name: "Yogeshwari Pophale",
+      proofPoint: "reduced manual manufacturing reporting effort by 40% through Python reporting, validation, and data quality pipelines",
+      targetRoles: [
+        "data analyst",
+        "business data analyst",
+        "data science intern",
+        "machine learning intern",
+        "manufacturing data analyst",
+        "operations analyst",
+        "supply chain analytics intern",
+        "business intelligence analyst",
+        "data engineer intern"
+      ],
+      industries: ["manufacturing", "automotive", "industrial ai", "operations", "supply chain", "business intelligence", "data platforms"],
+      skills: ["sql", "python", "data quality", "statistical analysis", "dashboard", "kpi", "anomaly detection", "sap", "postgresql", "machine learning", "nlp", "llm", "docker", "hadoop", "flask", "pandas", "numpy", "scikit-learn", "pyspark"],
+      dealbreakers: ["senior", "staff", "principal", "manager", "5+ years", "7+ years", "10+ years", "active security clearance", "citizenship required"]
+    };
+
+    let jobs = loadJobs();
+    jobs = migrateJobs(jobs);
+    saveJobs();
+
+    const board = document.getElementById("board");
+    const toast = document.getElementById("toast");
+    const addPanel = document.getElementById("addPanel");
+    const searchInput = document.getElementById("searchInput");
+    const statusFilter = document.getElementById("statusFilter");
+    const fitToggle = document.getElementById("fitToggle");
+
+    document.getElementById("toggleAddBtn").addEventListener("click", () => addPanel.hidden = !addPanel.hidden);
+    document.getElementById("cancelAddBtn").addEventListener("click", () => addPanel.hidden = true);
+    document.getElementById("clearFiltersBtn").addEventListener("click", clearFilters);
+    document.getElementById("exportBtn").addEventListener("click", exportCsv);
+    document.getElementById("refreshImportBtn").addEventListener("click", () => importDailyRefresh({ manual: true }));
+    searchInput.addEventListener("input", render);
+    statusFilter.addEventListener("change", render);
+    fitToggle.addEventListener("change", render);
+
+    document.getElementById("jobForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const description = form.description.value.trim();
+      const scored = scoreJob(description, form.role.value, form.location.value);
+      const job = {
+        id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()),
+        company: form.company.value.trim(),
+        role: form.role.value.trim(),
+        location: form.location.value.trim() || "Unknown",
+        salary: form.salary.value.trim() || "Not listed",
+        source: form.source.value.trim() || "Manual add",
+        posted: form.posted.value.trim() || "Unknown",
+        url: form.url.value.trim(),
+        description,
+        status: "To Apply",
+        fitScore: scored.score,
+        signals: scored.signals,
+        risks: scored.risks,
+        hook: buildHook(scored.signals, form.role.value),
+        createdAt: new Date().toISOString().slice(0, 10)
+      };
+      jobs.unshift(job);
+      saveJobs();
+      form.reset();
+      addPanel.hidden = true;
+      showToast("Job scored and saved.");
+      render();
+    });
+
+    function loadJobs() {
+      try {
+        return JSON.parse(localStorage.getItem(storageKey)) || [];
+      } catch {
+        return [];
+      }
+    }
+
+    function saveJobs() {
+      localStorage.setItem(storageKey, JSON.stringify(jobs));
+    }
+
+    function chooseFitScore(localScore, sourceFitScore, risks) {
+      const sourceScore = Number(sourceFitScore) || 0;
+      if (!sourceScore) return localScore;
+      if (risks && risks.length) return Math.min(localScore, sourceScore);
+      return Math.max(localScore, sourceScore);
+    }
+
+    function migrateJobs(items) {
+      let changed = false;
+      const migrated = items.map((job) => {
+        if (!job || !job.sourceFitScore) return job;
+        const rescored = scoreJob(job.description || "", job.role || "", job.location || "");
+        const fitScore = chooseFitScore(rescored.score, job.sourceFitScore, rescored.risks);
+        if (fitScore === job.fitScore && JSON.stringify(rescored.risks) === JSON.stringify(job.risks || [])) return job;
+        changed = true;
+        return {
+          ...job,
+          fitScore,
+          risks: rescored.risks,
+          signals: rescored.signals.length ? rescored.signals : job.signals || []
+        };
+      });
+      return changed ? migrated : items;
+    }
+
+    function loadImportedRefreshIds() {
+      try {
+        return new Set(JSON.parse(localStorage.getItem(importedRefreshKey)) || []);
+      } catch {
+        return new Set();
+      }
+    }
+
+    function saveImportedRefreshIds(ids) {
+      localStorage.setItem(importedRefreshKey, JSON.stringify([...ids]));
+    }
+
+    function jobKey(job) {
+      return normalize(`${job.company}|${job.role}|${job.location}|${job.url || ""}`);
+    }
+
+    function normalizeImportedJob(raw) {
+      const description = String(raw.description || `${raw.role || ""} ${raw.company || ""} ${raw.location || ""}`).trim();
+      const scored = scoreJob(description, raw.role || "", raw.location || "");
+      const signals = scored.signals.length ? scored.signals : raw.signals || [];
+      return {
+        sourceRefreshId: raw.sourceRefreshId || null,
+        id: raw.id || (crypto.randomUUID ? crypto.randomUUID() : String(Date.now() + Math.random())),
+        company: String(raw.company || "Unknown company").trim(),
+        role: String(raw.role || "Unknown role").trim(),
+        location: String(raw.location || "Unknown").trim(),
+        salary: String(raw.salary || "Not listed").trim(),
+        source: String(raw.source || "Daily refresh").trim(),
+        posted: String(raw.posted || "Unknown").trim(),
+        url: String(raw.url || raw.sourceUrl || "").trim(),
+        description,
+        status: String(raw.status || "To Apply").trim(),
+        fitScore: chooseFitScore(scored.score, raw.fitScore, scored.risks),
+        sourceFitScore: raw.fitScore || null,
+        tailoredResumePdf: raw.tailoredResumePdf || "",
+        tailoredResumeSource: raw.tailoredResumeSource || "",
+        tailoredKeywords: raw.tailoredKeywords || [],
+        essentialKeywords: raw.essentialKeywords || [],
+        unconfirmedKeywords: raw.unconfirmedKeywords || [],
+        tailoredRank: raw.tailoredRank || null,
+        tailoredGeneratedAt: raw.tailoredGeneratedAt || "",
+        baseResumeMatch: raw.baseResumeMatch || null,
+        tailoredResumeMatch: raw.tailoredResumeMatch || null,
+        matchDelta: raw.matchDelta || null,
+        baseCoveragePercent: raw.baseCoveragePercent || null,
+        tailoredCoveragePercent: raw.tailoredCoveragePercent || null,
+        baseCoveredKeywords: raw.baseCoveredKeywords || [],
+        baseMissingKeywords: raw.baseMissingKeywords || [],
+        tailoredCoveredKeywords: raw.tailoredCoveredKeywords || [],
+        tailoredMissingKeywords: raw.tailoredMissingKeywords || [],
+        recommendedAction: raw.recommendedAction || null,
+        signals,
+        risks: scored.risks,
+        hook: raw.hook || buildHook(signals, raw.role || ""),
+        createdAt: raw.extractedAt || new Date().toISOString().slice(0, 10)
+      };
+    }
+
+    async function importDailyRefresh({ manual = false } = {}) {
+      try {
+        const response = await fetch(`${extractedJobsUrl}?t=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        const rawJobs = Array.isArray(payload) ? payload : payload.jobs || [];
+        const importedIds = loadImportedRefreshIds();
+        const existingKeyToIndex = new Map(jobs.map((job, index) => [jobKey(job), index]));
+        const existingKeys = new Set(existingKeyToIndex.keys());
+        const newJobs = [];
+        let updatedCount = 0;
+
+        rawJobs.map(normalizeImportedJob).forEach((job) => {
+          const key = jobKey(job);
+          const refreshId = job.sourceRefreshId || key;
+          if (existingKeys.has(key)) {
+            const index = existingKeyToIndex.get(key);
+            const existing = jobs[index];
+            const merged = {
+              ...existing,
+              tailoredResumePdf: job.tailoredResumePdf || existing.tailoredResumePdf || "",
+              tailoredResumeSource: job.tailoredResumeSource || existing.tailoredResumeSource || "",
+              tailoredKeywords: job.tailoredKeywords && job.tailoredKeywords.length ? job.tailoredKeywords : existing.tailoredKeywords || [],
+              essentialKeywords: job.essentialKeywords && job.essentialKeywords.length ? job.essentialKeywords : existing.essentialKeywords || [],
+              unconfirmedKeywords: job.unconfirmedKeywords && job.unconfirmedKeywords.length ? job.unconfirmedKeywords : existing.unconfirmedKeywords || [],
+              tailoredRank: job.tailoredRank || existing.tailoredRank || null,
+              tailoredGeneratedAt: job.tailoredGeneratedAt || existing.tailoredGeneratedAt || "",
+              baseResumeMatch: job.baseResumeMatch || existing.baseResumeMatch || null,
+              tailoredResumeMatch: job.tailoredResumeMatch || existing.tailoredResumeMatch || null,
+              matchDelta: job.matchDelta ?? existing.matchDelta ?? null,
+              baseCoveragePercent: job.baseCoveragePercent || existing.baseCoveragePercent || null,
+              tailoredCoveragePercent: job.tailoredCoveragePercent || existing.tailoredCoveragePercent || null,
+              baseCoveredKeywords: job.baseCoveredKeywords && job.baseCoveredKeywords.length ? job.baseCoveredKeywords : existing.baseCoveredKeywords || [],
+              baseMissingKeywords: job.baseMissingKeywords && job.baseMissingKeywords.length ? job.baseMissingKeywords : existing.baseMissingKeywords || [],
+              tailoredCoveredKeywords: job.tailoredCoveredKeywords && job.tailoredCoveredKeywords.length ? job.tailoredCoveredKeywords : existing.tailoredCoveredKeywords || [],
+              tailoredMissingKeywords: job.tailoredMissingKeywords && job.tailoredMissingKeywords.length ? job.tailoredMissingKeywords : existing.tailoredMissingKeywords || [],
+              recommendedAction: job.recommendedAction || existing.recommendedAction || null,
+              sourceRefreshId: job.sourceRefreshId || existing.sourceRefreshId || null
+            };
+            if (JSON.stringify(merged) !== JSON.stringify(existing)) {
+              jobs[index] = merged;
+              updatedCount += 1;
+            }
+            importedIds.add(refreshId);
+            return;
+          }
+          if (importedIds.has(refreshId)) return;
+          existingKeys.add(key);
+          importedIds.add(refreshId);
+          newJobs.push(job);
+        });
+
+        if (newJobs.length || updatedCount) {
+          jobs = [...newJobs, ...jobs];
+          saveJobs();
+          saveImportedRefreshIds(importedIds);
+          render();
+        }
+
+        if (manual || newJobs.length || updatedCount) {
+          const parts = [];
+          if (newJobs.length) parts.push(`imported ${newJobs.length}`);
+          if (updatedCount) parts.push(`updated ${updatedCount}`);
+          showToast(parts.length ? `Daily refresh ${parts.join(" and ")} jobs.` : "No new refreshed jobs to import.");
+        }
+      } catch (error) {
+        if (manual) showToast("No refresh file found yet. Ask Codex to run daily refresh.");
+      }
+    }
+
+    function normalize(text) {
+      return (text || "").toLowerCase().replace(/\s+/g, " ");
+    }
+
+    function countMatches(text, terms) {
+      const found = [];
+      terms.forEach((term) => {
+        if (normalize(text).includes(term)) found.push(term);
+      });
+      return found;
+    }
+
+    function scoreJob(description, role, location) {
+      const text = normalize(`${role} ${location} ${description}`);
+      const roleMatches = countMatches(text, candidate.targetRoles);
+      const industryMatches = countMatches(text, candidate.industries);
+      const skillMatches = countMatches(text, candidate.skills);
+      const riskMatches = countMatches(text, candidate.dealbreakers);
+      const locationBonus = /remote|california|riverside|los angeles|san diego|san francisco|united states|ca\b/.test(text) ? 10 : 0;
+      const studentBonus = /intern|student|new grad|entry level|early career|co-op/.test(text) ? 10 : 0;
+
+      let score = 35;
+      score += Math.min(roleMatches.length * 10, 20);
+      score += Math.min(industryMatches.length * 7, 18);
+      score += Math.min(skillMatches.length * 4, 28);
+      score += locationBonus + studentBonus;
+      score -= Math.min(riskMatches.length * 12, 35);
+      score = Math.max(0, Math.min(100, score));
+
+      return {
+        score,
+        signals: [...roleMatches, ...industryMatches, ...skillMatches].slice(0, 8),
+        risks: riskMatches
+      };
+    }
+
+    function buildHook(signals, role) {
+      const text = signals.join(", ");
+      if (/manufacturing|operations|supply chain|sap/.test(text)) {
+        return "Lead with Bajaj Auto: SQL and Python analysis across SAP manufacturing, procurement, inventory, and production datasets, plus 40% reporting-effort reduction.";
+      }
+      if (/machine learning|data science|anomaly detection|nlp|llm/.test(text)) {
+        return "Lead with applied analytics: anomaly detection, statistical analysis, ML coursework, and the Gemini-powered proposal workflow agent.";
+      }
+      if (/business intelligence|dashboard|kpi|data analyst/.test(text + " " + role.toLowerCase())) {
+        return "Lead with SQL, Python, data quality pipelines, KPI dashboards, and translating operational datasets into decisions.";
+      }
+      return "Lead with the 40% reporting-effort reduction and the ability to turn messy operational data into actionable insights.";
+    }
+
+    function filteredJobs() {
+      const query = normalize(searchInput.value);
+      const status = statusFilter.value;
+      return jobs.filter((job) => {
+        const haystack = normalize(`${job.company} ${job.role} ${job.location} ${job.description} ${(job.signals || []).join(" ")}`);
+        const matchesSearch = !query || haystack.includes(query);
+        const matchesStatus = status === "all" || job.status === status;
+        const matchesFit = !fitToggle.checked || Number(job.fitScore) >= 70;
+        return matchesSearch && matchesStatus && matchesFit;
+      });
+    }
+
+    function render() {
+      const visible = filteredJobs();
+      renderStats();
+      board.innerHTML = "";
+
+      if (!visible.length) {
+        board.innerHTML = `
+          <div class="empty">
+            <h2>No roles yet</h2>
+            <p>Add a job description to score it against Yogeshwari's profile. The board saves roles in this browser using local storage, so it works as a self-contained HTML file.</p>
+            <button class="btn" type="button" onclick="document.getElementById('addPanel').hidden = false">Add First Job</button>
+          </div>
+        `;
+        return;
+      }
+
+      visible.forEach((job) => board.appendChild(renderCard(job)));
+    }
+
+    function renderStats() {
+      const total = jobs.length;
+      const applied = jobs.filter((job) => ["Applied", "Interview", "Offer"].includes(job.status)).length;
+      const highest = jobs.reduce((max, job) => Math.max(max, Number(job.fitScore) || 0), 0);
+      const avg = total ? Math.round(jobs.reduce((sum, job) => sum + (Number(job.fitScore) || 0), 0) / total) : 0;
+      document.getElementById("totalRoles").textContent = total;
+      document.getElementById("appliedRoles").textContent = applied;
+      document.getElementById("highestFit").textContent = `${highest}`;
+      document.getElementById("averageFit").textContent = `${avg}`;
+    }
+
+    function renderCard(job) {
+      const card = document.createElement("article");
+      card.className = "job-card";
+      const level = job.fitScore >= 75 ? "high" : job.fitScore >= 60 ? "medium" : "low";
+      const statusClass = normalize(job.status).replace(/\s+/g, "-");
+      const signals = (job.signals && job.signals.length ? job.signals : ["Review JD manually"]).map((signal) => `<li>${escapeHtml(signal)}</li>`).join("");
+      const risks = job.risks && job.risks.length ? `<p><strong>Risk:</strong> ${escapeHtml(job.risks.join(", "))}</p>` : "";
+      const baseMatch = job.baseResumeMatch || "n/a";
+      const tailoredMatch = job.tailoredResumeMatch || "n/a";
+      const lift = Number.isFinite(Number(job.matchDelta)) ? `${Number(job.matchDelta) >= 0 ? "+" : ""}${job.matchDelta}` : "n/a";
+      const action = job.recommendedAction || {};
+      const actionHtml = action.priority ? `
+          <h3>Action</h3>
+          <p><strong>${escapeHtml(action.priority)}:</strong> ${escapeHtml(action.nextAction || "")}</p>
+          <p><strong>Interview hook:</strong> ${escapeHtml(action.interviewHook || "")}</p>
+        ` : "";
+      const missing = [
+        ...(job.tailoredMissingKeywords || []),
+        ...(job.unconfirmedKeywords || []).map((item) => `${item} (unconfirmed)`)
+      ];
+      const missingHtml = missing.length ? `<p><strong>Watch:</strong> ${escapeHtml([...new Set(missing)].join(", "))}</p>` : "";
+      card.innerHTML = `
+        <div class="job-top ${level}">
+          <div class="title-row">
+            <div>
+              <h2>${escapeHtml(job.role)}</h2>
+              <div class="company">${escapeHtml(job.company)}</div>
+            </div>
+            <div class="score" aria-label="Fit score ${job.fitScore} out of 100">${job.fitScore}</div>
+          </div>
+          <div class="meta">
+            <div><strong>Location:</strong> ${escapeHtml(job.location)}</div>
+            <div><strong>Salary:</strong> ${escapeHtml(job.salary)}</div>
+            <div><strong>Source:</strong> ${escapeHtml(job.source)}</div>
+            <div><strong>Posted:</strong> ${escapeHtml(job.posted)}</div>
+          </div>
+          <div style="margin-top: 10px;"><span class="status ${statusClass}">${escapeHtml(job.status)}</span></div>
+        </div>
+        <div class="positioning">
+          <h3>Positioning</h3>
+          <p>${escapeHtml(job.hook)}</p>
+          ${risks}
+          <h3>Resume Match</h3>
+          <p><strong>Base:</strong> ${escapeHtml(baseMatch)} / <strong>Tailored:</strong> ${escapeHtml(tailoredMatch)} / <strong>Lift:</strong> ${escapeHtml(lift)}</p>
+          <p><strong>Keyword coverage:</strong> base ${escapeHtml(job.baseCoveragePercent || "n/a")}% -> tailored ${escapeHtml(job.tailoredCoveragePercent || "n/a")}%</p>
+          ${missingHtml}
+          ${actionHtml}
+          <h3>Key signals</h3>
+          <ul class="signals">${signals}</ul>
+        </div>
+        <div class="card-actions">
+          <select aria-label="Update status for ${escapeHtml(job.company)} ${escapeHtml(job.role)}" data-status="${job.id}">
+            ${["To Apply", "Applied", "Interview", "Offer", "Rejected", "Closed"].map((status) => `<option ${status === job.status ? "selected" : ""}>${status}</option>`).join("")}
+          </select>
+          ${job.tailoredResumePdf ? `<a class="btn light" href="${escapeAttribute(job.tailoredResumePdf)}" download>Resume PDF</a>` : ""}
+          <button class="btn" data-apply="${job.id}" type="button">Apply Now</button>
+          ${job.url ? `<a href="${escapeAttribute(job.url)}" target="_blank" rel="noreferrer">Open JD</a>` : ""}
+        </div>
+      `;
+
+      card.querySelector("[data-apply]").addEventListener("click", () => copyApplyPrompt(job));
+      card.querySelector("[data-status]").addEventListener("change", (event) => {
+        job.status = event.target.value;
+        saveJobs();
+        render();
+      });
+      return card;
+    }
+
+    function copyApplyPrompt(job) {
+      const prompt = `I want to apply to this role using my job_search_system.
+
+ROLE: ${job.role}
+COMPANY: ${job.company}
+JD LINK: ${job.url || "No URL provided"}
+
+JOB DESCRIPTION:
+${job.description}
+
+Use:
+- job_search_system/profile/candidate_profile.md
+- job_search_system/profile/job_search_profile.md
+- job_search_system/profile/preferences.yml
+- base/yogeshwari_resume_UCR_base_profile.md
+
+Work through the full 8-step Codex application workflow:
+1. Research the company.
+2. Score my fit and identify my strongest hook.
+3. Research a relevant hiring contact.
+4. Create a tailored resume package.
+5. Draft a cover letter if needed.
+6. Draft a cold email and LinkedIn message.
+7. Draft application answers, asking me before sensitive answers.
+8. Give the exact send sequence and tracker update.
+
+Stop before final submission or sending messages. Ask for my explicit approval.`;
+
+      navigator.clipboard.writeText(prompt).then(
+        () => showToast("Application prompt copied."),
+        () => showToast("Could not copy. Select and copy from the generated prompt manually.")
+      );
+    }
+
+    function clearFilters() {
+      searchInput.value = "";
+      statusFilter.value = "all";
+      fitToggle.checked = false;
+      render();
+    }
+
+    function exportCsv() {
+      const header = ["date_added", "company", "role", "location", "job_url", "status", "fit_score", "next_action", "notes"];
+      const rows = jobs.map((job) => [
+        job.createdAt || "",
+        job.company,
+        job.role,
+        job.location,
+        job.url || "",
+        job.status,
+        job.fitScore,
+        job.status === "To Apply" ? "Tailor resume and apply" : "Follow up if appropriate",
+        job.hook
+      ]);
+      const csv = [header, ...rows].map((row) => row.map(csvCell).join(",")).join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "yogeshwari_job_board_export.csv";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function csvCell(value) {
+      return `"${String(value || "").replace(/"/g, '""')}"`;
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      })[char]);
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value).replace(/`/g, "&#096;");
+    }
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2200);
+    }
+
+    render();
+    importDailyRefresh();
+  </script>
+</body>
+</html>

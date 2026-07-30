@@ -1,0 +1,94 @@
+# Fill this in once, then Codex can use it for searches and applications.
+
+candidate_name: "Yogeshwari Pophale"
+
+target_roles:
+  - "Data Analyst"
+  - "Business Data Analyst"
+  - "Data Science Intern"
+  - "Machine Learning Intern"
+  - "Manufacturing Data Analyst"
+  - "Operations Analyst"
+  - "Supply Chain Analytics Intern"
+  - "Business Intelligence Analyst"
+  - "Data Engineer Intern"
+
+target_industries:
+  - "Manufacturing"
+  - "Automotive"
+  - "Industrial AI"
+  - "Supply Chain"
+  - "Operations"
+  - "Business Intelligence"
+  - "Data Platforms"
+
+company_watchlist:
+  - "Microsoft"
+  - "Google"
+  - "NVIDIA"
+  - "OpenAI"
+  - "X / xAI"
+  - "Netflix"
+  - "Disney"
+  - "Meta"
+  - "Amazon"
+  - "Apple"
+  - "Alphabet"
+
+target_locations:
+  - "Riverside, CA"
+  - "California"
+  - "United States"
+  - "Remote"
+  - "Open to relocation across the United States"
+
+work_modes:
+  - "Internship"
+  - "Full-time"
+  - "Co-op"
+  - "Part-time"
+
+availability:
+  earliest_start_date: "ASAP, as of 2026-07-30"
+  weekly_hours_during_school: "Open to all feasible options; confirm exact hours per application if required"
+  full_time_available_from: "After graduation in Jan 2027"
+  expected_graduation: "Jan 2027"
+
+authorization:
+  us_work_authorization: "STEM OPT"
+  visa_sponsorship_needed_now: "Confirm per application if form requires yes/no wording"
+  visa_sponsorship_needed_future: "Confirm per application if form requires yes/no wording"
+  opt_cpt_status: "STEM OPT"
+
+compensation:
+  internship_hourly_minimum: "No minimum specified; open to any paid opportunity"
+  full_time_salary_minimum: "No minimum specified; open to any reasonable offer"
+
+application_assets:
+  default_resume_pdf: "../base/yogeshwari_resume_UCR_base.pdf"
+  default_profile_md: "candidate_profile.md"
+  linkedin: "https://www.linkedin.com/in/yogeshwari-pophale-281b80206"
+  github: "https://github.com/YogeshwariPophale"
+  portfolio: "TODO"
+
+search_rules:
+  max_applications_per_day: 5
+  minimum_fit_score_to_apply: 70
+  prefer_direct_company_applications: true
+  direct_submission_allowed_after_final_review: true
+  require_confirmation_before_submit: true
+  require_confirmation_before_messaging: true
+  platforms:
+    - "LinkedIn"
+    - "Handshake"
+    - "Indeed"
+    - "Simplify"
+    - "Company career pages"
+    - "Wellfound"
+    - "RippleMatch"
+    - "UCR career portal"
+    - "Other relevant job boards"
+
+avoid:
+  - "Roles requiring senior-level professional experience"
+  - "Roles requiring unsupported tools as hard requirements"

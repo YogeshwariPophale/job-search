@@ -1,0 +1,688 @@
+{
+  "generatedAt": "2026-07-30",
+  "sources": [
+    "Jobright recommendations",
+    "GradLeaders / Rewriting the Code Data Analyst search"
+  ],
+  "jobs": [
+    {
+      "sourceRefreshId": "jobright-2026-07-30-foxconn-industrial-internet-data-analyst-houston",
+      "source": "Jobright",
+      "company": "Foxconn Industrial Internet",
+      "role": "Data Analyst",
+      "location": "Houston, TX",
+      "salary": "Not listed",
+      "posted": "13 minutes ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 71,
+      "description": "Foxconn Industrial Internet is hiring dedicated analysts to transform data into actionable insights in their Houston facility. This role involves collaborating with data engineers to visualize data and manage Tableau dashboards for factory management.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/03_foxconn-industrial-internet_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/foxconn-industrial-internet_data-analyst.md",
+      "tailoredKeywords": [
+        "Dashboard Development",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "tailoredRank": 3,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 68,
+      "tailoredResumeMatch": 75,
+      "matchDelta": 7,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst at Foxconn Industrial Internet - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "jobright-2026-07-30-arkhya-tech-data-scientist-scottsdale",
+      "source": "Jobright",
+      "company": "Arkhya Tech. Inc.",
+      "role": "Data Scientist",
+      "location": "Scottsdale, AZ",
+      "salary": "Not listed",
+      "posted": "14 hours ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 73,
+      "description": "Arkhya Tech. Inc. is seeking a Data Scientist to join their team. The role involves developing data science pipelines, applying machine learning techniques, and effectively communicating complex analyses to non-technical audiences.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/02_arkhya-tech-inc_data-scientist.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/arkhya-tech-inc_data-scientist.md",
+      "tailoredKeywords": [
+        "Machine Learning",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 2,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "Machine Learning"
+      ],
+      "baseResumeMatch": 73,
+      "tailoredResumeMatch": 82,
+      "matchDelta": 9,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Machine Learning"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Machine Learning"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Scientist at Arkhya Tech. Inc. - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "jobright-2026-07-30-aktra-business-data-analyst-mclean",
+      "source": "Jobright",
+      "company": "AKTRA INC",
+      "role": "Business/Data Analyst",
+      "location": "McLean, VA",
+      "salary": "Not listed",
+      "posted": "3 hours ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 63,
+      "description": "AKTRA INC is seeking a Business/Data Analyst to support data-driven initiatives within a fast-paced financial services environment. The role involves analyzing datasets, generating insights, and collaborating with cross-functional teams to improve operational and business performance.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/10_aktra-inc_business-data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/aktra-inc_business-data-analyst.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 10,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 63,
+      "tailoredResumeMatch": 74,
+      "matchDelta": 11,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business/Data Analyst at AKTRA INC - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "jobright-2026-07-30-applied-materials-data-scientist-santa-clara",
+      "source": "Jobright",
+      "company": "Applied Materials",
+      "role": "Data Scientist",
+      "location": "Santa Clara, CA",
+      "salary": "$120K/yr - $164K/yr",
+      "posted": "Reposted 11 hours ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 61,
+      "description": "Applied Materials is a global leader in materials engineering solutions used to produce advanced chips and displays. The Data Scientist will lead strategic projects to streamline business processes and improve performance, utilizing data analysis and collaboration with stakeholders.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/12_applied-materials_data-scientist.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/applied-materials_data-scientist.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 12,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 61,
+      "tailoredResumeMatch": 74,
+      "matchDelta": 13,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Scientist at Applied Materials - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "jobright-2026-07-30-ragle-data-engineer-north-richland-hills",
+      "source": "Jobright",
+      "company": "Ragle Inc",
+      "role": "Data Engineer",
+      "location": "North Richland Hills, TX",
+      "salary": "$90K/yr - $110K/yr",
+      "posted": "25 minutes ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 64,
+      "description": "Ragle Inc. is expanding its Data & Analytics team and is seeking a hands-on Data Engineer with 2-3 years of industry experience to help centralize and modernize operational, accounting, and project data. In this role, you will design and operate production-grade data pipelines that connect various systems and power analytics used by Operations, Accounting, Estimating, and Executive Leadership.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/09_ragle-inc_data-engineer.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/ragle-inc_data-engineer.md",
+      "tailoredKeywords": [
+        "Operations Analytics",
+        "Production Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 9,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "Operations Analytics",
+        "Production Analytics"
+      ],
+      "baseResumeMatch": 64,
+      "tailoredResumeMatch": 74,
+      "matchDelta": 10,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Operations Analytics",
+        "Production Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Operations Analytics",
+        "Production Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Engineer at Ragle Inc - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "jobright-2026-07-30-hays-data-analyst-i-houston",
+      "source": "Jobright",
+      "company": "Hays Electrical Services",
+      "role": "Data Analyst I",
+      "location": "Houston, TX",
+      "salary": "Not listed",
+      "posted": "14 minutes ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 83,
+      "description": "Hays Electrical Services is a growing electrical contractor seeking a Data Analyst I to join their Business Intelligence & Strategy department. The role involves building reports, connecting to data sources, and delivering insights to support decision-making across various business functions.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/01_hays-electrical-services_data-analyst-i.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/hays-electrical-services_data-analyst-i.md",
+      "tailoredKeywords": [
+        "Business Intelligence",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 1,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "Business Intelligence"
+      ],
+      "baseResumeMatch": 83,
+      "tailoredResumeMatch": 90,
+      "matchDelta": 7,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Business Intelligence"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Business Intelligence"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst I at Hays Electrical Services - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "jobright-2026-07-30-laufer-data-analyst-new-york",
+      "source": "Jobright",
+      "company": "Laufer Group International",
+      "role": "Data Analyst",
+      "location": "New York, NY",
+      "salary": "$100K/yr - $135K/yr",
+      "posted": "17 minutes ago",
+      "url": "https://jobright.ai/jobs/recommend",
+      "fitScore": 63,
+      "description": "Laufer Group International is a company redefining global logistics and supply chain solutions. As a Data Analyst, you will optimize operations and improve performance through data by delivering actionable insights and data solutions to stakeholders across the organization.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/11_laufer-group-international_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/laufer-group-international_data-analyst.md",
+      "tailoredKeywords": [
+        "Operations Analytics",
+        "Supply Chain Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 11,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "Operations Analytics",
+        "Supply Chain Analytics"
+      ],
+      "baseResumeMatch": 63,
+      "tailoredResumeMatch": 73,
+      "matchDelta": 10,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Operations Analytics",
+        "Supply Chain Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Operations Analytics",
+        "Supply Chain Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst at Laufer Group International - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "gradleaders-2026-07-30-anduril-supply-chain-master-data-analyst-costa-mesa",
+      "source": "GradLeaders / Rewriting the Code",
+      "company": "Anduril Industries",
+      "role": "Supply Chain Master Data Analyst",
+      "location": "Costa Mesa, CA",
+      "salary": "Not listed",
+      "posted": "Search result",
+      "url": "https://candidate.gradleaders.com/RewritingTheCode/Candidates/Authenticated/Jobs/SearchJobs.aspx",
+      "fitScore": 65,
+      "description": "Supply Chain Master Data Analyst at Anduril Industries in Costa Mesa, CA. Extracted from GradLeaders Data Analyst search.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/04_anduril-industries_supply-chain-master-data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/anduril-industries_supply-chain-master-data-analyst.md",
+      "tailoredKeywords": [
+        "Supply Chain Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 4,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "Supply Chain Analytics"
+      ],
+      "baseResumeMatch": 65,
+      "tailoredResumeMatch": 74,
+      "matchDelta": 9,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Supply Chain Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Supply Chain Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Supply Chain Master Data Analyst at Anduril Industries - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "gradleaders-2026-07-30-anduril-jr-people-data-analyst-boston",
+      "source": "GradLeaders / Rewriting the Code",
+      "company": "Anduril Industries",
+      "role": "Jr People Data Analyst",
+      "location": "Boston, MA",
+      "salary": "Not listed",
+      "posted": "Search result",
+      "url": "https://candidate.gradleaders.com/RewritingTheCode/Candidates/Authenticated/Jobs/SearchJobs.aspx",
+      "fitScore": 65,
+      "description": "Jr People Data Analyst at Anduril Industries in Boston, MA. Extracted from GradLeaders Data Analyst search.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/05_anduril-industries_jr-people-data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/anduril-industries_jr-people-data-analyst.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 5,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 65,
+      "tailoredResumeMatch": 76,
+      "matchDelta": 11,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Jr People Data Analyst at Anduril Industries - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "gradleaders-2026-07-30-morgan-stanley-data-analyst-dallas",
+      "source": "GradLeaders / Rewriting the Code",
+      "company": "Morgan Stanley",
+      "role": "Data Analyst",
+      "location": "Dallas, TX",
+      "salary": "Not listed",
+      "posted": "Search result",
+      "url": "https://candidate.gradleaders.com/RewritingTheCode/Candidates/Authenticated/Jobs/SearchJobs.aspx",
+      "fitScore": 65,
+      "description": "Data Analyst at Morgan Stanley in Dallas, TX. Extracted from GradLeaders Data Analyst search.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/06_morgan-stanley_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/morgan-stanley_data-analyst.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 6,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 65,
+      "tailoredResumeMatch": 76,
+      "matchDelta": 11,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst at Morgan Stanley - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "gradleaders-2026-07-30-capital-one-senior-data-analyst-mclean",
+      "source": "GradLeaders / Rewriting the Code",
+      "company": "Capital One Financial Corporation",
+      "role": "Senior Data Analyst",
+      "location": "McLean, VA",
+      "salary": "Not listed",
+      "posted": "Search result",
+      "url": "https://candidate.gradleaders.com/RewritingTheCode/Candidates/Authenticated/Jobs/SearchJobs.aspx",
+      "fitScore": 65,
+      "description": "Senior Data Analyst at Capital One Financial Corporation in McLean, VA. Extracted from GradLeaders Data Analyst search.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/07_capital-one-financial-corporation_senior-data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/capital-one-financial-corporation_senior-data-analyst.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 7,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 54,
+      "matchDelta": 4,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Senior Data Analyst at Capital One Financial Corporation - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "gradleaders-2026-07-30-capital-one-principal-data-analyst-card-richmond",
+      "source": "GradLeaders / Rewriting the Code",
+      "company": "Capital One Financial Corporation",
+      "role": "Principal Data Analyst - Card",
+      "location": "Richmond, VA",
+      "salary": "Not listed",
+      "posted": "Search result",
+      "url": "https://candidate.gradleaders.com/RewritingTheCode/Candidates/Authenticated/Jobs/SearchJobs.aspx",
+      "fitScore": 65,
+      "description": "Principal Data Analyst - Card at Capital One Financial Corporation in Richmond, VA. Extracted from GradLeaders Data Analyst search.",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-07-30/08_capital-one-financial-corporation_principal-data-analyst-card.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-07-30/capital-one-financial-corporation_principal-data-analyst-card.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 8,
+      "tailoredGeneratedAt": "2026-07-30",
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 54,
+      "matchDelta": 4,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Principal Data Analyst - Card at Capital One Financial Corporation - data analytics background"
+      }
+    }
+  ],
+  "tailoredGeneratedAt": "2026-07-30"
+}
