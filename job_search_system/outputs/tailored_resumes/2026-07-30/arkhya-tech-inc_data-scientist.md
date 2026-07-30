@@ -5,8 +5,8 @@ Fit score: 73
 Source: Jobright
 Location: Scottsdale, AZ
 Base resume match: 73
-Tailored resume match: 82
-Match lift: +9
+Tailored resume match: 88
+Match lift: +15
 Recommended action: Apply today
 
 ## Supported Keywords Used

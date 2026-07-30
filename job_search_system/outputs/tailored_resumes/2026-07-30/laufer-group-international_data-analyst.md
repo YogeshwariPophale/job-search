@@ -5,8 +5,8 @@ Fit score: 63
 Source: Jobright
 Location: New York, NY
 Base resume match: 63
-Tailored resume match: 73
-Match lift: +10
+Tailored resume match: 88
+Match lift: +25
 Recommended action: Apply today
 
 ## Supported Keywords Used

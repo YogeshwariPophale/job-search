@@ -5,8 +5,8 @@ Fit score: 71
 Source: Jobright
 Location: Houston, TX
 Base resume match: 68
-Tailored resume match: 75
-Match lift: +7
+Tailored resume match: 85
+Match lift: +17
 Recommended action: Apply today
 
 ## Supported Keywords Used

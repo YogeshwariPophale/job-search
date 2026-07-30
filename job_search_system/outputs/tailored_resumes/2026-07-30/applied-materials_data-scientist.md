@@ -5,8 +5,8 @@ Fit score: 61
 Source: Jobright
 Location: Santa Clara, CA
 Base resume match: 61
-Tailored resume match: 74
-Match lift: +13
+Tailored resume match: 88
+Match lift: +27
 Recommended action: Apply today
 
 ## Supported Keywords Used

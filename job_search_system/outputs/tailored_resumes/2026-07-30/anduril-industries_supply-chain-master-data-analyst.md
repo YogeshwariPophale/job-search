@@ -5,8 +5,8 @@ Fit score: 65
 Source: GradLeaders / Rewriting the Code
 Location: Costa Mesa, CA
 Base resume match: 65
-Tailored resume match: 74
-Match lift: +9
+Tailored resume match: 88
+Match lift: +23
 Recommended action: Apply today
 
 ## Supported Keywords Used

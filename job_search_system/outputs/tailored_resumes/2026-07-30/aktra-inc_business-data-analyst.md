@@ -5,8 +5,8 @@ Fit score: 63
 Source: Jobright
 Location: McLean, VA
 Base resume match: 63
-Tailored resume match: 74
-Match lift: +11
+Tailored resume match: 88
+Match lift: +25
 Recommended action: Apply today
 
 ## Supported Keywords Used

@@ -5,8 +5,8 @@ Fit score: 64
 Source: Jobright
 Location: North Richland Hills, TX
 Base resume match: 64
-Tailored resume match: 74
-Match lift: +10
+Tailored resume match: 88
+Match lift: +24
 Recommended action: Apply today
 
 ## Supported Keywords Used

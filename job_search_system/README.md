@@ -107,6 +107,24 @@ Each tailored job now tracks:
 - Interview hook
 - Outreach subject line
 
+Scoring standards:
+
+- Do not lower standards to make a role look better.
+- Keep senior/principal/manager roles flagged even if the keywords match.
+- Push tailored ATS resume match to 85+ only when the job is in a target family and the resume can truthfully support the keywords.
+- Keep unsupported tools in the caution/missing-keyword notes instead of claiming them.
+- Treat `role fit` and `tailored ATS match` as separate signals.
+
+The job board also supports:
+
+- Sorting by highest tailored match
+- Sorting by highest role fit
+- Sorting by recently added
+- Sorting by highest base match
+- Sorting by company
+- Recording applied/interview/offer jobs into a separate browser-side applied log
+- Exporting the applied log as CSV
+
 ## Recommended Search Focus
 
 Initial role families from the resume:

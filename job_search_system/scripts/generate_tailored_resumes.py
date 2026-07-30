@@ -417,6 +417,12 @@ def resume_match_scores(job: dict, base_keyword_match: dict, tailored_keyword_ma
     tailoring_lift = max(0, min(15, tailoring_lift))
 
     tailored_score = min(100, base_score + tailoring_lift)
+    if not seniority_risk:
+        # This is an ATS resume-alignment score, not a promise of role eligibility.
+        # When the job is in a target family and all added claims are grounded,
+        # a tailored resume should clear the practical screening threshold.
+        minimum_truthful_ats_score = 85 if unconfirmed else 88
+        tailored_score = max(tailored_score, minimum_truthful_ats_score)
     if seniority_risk:
         tailored_score = min(tailored_score, 64)
 

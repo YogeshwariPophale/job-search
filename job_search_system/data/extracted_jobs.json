@@ -34,8 +34,8 @@
         "Dashboard Development"
       ],
       "baseResumeMatch": 68,
-      "tailoredResumeMatch": 75,
-      "matchDelta": 7,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 17,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -85,8 +85,8 @@
         "Machine Learning"
       ],
       "baseResumeMatch": 73,
-      "tailoredResumeMatch": 82,
-      "matchDelta": 9,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 15,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -138,8 +138,8 @@
         "Dashboard Development"
       ],
       "baseResumeMatch": 63,
-      "tailoredResumeMatch": 74,
-      "matchDelta": 11,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 25,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -199,8 +199,8 @@
         "Dashboard Development"
       ],
       "baseResumeMatch": 61,
-      "tailoredResumeMatch": 74,
-      "matchDelta": 13,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 27,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -259,8 +259,8 @@
         "Production Analytics"
       ],
       "baseResumeMatch": 64,
-      "tailoredResumeMatch": 74,
-      "matchDelta": 10,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 24,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -363,8 +363,8 @@
         "Supply Chain Analytics"
       ],
       "baseResumeMatch": 63,
-      "tailoredResumeMatch": 73,
-      "matchDelta": 10,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 25,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -415,8 +415,8 @@
         "Supply Chain Analytics"
       ],
       "baseResumeMatch": 65,
-      "tailoredResumeMatch": 74,
-      "matchDelta": 9,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 23,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -468,8 +468,8 @@
         "Dashboard Development"
       ],
       "baseResumeMatch": 65,
-      "tailoredResumeMatch": 76,
-      "matchDelta": 11,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 23,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -529,8 +529,8 @@
         "Dashboard Development"
       ],
       "baseResumeMatch": 65,
-      "tailoredResumeMatch": 76,
-      "matchDelta": 11,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 23,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [

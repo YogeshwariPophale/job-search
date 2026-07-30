@@ -156,7 +156,7 @@
 
     .toolbar {
       display: grid;
-      grid-template-columns: minmax(180px, 1fr) 170px 150px auto;
+      grid-template-columns: minmax(180px, 1fr) 170px 190px 150px auto;
       gap: 10px;
       align-items: center;
     }
@@ -441,6 +441,7 @@
         </div>
         <div class="header-actions">
           <button class="btn secondary" id="refreshImportBtn" type="button">Import Daily Refresh</button>
+          <button class="btn secondary" id="exportAppliedBtn" type="button">Export Applied</button>
           <button class="btn secondary" id="exportBtn" type="button">Export CSV</button>
           <button class="btn" id="toggleAddBtn" type="button">Add Job</button>
         </div>
@@ -470,6 +471,16 @@
             <option>Offer</option>
             <option>Rejected</option>
             <option>Closed</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="sortSelect">Sort</label>
+          <select id="sortSelect">
+            <option value="tailoredMatch">Highest tailored match</option>
+            <option value="fitScore">Highest role fit</option>
+            <option value="recent">Recently added</option>
+            <option value="baseMatch">Highest base match</option>
+            <option value="company">Company A-Z</option>
           </select>
         </div>
         <label class="toggle" for="fitToggle">
@@ -531,6 +542,7 @@
   <script>
     const storageKey = "yogeshwari_job_board_v1";
     const importedRefreshKey = "yogeshwari_job_board_imported_refresh_ids_v1";
+    const appliedLogKey = "yogeshwari_applied_jobs_v1";
     const extractedJobsUrl = "data/extracted_jobs.json";
 
     const candidate = {
@@ -561,15 +573,18 @@
     const addPanel = document.getElementById("addPanel");
     const searchInput = document.getElementById("searchInput");
     const statusFilter = document.getElementById("statusFilter");
+    const sortSelect = document.getElementById("sortSelect");
     const fitToggle = document.getElementById("fitToggle");
 
     document.getElementById("toggleAddBtn").addEventListener("click", () => addPanel.hidden = !addPanel.hidden);
     document.getElementById("cancelAddBtn").addEventListener("click", () => addPanel.hidden = true);
     document.getElementById("clearFiltersBtn").addEventListener("click", clearFilters);
     document.getElementById("exportBtn").addEventListener("click", exportCsv);
+    document.getElementById("exportAppliedBtn").addEventListener("click", exportAppliedCsv);
     document.getElementById("refreshImportBtn").addEventListener("click", () => importDailyRefresh({ manual: true }));
     searchInput.addEventListener("input", render);
     statusFilter.addEventListener("change", render);
+    sortSelect.addEventListener("change", render);
     fitToggle.addEventListener("change", render);
 
     document.getElementById("jobForm").addEventListener("submit", (event) => {
@@ -612,6 +627,46 @@
 
     function saveJobs() {
       localStorage.setItem(storageKey, JSON.stringify(jobs));
+    }
+
+    function loadAppliedLog() {
+      try {
+        return JSON.parse(localStorage.getItem(appliedLogKey)) || [];
+      } catch {
+        return [];
+      }
+    }
+
+    function saveAppliedLog(entries) {
+      localStorage.setItem(appliedLogKey, JSON.stringify(entries));
+    }
+
+    function recordApplied(job) {
+      const entries = loadAppliedLog();
+      const key = jobKey(job);
+      const existingIndex = entries.findIndex((entry) => entry.jobKey === key);
+      const entry = {
+        jobKey: key,
+        company: job.company,
+        role: job.role,
+        location: job.location,
+        status: job.status,
+        fitScore: job.fitScore || "",
+        baseResumeMatch: job.baseResumeMatch || "",
+        tailoredResumeMatch: job.tailoredResumeMatch || "",
+        matchDelta: job.matchDelta ?? "",
+        resumePdf: job.tailoredResumePdf || "",
+        jobUrl: job.url || "",
+        appliedAt: new Date().toISOString(),
+        nextAction: job.recommendedAction?.nextAction || "Follow up in 5-7 business days",
+        interviewHook: job.recommendedAction?.interviewHook || "",
+      };
+      if (existingIndex >= 0) {
+        entries[existingIndex] = { ...entries[existingIndex], ...entry };
+      } else {
+        entries.unshift(entry);
+      }
+      saveAppliedLog(entries);
     }
 
     function chooseFitScore(localScore, sourceFitScore, risks) {
@@ -826,7 +881,16 @@
         const matchesStatus = status === "all" || job.status === status;
         const matchesFit = !fitToggle.checked || Number(job.fitScore) >= 70;
         return matchesSearch && matchesStatus && matchesFit;
-      });
+      }).sort(compareJobs);
+    }
+
+    function compareJobs(a, b) {
+      const sort = sortSelect.value;
+      if (sort === "fitScore") return (Number(b.fitScore) || 0) - (Number(a.fitScore) || 0);
+      if (sort === "baseMatch") return (Number(b.baseResumeMatch) || 0) - (Number(a.baseResumeMatch) || 0);
+      if (sort === "recent") return String(b.createdAt || "").localeCompare(String(a.createdAt || ""));
+      if (sort === "company") return String(a.company || "").localeCompare(String(b.company || ""));
+      return (Number(b.tailoredResumeMatch) || Number(b.fitScore) || 0) - (Number(a.tailoredResumeMatch) || Number(a.fitScore) || 0);
     }
 
     function render() {
@@ -922,6 +986,9 @@
       card.querySelector("[data-apply]").addEventListener("click", () => copyApplyPrompt(job));
       card.querySelector("[data-status]").addEventListener("change", (event) => {
         job.status = event.target.value;
+        if (["Applied", "Interview", "Offer"].includes(job.status)) {
+          recordApplied(job);
+        }
         saveJobs();
         render();
       });
@@ -965,6 +1032,7 @@ Stop before final submission or sending messages. Ask for my explicit approval.`
     function clearFilters() {
       searchInput.value = "";
       statusFilter.value = "all";
+      sortSelect.value = "tailoredMatch";
       fitToggle.checked = false;
       render();
     }
@@ -990,6 +1058,35 @@ Stop before final submission or sending messages. Ask for my explicit approval.`
       a.download = "yogeshwari_job_board_export.csv";
       a.click();
       URL.revokeObjectURL(url);
+    }
+
+    function exportAppliedCsv() {
+      const entries = loadAppliedLog();
+      const header = ["applied_at", "company", "role", "location", "status", "fit_score", "base_resume_match", "tailored_resume_match", "match_delta", "resume_pdf", "job_url", "next_action", "interview_hook"];
+      const rows = entries.map((entry) => [
+        entry.appliedAt,
+        entry.company,
+        entry.role,
+        entry.location,
+        entry.status,
+        entry.fitScore,
+        entry.baseResumeMatch,
+        entry.tailoredResumeMatch,
+        entry.matchDelta,
+        entry.resumePdf,
+        entry.jobUrl,
+        entry.nextAction,
+        entry.interviewHook,
+      ]);
+      const csv = [header, ...rows].map((row) => row.map(csvCell).join(",")).join("\n");
+      const blob = new Blob([csv], { type: "text/csv" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "yogeshwari_applied_jobs_log.csv";
+      a.click();
+      URL.revokeObjectURL(url);
+      showToast(entries.length ? `Exported ${entries.length} applied records.` : "No applied jobs recorded yet.");
     }
 
     function csvCell(value) {

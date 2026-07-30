@@ -40,3 +40,10 @@ For each source:
 The job board fetches `data/extracted_jobs.json` on page load and when you click `Import Daily Refresh`. It saves new jobs into browser local storage, updates existing jobs with new tailored resume links, and skips duplicates by company, role, location, and URL.
 
 The resume generator selects the top 15 jobs by fit score, extracts supported keywords, avoids ungrounded claims, and creates one-page ATS-friendly PDFs. Unsupported tools such as Tableau, Power BI, AWS, Azure, GCP, Airflow, dbt, Kubernetes, Snowflake, and Looker are flagged in the tailoring notes instead of being claimed as experience.
+
+Scoring standards:
+
+- Do not lower standards to make a role appear stronger than it is.
+- Non-seniority, target-family roles should clear 85+ tailored ATS match when truthful keyword coverage supports it.
+- Senior, principal, manager, staff, or high-years-experience roles must remain capped and flagged for networking first.
+- Role fit and tailored ATS match are different metrics. Do not use keyword alignment to hide seniority or eligibility risk.

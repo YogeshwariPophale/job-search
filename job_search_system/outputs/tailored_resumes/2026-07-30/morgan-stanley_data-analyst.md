@@ -5,8 +5,8 @@ Fit score: 65
 Source: GradLeaders / Rewriting the Code
 Location: Dallas, TX
 Base resume match: 65
-Tailored resume match: 76
-Match lift: +11
+Tailored resume match: 88
+Match lift: +23
 Recommended action: Apply today
 
 ## Supported Keywords Used
