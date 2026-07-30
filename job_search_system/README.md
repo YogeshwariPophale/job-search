@@ -7,7 +7,7 @@ It is designed for this workflow:
 1. Use `job_board.html` as the personal job board dashboard.
 2. Add roles manually or ask Codex to search current openings.
 3. Score each role against Yogeshwari's profile.
-4. Copy the Apply Now prompt from the board when ready.
+4. Use `Apply Now` to open the listing or company application page.
 5. Generate a tailored resume, cover letter, outreach, and screening answers.
 6. Track the application, follow-ups, interview steps, and outcomes.
 
@@ -53,7 +53,7 @@ You can also open `job_board.html` directly in a browser. It is self-contained a
 - `scripts/` - lightweight helper scripts
 - `outputs/` - generated job-specific materials
 - `index.html` - compiled overview site showing what has been built
-- `job_board.html` - self-contained job board dashboard with filters, stats, scoring, local save, CSV export, and Apply Now prompt copying
+- `job_board.html` - self-contained job board dashboard with filters, stats, scoring, local save, CSV export, direct Apply Now links, and Agent Prompt copying
 - `data/extracted_jobs.json` - latest daily refresh payload imported by the board
 - `data/tailored_resumes.json` - manifest of generated role-specific resume PDFs
 
@@ -87,7 +87,9 @@ Codex will use `prompts/daily_refresh_agent.md` to extract roles from logged-in 
 
 After extraction, Codex runs `scripts/generate_tailored_resumes.py`. The script selects the top 15 jobs, extracts essential supported keywords, generates one-page ATS-friendly tailored PDFs, writes tailoring notes, and updates the board data with `Resume PDF` download links.
 
-The job board imports that file every time it loads and when you click `Import Daily Refresh`. It de-duplicates by company, role, location, and URL, re-scores jobs against Yogeshwari's profile, and updates existing jobs with new resume links, base-vs-tailored match scores, keyword coverage, missing keyword notes, and recommended actions.
+The job board imports that file every time it loads and when you click `Import Daily Refresh`. It de-duplicates by company, role, location, and URL, re-scores jobs against Yogeshwari's profile, and updates existing jobs with new resume links, direct apply links, base-vs-tailored match scores, keyword coverage, missing keyword notes, and recommended actions.
+
+`Apply Now` opens the direct application URL when available, otherwise the job listing URL, otherwise the mapped career page for watchlist companies. `Agent Prompt` copies the Codex application workflow for resume tailoring, outreach, and application-answer drafting.
 
 The tailoring rule is "highest truthful match": keywords are incorporated only when they are supported by Yogeshwari's actual resume, coursework, projects, or experience. Unsupported tools are flagged in notes instead of being claimed.
 

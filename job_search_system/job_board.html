@@ -92,6 +92,10 @@
       color: var(--white);
       font-weight: 700;
       box-shadow: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
     }
 
     .btn.secondary {
@@ -371,6 +375,14 @@
       text-decoration: none;
     }
 
+    .card-actions a.btn {
+      color: var(--white);
+    }
+
+    .card-actions a.btn.light {
+      color: var(--navy);
+    }
+
     .empty {
       grid-column: 1 / -1;
       background: var(--white);
@@ -564,6 +576,26 @@
       dealbreakers: ["senior", "staff", "principal", "manager", "5+ years", "7+ years", "10+ years", "active security clearance", "citizenship required"]
     };
 
+    const companyCareerUrls = {
+      "alphabet": "https://www.google.com/about/careers/applications/jobs/results/?hl=en_US",
+      "amazon": "https://www.amazon.jobs/en/",
+      "anduril": "https://www.anduril.com/careers/",
+      "apple": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+      "applied materials": "https://www.appliedmaterials.com/us/en/careers.html",
+      "capital one": "https://www.capitalonecareers.com/",
+      "capital one financial corporation": "https://www.capitalonecareers.com/",
+      "disney": "https://www.disneycareers.com/en/search_jobs/search-results?c=US",
+      "google": "https://www.google.com/about/careers/applications/jobs/results/?hl=en_US",
+      "meta": "https://www.metacareers.com/jobs/",
+      "microsoft": "https://careers.microsoft.com/v2/global/en/home.html",
+      "morgan stanley": "https://www.morganstanley.com/people-opportunities/students-graduates",
+      "netflix": "https://www.jobs.netflix.com/",
+      "nvidia": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "openai": "https://openai.com/careers/",
+      "x": "https://x.ai/careers",
+      "xai": "https://x.ai/careers"
+    };
+
     let jobs = loadJobs();
     jobs = migrateJobs(jobs);
     saveJobs();
@@ -601,6 +633,7 @@
         source: form.source.value.trim() || "Manual add",
         posted: form.posted.value.trim() || "Unknown",
         url: form.url.value.trim(),
+        applyUrl: form.url.value.trim(),
         description,
         status: "To Apply",
         fitScore: scored.score,
@@ -657,6 +690,7 @@
         matchDelta: job.matchDelta ?? "",
         resumePdf: job.tailoredResumePdf || "",
         jobUrl: job.url || "",
+        applyUrl: job.applyUrl || job.url || companyCareerUrl(job.company) || "",
         appliedAt: new Date().toISOString(),
         nextAction: job.recommendedAction?.nextAction || "Follow up in 5-7 business days",
         interviewHook: job.recommendedAction?.interviewHook || "",
@@ -679,16 +713,22 @@
     function migrateJobs(items) {
       let changed = false;
       const migrated = items.map((job) => {
-        if (!job || !job.sourceFitScore) return job;
+        if (!job) return job;
         const rescored = scoreJob(job.description || "", job.role || "", job.location || "");
-        const fitScore = chooseFitScore(rescored.score, job.sourceFitScore, rescored.risks);
-        if (fitScore === job.fitScore && JSON.stringify(rescored.risks) === JSON.stringify(job.risks || [])) return job;
+        const fitScore = job.sourceFitScore ? chooseFitScore(rescored.score, job.sourceFitScore, rescored.risks) : job.fitScore;
+        const applyUrl = job.applyUrl || job.url || companyCareerUrl(job.company) || "";
+        if (
+          fitScore === job.fitScore &&
+          applyUrl === (job.applyUrl || "") &&
+          (!job.sourceFitScore || JSON.stringify(rescored.risks) === JSON.stringify(job.risks || []))
+        ) return job;
         changed = true;
         return {
           ...job,
+          applyUrl,
           fitScore,
-          risks: rescored.risks,
-          signals: rescored.signals.length ? rescored.signals : job.signals || []
+          risks: job.sourceFitScore ? rescored.risks : job.risks || [],
+          signals: job.sourceFitScore && rescored.signals.length ? rescored.signals : job.signals || []
         };
       });
       return changed ? migrated : items;
@@ -724,6 +764,7 @@
         source: String(raw.source || "Daily refresh").trim(),
         posted: String(raw.posted || "Unknown").trim(),
         url: String(raw.url || raw.sourceUrl || "").trim(),
+        applyUrl: String(raw.applyUrl || raw.url || raw.sourceUrl || companyCareerUrl(raw.company) || "").trim(),
         description,
         status: String(raw.status || "To Apply").trim(),
         fitScore: chooseFitScore(scored.score, raw.fitScore, scored.risks),
@@ -789,6 +830,7 @@
               tailoredCoveredKeywords: job.tailoredCoveredKeywords && job.tailoredCoveredKeywords.length ? job.tailoredCoveredKeywords : existing.tailoredCoveredKeywords || [],
               tailoredMissingKeywords: job.tailoredMissingKeywords && job.tailoredMissingKeywords.length ? job.tailoredMissingKeywords : existing.tailoredMissingKeywords || [],
               recommendedAction: job.recommendedAction || existing.recommendedAction || null,
+              applyUrl: job.applyUrl || existing.applyUrl || existing.url || companyCareerUrl(existing.company) || "",
               sourceRefreshId: job.sourceRefreshId || existing.sourceRefreshId || null
             };
             if (JSON.stringify(merged) !== JSON.stringify(existing)) {
@@ -824,6 +866,14 @@
 
     function normalize(text) {
       return (text || "").toLowerCase().replace(/\s+/g, " ");
+    }
+
+    function companyCareerUrl(company) {
+      const key = normalize(company).trim();
+      if (!key) return "";
+      if (companyCareerUrls[key]) return companyCareerUrls[key];
+      const matchedKey = Object.keys(companyCareerUrls).find((name) => name.length > 2 && key.includes(name));
+      return matchedKey ? companyCareerUrls[matchedKey] : "";
     }
 
     function countMatches(text, terms) {
@@ -934,6 +984,8 @@
       const tailoredMatch = job.tailoredResumeMatch || "n/a";
       const lift = Number.isFinite(Number(job.matchDelta)) ? `${Number(job.matchDelta) >= 0 ? "+" : ""}${job.matchDelta}` : "n/a";
       const action = job.recommendedAction || {};
+      const applyUrl = job.applyUrl || job.url || companyCareerUrl(job.company);
+      const jdUrl = job.url && job.url !== applyUrl ? job.url : "";
       const actionHtml = action.priority ? `
           <h3>Action</h3>
           <p><strong>${escapeHtml(action.priority)}:</strong> ${escapeHtml(action.nextAction || "")}</p>
@@ -978,12 +1030,13 @@
             ${["To Apply", "Applied", "Interview", "Offer", "Rejected", "Closed"].map((status) => `<option ${status === job.status ? "selected" : ""}>${status}</option>`).join("")}
           </select>
           ${job.tailoredResumePdf ? `<a class="btn light" href="${escapeAttribute(job.tailoredResumePdf)}" download>Resume PDF</a>` : ""}
-          <button class="btn" data-apply="${job.id}" type="button">Apply Now</button>
-          ${job.url ? `<a href="${escapeAttribute(job.url)}" target="_blank" rel="noreferrer">Open JD</a>` : ""}
+          ${applyUrl ? `<a class="btn" href="${escapeAttribute(applyUrl)}" target="_blank" rel="noreferrer">Apply Now</a>` : ""}
+          <button class="btn light" data-agent="${job.id}" type="button">Agent Prompt</button>
+          ${jdUrl ? `<a href="${escapeAttribute(jdUrl)}" target="_blank" rel="noreferrer">Open JD</a>` : ""}
         </div>
       `;
 
-      card.querySelector("[data-apply]").addEventListener("click", () => copyApplyPrompt(job));
+      card.querySelector("[data-agent]").addEventListener("click", () => copyApplyPrompt(job));
       card.querySelector("[data-status]").addEventListener("change", (event) => {
         job.status = event.target.value;
         if (["Applied", "Interview", "Offer"].includes(job.status)) {
@@ -1001,6 +1054,7 @@
 ROLE: ${job.role}
 COMPANY: ${job.company}
 JD LINK: ${job.url || "No URL provided"}
+APPLY URL: ${job.applyUrl || job.url || companyCareerUrl(job.company) || "No URL provided"}
 
 JOB DESCRIPTION:
 ${job.description}
@@ -1038,13 +1092,14 @@ Stop before final submission or sending messages. Ask for my explicit approval.`
     }
 
     function exportCsv() {
-      const header = ["date_added", "company", "role", "location", "job_url", "status", "fit_score", "next_action", "notes"];
+      const header = ["date_added", "company", "role", "location", "job_url", "apply_url", "status", "fit_score", "next_action", "notes"];
       const rows = jobs.map((job) => [
         job.createdAt || "",
         job.company,
         job.role,
         job.location,
         job.url || "",
+        job.applyUrl || job.url || companyCareerUrl(job.company) || "",
         job.status,
         job.fitScore,
         job.status === "To Apply" ? "Tailor resume and apply" : "Follow up if appropriate",
@@ -1062,7 +1117,7 @@ Stop before final submission or sending messages. Ask for my explicit approval.`
 
     function exportAppliedCsv() {
       const entries = loadAppliedLog();
-      const header = ["applied_at", "company", "role", "location", "status", "fit_score", "base_resume_match", "tailored_resume_match", "match_delta", "resume_pdf", "job_url", "next_action", "interview_hook"];
+      const header = ["applied_at", "company", "role", "location", "status", "fit_score", "base_resume_match", "tailored_resume_match", "match_delta", "resume_pdf", "job_url", "apply_url", "next_action", "interview_hook"];
       const rows = entries.map((entry) => [
         entry.appliedAt,
         entry.company,
@@ -1075,6 +1130,7 @@ Stop before final submission or sending messages. Ask for my explicit approval.`
         entry.matchDelta,
         entry.resumePdf,
         entry.jobUrl,
+        entry.applyUrl,
         entry.nextAction,
         entry.interviewHook,
       ]);
