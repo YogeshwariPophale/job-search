@@ -449,7 +449,7 @@
       <div class="header-grid">
         <div>
           <h1>Yogeshwari Pophale Job Board</h1>
-          <p class="subtitle">A personalized Codex job search dashboard for data analytics, data science, BI, manufacturing analytics, operations analytics, and early-career data roles.</p>
+          <p class="subtitle">A personalized Codex job search dashboard for data analytics, data science, BI, manufacturing analytics, operations analytics, and early-career data roles. <span id="liveStatus">Live sync starting.</span></p>
         </div>
         <div class="header-actions">
           <button class="btn secondary" id="refreshImportBtn" type="button">Import Daily Refresh</button>
@@ -556,6 +556,158 @@
     const importedRefreshKey = "yogeshwari_job_board_imported_refresh_ids_v1";
     const appliedLogKey = "yogeshwari_applied_jobs_v1";
     const extractedJobsUrl = "data/extracted_jobs.json";
+    const liveJobsUrl = "/api/jobs";
+    const liveRefreshMs = 60000;
+    const embeddedRefreshPayload = {
+      generatedAt: "2026-07-30",
+      sources: ["Built-in fallback from latest extracted jobs"],
+      jobs: [
+        {
+          sourceRefreshId: "jobright-2026-07-30-foxconn-industrial-internet-data-analyst-houston",
+          source: "Jobright",
+          company: "Foxconn Industrial Internet",
+          role: "Data Analyst",
+          location: "Houston, TX",
+          salary: "Not listed",
+          posted: "13 minutes ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 71,
+          description: "Factory analytics role focused on transforming data into actionable insights, supporting data visualization, and managing dashboard reporting for Houston facility operations."
+        },
+        {
+          sourceRefreshId: "jobright-2026-07-30-arkhya-tech-data-scientist-scottsdale",
+          source: "Jobright",
+          company: "Arkhya Tech. Inc.",
+          role: "Data Scientist",
+          location: "Scottsdale, AZ",
+          salary: "Not listed",
+          posted: "14 hours ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 73,
+          description: "Data science role using Python, analytics, machine learning, and statistical methods to build data-driven insights and support business decisions."
+        },
+        {
+          sourceRefreshId: "jobright-2026-07-30-aktra-business-data-analyst-mclean",
+          source: "Jobright",
+          company: "AKTRA INC",
+          role: "Business/Data Analyst",
+          location: "McLean, VA",
+          salary: "Not listed",
+          posted: "3 hours ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 63,
+          description: "Business and data analyst role involving requirements analysis, data reporting, dashboards, and translating business needs into data-backed recommendations."
+        },
+        {
+          sourceRefreshId: "jobright-2026-07-30-applied-materials-data-scientist-santa-clara",
+          source: "Jobright",
+          company: "Applied Materials",
+          role: "Data Scientist",
+          location: "Santa Clara, CA",
+          salary: "Not listed",
+          posted: "Reposted 11 hours ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 61,
+          description: "Data science role in an applied technology and manufacturing-adjacent environment, with emphasis on analytics, modeling, and operational insights."
+        },
+        {
+          sourceRefreshId: "jobright-2026-07-30-ragle-data-engineer-north-richland-hills",
+          source: "Jobright",
+          company: "Ragle Inc",
+          role: "Data Engineer",
+          location: "North Richland Hills, TX",
+          salary: "Not listed",
+          posted: "25 minutes ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 64,
+          description: "Data engineering role focused on data pipelines, SQL/Python workflows, data validation, and reliable reporting infrastructure."
+        },
+        {
+          sourceRefreshId: "jobright-2026-07-30-hays-data-analyst-i-houston",
+          source: "Jobright",
+          company: "Hays Electrical Services",
+          role: "Data Analyst I",
+          location: "Houston, TX",
+          salary: "Not listed",
+          posted: "14 minutes ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 83,
+          description: "Entry-level data analyst role involving reporting, SQL or spreadsheet analysis, data quality, dashboards, and operational decision support."
+        },
+        {
+          sourceRefreshId: "jobright-2026-07-30-laufer-data-analyst-new-york",
+          source: "Jobright",
+          company: "Laufer Group International",
+          role: "Data Analyst",
+          location: "New York, NY",
+          salary: "Not listed",
+          posted: "17 minutes ago",
+          url: "https://jobright.ai/jobs/recommend",
+          fitScore: 63,
+          description: "Data analyst role in logistics and operations, focused on reporting, process visibility, dashboards, data quality, and business insights."
+        },
+        {
+          sourceRefreshId: "gradleaders-2026-07-30-anduril-supply-chain-master-data-analyst",
+          source: "GradLeaders",
+          company: "Anduril Industries",
+          role: "Supply Chain Master Data Analyst",
+          location: "Costa Mesa, CA",
+          salary: "Not listed",
+          posted: "Search result",
+          url: "https://www.anduril.com/careers/",
+          fitScore: 65,
+          description: "Supply-chain data analyst role involving master data, operations analytics, process improvement, and cross-functional reporting."
+        },
+        {
+          sourceRefreshId: "gradleaders-2026-07-30-anduril-jr-people-data-analyst",
+          source: "GradLeaders",
+          company: "Anduril Industries",
+          role: "Jr People Data Analyst",
+          location: "Boston, MA",
+          salary: "Not listed",
+          posted: "Search result",
+          url: "https://www.anduril.com/careers/",
+          fitScore: 65,
+          description: "Junior data analyst role focused on people analytics, dashboards, reporting, data quality, and stakeholder decision support."
+        },
+        {
+          sourceRefreshId: "gradleaders-2026-07-30-morgan-stanley-data-analyst",
+          source: "GradLeaders",
+          company: "Morgan Stanley",
+          role: "Data Analyst",
+          location: "Dallas, TX",
+          salary: "Not listed",
+          posted: "Search result",
+          url: "https://www.morganstanley.com/people-opportunities/students-graduates",
+          fitScore: 65,
+          description: "Data analyst opportunity involving reporting, analytics, SQL/Python-adjacent workflows, business insights, and data quality."
+        },
+        {
+          sourceRefreshId: "gradleaders-2026-07-30-capital-one-senior-data-analyst",
+          source: "GradLeaders",
+          company: "Capital One Financial Corporation",
+          role: "Senior Data Analyst",
+          location: "McLean, VA",
+          salary: "Not listed",
+          posted: "Search result",
+          url: "https://www.capitalonecareers.com/",
+          fitScore: 65,
+          description: "Senior data analyst role with strong analytics and business intelligence alignment, but seniority should be treated as a networking-first risk."
+        },
+        {
+          sourceRefreshId: "gradleaders-2026-07-30-capital-one-principal-data-analyst-card",
+          source: "GradLeaders",
+          company: "Capital One Financial Corporation",
+          role: "Principal Data Analyst - Card",
+          location: "Richmond, VA",
+          salary: "Not listed",
+          posted: "Search result",
+          url: "https://www.capitalonecareers.com/",
+          fitScore: 65,
+          description: "Principal data analyst role in card analytics, useful as a target-company signal but flagged for seniority risk before applying."
+        }
+      ]
+    };
 
     const candidate = {
       name: "Yogeshwari Pophale",
@@ -599,6 +751,7 @@
     let jobs = loadJobs();
     jobs = migrateJobs(jobs);
     saveJobs();
+    let latestRefreshSignature = "";
 
     const board = document.getElementById("board");
     const toast = document.getElementById("toast");
@@ -793,12 +946,60 @@
       };
     }
 
-    async function importDailyRefresh({ manual = false } = {}) {
+    async function fetchJson(url) {
+      const response = await fetch(`${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }
+
+    function refreshSignature(payload) {
+      const rawJobs = Array.isArray(payload) ? payload : payload.jobs || [];
+      return JSON.stringify(rawJobs.map((job) => job.sourceRefreshId || job.url || `${job.company}|${job.role}|${job.location}`));
+    }
+
+    function setLiveStatus(message) {
+      const label = document.getElementById("liveStatus");
+      if (label) label.textContent = message;
+    }
+
+    function payloadStatus(payload, mode) {
+      const checked = new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+      const generatedAt = payload.generatedAt || "";
+      const today = new Date().toISOString().slice(0, 10);
+      if (generatedAt && generatedAt !== today) {
+        return `${mode} checked ${checked}; source data is from ${generatedAt}.`;
+      }
+      return `${mode} sync checked ${checked}.`;
+    }
+
+    async function loadRefreshPayload() {
       try {
-        const response = await fetch(`${extractedJobsUrl}?t=${Date.now()}`, { cache: "no-store" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const payload = await response.json();
+        const payload = await fetchJson(liveJobsUrl);
+        setLiveStatus(payloadStatus(payload, "Live"));
+        return payload;
+      } catch (apiError) {
+        try {
+          const payload = await fetchJson(extractedJobsUrl);
+          setLiveStatus(payloadStatus(payload, "File"));
+          return payload;
+        } catch {
+          setLiveStatus("Using built-in fallback jobs.");
+        }
+        return embeddedRefreshPayload;
+      }
+    }
+
+    async function importDailyRefresh({ manual = false, silent = false } = {}) {
+      try {
+        const payload = await loadRefreshPayload();
+        const signature = refreshSignature(payload);
+        if (silent && signature === latestRefreshSignature) return;
+        latestRefreshSignature = signature;
         const rawJobs = Array.isArray(payload) ? payload : payload.jobs || [];
+        const incomingRefreshIds = new Set(rawJobs.map((raw) => raw.sourceRefreshId).filter(Boolean));
+        if (incomingRefreshIds.size) {
+          jobs = jobs.filter((job) => !job.sourceRefreshId || incomingRefreshIds.has(job.sourceRefreshId));
+        }
         const importedIds = loadImportedRefreshIds();
         const existingKeyToIndex = new Map(jobs.map((job, index) => [jobKey(job), index]));
         const existingKeys = new Set(existingKeyToIndex.keys());
@@ -840,7 +1041,6 @@
             importedIds.add(refreshId);
             return;
           }
-          if (importedIds.has(refreshId)) return;
           existingKeys.add(key);
           importedIds.add(refreshId);
           newJobs.push(job);
@@ -853,7 +1053,7 @@
           render();
         }
 
-        if (manual || newJobs.length || updatedCount) {
+        if (!silent && (manual || newJobs.length || updatedCount)) {
           const parts = [];
           if (newJobs.length) parts.push(`imported ${newJobs.length}`);
           if (updatedCount) parts.push(`updated ${updatedCount}`);
@@ -986,6 +1186,8 @@
       const action = job.recommendedAction || {};
       const applyUrl = job.applyUrl || job.url || companyCareerUrl(job.company);
       const jdUrl = job.url && job.url !== applyUrl ? job.url : "";
+      const sponsorSignal = job.h1bSponsorSignal || job.sponsorWatchlistMatch ? (job.h1bSponsorSignal || `Sponsor watchlist: ${job.sponsorWatchlistMatch}`) : "";
+      const sponsorHtml = sponsorSignal ? `<div><strong>H-1B:</strong> ${escapeHtml(sponsorSignal)}</div>` : "";
       const actionHtml = action.priority ? `
           <h3>Action</h3>
           <p><strong>${escapeHtml(action.priority)}:</strong> ${escapeHtml(action.nextAction || "")}</p>
@@ -1010,6 +1212,7 @@
             <div><strong>Salary:</strong> ${escapeHtml(job.salary)}</div>
             <div><strong>Source:</strong> ${escapeHtml(job.source)}</div>
             <div><strong>Posted:</strong> ${escapeHtml(job.posted)}</div>
+            ${sponsorHtml}
           </div>
           <div style="margin-top: 10px;"><span class="status ${statusClass}">${escapeHtml(job.status)}</span></div>
         </div>
@@ -1065,7 +1268,7 @@ Use:
 - job_search_system/profile/preferences.yml
 - base/yogeshwari_resume_UCR_base_profile.md
 
-Work through the full 8-step Codex application workflow:
+Work through the full 9-step Codex application workflow:
 1. Research the company.
 2. Score my fit and identify my strongest hook.
 3. Research a relevant hiring contact.
@@ -1074,6 +1277,7 @@ Work through the full 8-step Codex application workflow:
 6. Draft a cold email and LinkedIn message.
 7. Draft application answers, asking me before sensitive answers.
 8. Give the exact send sequence and tracker update.
+9. Recommend Job Search Coach follow-ups: LinkedIn Quick Feedback, LinkedIn Deep Audit, or Interview Prep Planner.
 
 Stop before final submission or sending messages. Ask for my explicit approval.`;
 
@@ -1171,6 +1375,7 @@ Stop before final submission or sending messages. Ask for my explicit approval.`
 
     render();
     importDailyRefresh();
+    setInterval(() => importDailyRefresh({ silent: true }), liveRefreshMs);
   </script>
 </body>
 </html>

@@ -1,0 +1,59 @@
+name: Deploy website to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static site bundle
+        shell: bash
+        run: |
+          mkdir -p _site
+          cp -R job_search_system _site/job_search_system
+          if [ -d output ]; then cp -R output _site/output; fi
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="refresh" content="0; url=job_search_system/">
+            <title>Yogeshwari Job Search System</title>
+          </head>
+          <body>
+            <p><a href="job_search_system/">Open Yogeshwari Job Search System</a></p>
+          </body>
+          </html>
+          HTML
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

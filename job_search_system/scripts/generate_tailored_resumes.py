@@ -604,7 +604,7 @@ def write_source(job: dict, keywords: list[str], unconfirmed: list[str], pdf_rel
 def main() -> None:
     payload = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     jobs = payload.get("jobs", [])
-    top_jobs = sorted(jobs, key=fit_score, reverse=True)[:15]
+    top_jobs = sorted(jobs, key=fit_score, reverse=True)
     base_text = BASE_PROFILE_FILE.read_text(encoding="utf-8")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

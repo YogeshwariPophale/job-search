@@ -83,6 +83,11 @@ Tell me the exact order:
 - When to follow up
 - What to update in tracker/applications.csv
 
+STEP 9 - COACH FOLLOW-UPS
+Recommend whether to run:
+- Module 2 LinkedIn Quick Feedback if my LinkedIn profile needs fast recruiter-facing cleanup for this role family
+- Module 3 LinkedIn Deep Audit if I am targeting this company or role family repeatedly
+- Module 4 Interview Prep Planner if this role is high-fit or if I get a screen
+
 Stop before final submission or sending any message. Ask for my explicit approval.
 ```
-

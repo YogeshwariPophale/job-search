@@ -8,13 +8,37 @@ Use these as starting points for job searches. For logged-in or personalized res
 - Handshake: https://app.joinhandshake.com/
 - Indeed: https://www.indeed.com/
 - Simplify: https://simplify.jobs/
+- Simplify Dashboard: https://simplify.jobs/dashboard
+- Jobot: https://jobot.com/find/full-time-data-analytics-jobs
 - Wellfound: https://wellfound.com/jobs
 - RippleMatch: https://ripplematch.com/
 - Google Jobs search: https://www.google.com/search?q=data+analyst+intern+jobs
 - Jobright recommendations: https://jobright.ai/jobs/recommend
 - Rewriting the Code / GradLeaders jobs: https://candidate.gradleaders.com/RewritingTheCode/Candidates/Authenticated/Jobs/SearchJobs.aspx
 
+## Priority Login Platforms
+
+Tracked in `tracker/job_platform_sources.csv`:
+
+| Platform | URL | Login Needed | How To Use |
+| --- | --- | --- | --- |
+| Simplify | https://simplify.jobs/dashboard | Yes | Logged-in dashboard/recommended jobs for fresh matched postings |
+| Jobot | https://jobot.com/find/full-time-data-analytics-jobs | Usually no | Public job search for recruiter-posted data analytics roles |
+| Handshake | https://app.joinhandshake.com/stu/postings | Yes | UCR/student jobs, internships, and early-career roles |
+| LinkedIn | https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst%20visa%20sponsorship&location=United%20States | Yes | Logged-in search; prefer company apply links over Easy Apply |
+
 ## Company Watchlist
+
+The full sponsor-friendly Data Analyst target database lives in:
+
+```text
+job_search_system/watchlist_companies.csv
+job_search_system/tracker/sponsor_friendly_data_companies.csv
+```
+
+It currently includes 133 large companies across big tech, fintech, banking, consulting, IT services, healthcare, pharma, retail, logistics, automotive, manufacturing, semiconductors, media, and consumer goods. These companies have public H-1B filing/sponsorship signals, but sponsorship must still be verified for each specific role.
+
+Sample high-priority targets:
 
 | Company | Careers URL | Priority Queries |
 | --- | --- | --- |
@@ -28,6 +52,11 @@ Use these as starting points for job searches. For logged-in or personalized res
 | Meta | https://www.metacareers.com/jobs/ | Data Analyst, Data Science, Product Analytics, University Grad, Internship |
 | Amazon | https://www.amazon.jobs/en/ | Business Analyst, Data Analyst, Data Engineer, Operations, Supply Chain |
 | Apple | https://jobs.apple.com/en-us/search?location=united-states-USA | Data Science, AIML, Operations, Business Analytics, New Grad |
+| JPMorgan Chase | https://careers.jpmorgan.com/us/en/students/programs | Data Analyst, Business Analyst, Data Science, Operations Analyst, Risk Analyst |
+| Accenture | https://www.accenture.com/us-en/careers/jobsearch | Data Analyst, Business Analyst, Data Science Analyst, Analytics Consultant, BI |
+| UnitedHealth Group / Optum | https://careers.unitedhealthgroup.com/ | Data Analyst, Business Analyst, Data Science, Healthcare Analytics |
+| Walmart | https://careers.walmart.com/ | Data Analyst, Business Analyst, Data Science, BI, Supply Chain Analytics |
+| General Motors | https://search-careers.gm.com/en/jobs/ | Data Analyst, Business Analyst, Data Science, Manufacturing Analytics |
 
 ## Direct Company Applications
 

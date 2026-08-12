@@ -1,0 +1,5 @@
+platform,url,requires_login,priority_queries,notes
+Simplify,https://simplify.jobs/dashboard,yes,"Data Analyst; Business Analyst; Product Analyst; Business Intelligence Analyst; Operations Analyst","Use logged-in dashboard/recommended jobs; likely requires user login"
+Jobot,https://jobot.com/find/full-time-data-analytics-jobs,usually_no,"Data Analyst; Business Analyst; BI Analyst; Operations Analyst; Data Analytics","Public job search; use direct Jobot listings and apply links"
+Handshake,https://app.joinhandshake.com/stu/postings,yes,"Data Analyst; Business Analyst; Data Science Intern; Business Intelligence Analyst; Operations Analyst","Requires university Handshake login; use UCR account/session"
+LinkedIn,https://www.linkedin.com/jobs/search/?keywords=Data%20Analyst%20visa%20sponsorship&location=United%20States,yes,"Data Analyst; Business Analyst; Product Analyst; BI Analyst; Operations Analyst","Use logged-in job search; prefer company apply links over Easy Apply"

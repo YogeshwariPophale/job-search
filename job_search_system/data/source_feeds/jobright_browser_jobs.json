@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-08-12",
+  "sources": [
+    "Jobright logged-in browser"
+  ],
+  "jobs": [
+    {
+      "applyUrl": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
+      "company": "Oscar Health",
+      "description": "Data Scientist I at Oscar Health. Health insurance plans for individuals, families, and employers +2 more. Jobright marks H1B Sponsor Likely.",
+      "h1bSponsorSignal": "Jobright: H1B Sponsor Likely",
+      "location": "New York, NY (Hybrid)",
+      "posted": "3 hours ago",
+      "role": "Data Scientist I",
+      "salary": "$119K/yr - $156K/yr",
+      "source": "Jobright logged-in browser",
+      "sourceFitScore": null,
+      "sourceRefreshId": "jobright-browser-6a7b6ee877e6b569c61c0754",
+      "url": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754"
+    },
+    {
+      "applyUrl": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5",
+      "company": "Averna",
+      "description": "Data Analyst at Averna. Automated test and quality assurance solutions for product developers Full-time. Jobright marks H1B Sponsor Likely.",
+      "h1bSponsorSignal": "Jobright: H1B Sponsor Likely",
+      "location": "United States (Remote)",
+      "posted": "20 hours ago",
+      "role": "Data Analyst",
+      "salary": "Not listed",
+      "source": "Jobright logged-in browser",
+      "sourceFitScore": null,
+      "sourceRefreshId": "jobright-browser-6a7b2f00ecfd2977075374e5",
+      "url": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5"
+    },
+    {
+      "applyUrl": "https://jobright.ai/jobs/info/6a7b9bb7ecf5194164fbf3b0",
+      "company": "Tata Consultancy Services",
+      "description": "Analytics / Data Engineer at Tata Consultancy Services. AI-led technology services for global enterprises Full-time. Jobright marks H1B Sponsor Likely.",
+      "h1bSponsorSignal": "Jobright: H1B Sponsor Likely",
+      "location": "New York, NY (Onsite)",
+      "posted": "12 hours ago",
+      "role": "Analytics / Data Engineer",
+      "salary": "$120K/yr - $130K/yr",
+      "source": "Jobright logged-in browser",
+      "sourceFitScore": null,
+      "sourceRefreshId": "jobright-browser-6a7b9bb7ecf5194164fbf3b0",
+      "url": "https://jobright.ai/jobs/info/6a7b9bb7ecf5194164fbf3b0"
+    },
+    {
+      "applyUrl": "https://jobright.ai/jobs/info/6a67b9155d2a117fb9cece68",
+      "company": "Tata Consultancy Services",
+      "description": "Data Analyst at Tata Consultancy Services. AI-led technology services for global enterprises Full-time. Jobright marks H1B Sponsor Likely.",
+      "h1bSponsorSignal": "Jobright: H1B Sponsor Likely",
+      "location": "Phoenix, AZ (Onsite)",
+      "posted": "12 hours ago",
+      "role": "Data Analyst",
+      "salary": "$100K/yr - $110K/yr",
+      "source": "Jobright logged-in browser",
+      "sourceFitScore": null,
+      "sourceRefreshId": "jobright-browser-6a67b9155d2a117fb9cece68",
+      "url": "https://jobright.ai/jobs/info/6a67b9155d2a117fb9cece68"
+    }
+  ]
+}

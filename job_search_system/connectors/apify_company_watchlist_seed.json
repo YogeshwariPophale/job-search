@@ -1,0 +1,2185 @@
+{
+  "generatedAt": "2026-07-30",
+  "purpose": "Seed input for an Apify job-listing actor or connector workflow.",
+  "freshnessWindowHours": 48,
+  "schedule": "Run every 24 hours, then import only jobs posted in the last 24-48 hours.",
+  "targetRoles": [
+    "Data Analyst",
+    "Business Data Analyst",
+    "Data Science Intern",
+    "Machine Learning Intern",
+    "Manufacturing Data Analyst",
+    "Operations Analyst",
+    "Supply Chain Analytics Intern",
+    "Business Intelligence Analyst",
+    "Data Engineer Intern"
+  ],
+  "preferredLocations": [
+    "United States",
+    "Remote",
+    "California",
+    "Riverside, CA"
+  ],
+  "startUrls": [
+    {
+      "url": "https://careers.microsoft.com/v2/global/en/home.html",
+      "userData": {
+        "company": "Microsoft",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Operations Analyst",
+          "Product Data Analyst"
+        ],
+        "category": "Big Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Prioritize early-career analytics and data science roles; verify sponsorship on each posting"
+      }
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/?hl=en_US",
+      "userData": {
+        "company": "Google / Alphabet",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analyst",
+          "Early Career",
+          "Intern"
+        ],
+        "category": "Big Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong target for analytics and business intelligence roles"
+      }
+    },
+    {
+      "url": "https://www.amazon.jobs/en/",
+      "userData": {
+        "company": "Amazon",
+        "priorityQueries": [
+          "Business Analyst",
+          "Data Analyst",
+          "Data Engineer",
+          "Operations Analyst",
+          "Supply Chain Analyst",
+          "Business Intelligence Engineer"
+        ],
+        "category": "Big Tech / Retail",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Very high-volume sponsor signal; include BIE and operations analytics titles"
+      }
+    },
+    {
+      "url": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+      "userData": {
+        "company": "Apple",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "AIML",
+          "Operations Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Big Tech / Hardware",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Watch operations and supply chain analytics as well as AIML-adjacent roles"
+      }
+    },
+    {
+      "url": "https://www.metacareers.com/jobs/",
+      "userData": {
+        "company": "Meta",
+        "priorityQueries": [
+          "Data Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Business Analyst",
+          "University Grad",
+          "Internship"
+        ],
+        "category": "Big Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Prioritize product analytics and data science university roles"
+      }
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "userData": {
+        "company": "NVIDIA",
+        "priorityQueries": [
+          "Data Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Operations Analyst",
+          "Supply Chain",
+          "AI"
+        ],
+        "category": "Big Tech / Semiconductors",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong AI and manufacturing/operations adjacency"
+      }
+    },
+    {
+      "url": "https://www.jobs.netflix.com/",
+      "userData": {
+        "company": "Netflix",
+        "priorityQueries": [
+          "Data Analyst",
+          "Analytics",
+          "Data Science",
+          "Data Engineering",
+          "Operations Analytics"
+        ],
+        "category": "Big Tech / Media",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Selective hiring; watch analytics and data science openings"
+      }
+    },
+    {
+      "url": "https://openai.com/careers/",
+      "userData": {
+        "company": "OpenAI",
+        "priorityQueries": [
+          "Data",
+          "Analytics",
+          "Applied AI",
+          "Operations",
+          "Business Operations",
+          "Emerging Talent",
+          "Residency"
+        ],
+        "category": "AI / Research",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics and business operations roles; not all roles are entry-level"
+      }
+    },
+    {
+      "url": "https://x.ai/careers",
+      "userData": {
+        "company": "X / xAI",
+        "priorityQueries": [
+          "Data Analyst",
+          "Operations Analyst",
+          "Business Operations",
+          "AI",
+          "Product Analytics"
+        ],
+        "category": "AI / Social",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "X careers redirects to xAI careers; verify role location and sponsorship"
+      }
+    },
+    {
+      "url": "https://careers.salesforce.com/en/jobs/",
+      "userData": {
+        "company": "Salesforce",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Revenue Operations",
+          "Product Analytics"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Good target for customer data and revenue analytics"
+      }
+    },
+    {
+      "url": "https://www.oracle.com/careers/",
+      "userData": {
+        "company": "Oracle",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Cloud Analytics"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Watch cloud analytics and business intelligence roles"
+      }
+    },
+    {
+      "url": "https://www.ibm.com/careers/search",
+      "userData": {
+        "company": "IBM",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Scientist",
+          "Analytics Consultant",
+          "Business Intelligence"
+        ],
+        "category": "Enterprise Software / Consulting",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Good international hiring history; verify consulting role travel requirements"
+      }
+    },
+    {
+      "url": "https://careers.adobe.com/us/en/search-results",
+      "userData": {
+        "company": "Adobe",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Marketing Analytics"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong fit for product and marketing analytics"
+      }
+    },
+    {
+      "url": "https://careers.servicenow.com/jobs/",
+      "userData": {
+        "company": "ServiceNow",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Operations Analytics"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch early-career analytics and product operations roles"
+      }
+    },
+    {
+      "url": "https://www.intuit.com/careers/search-jobs/",
+      "userData": {
+        "company": "Intuit",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Fraud Analytics"
+        ],
+        "category": "Fintech / Software",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong analytics culture; watch TurboTax and QuickBooks data teams"
+      }
+    },
+    {
+      "url": "https://www.paypal.com/us/cshelp/article/how-do-i-view-and-apply-for-open-positions-at-paypal-help445",
+      "userData": {
+        "company": "PayPal",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Risk Analyst",
+          "Product Analytics",
+          "Data Science"
+        ],
+        "category": "Fintech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Prioritize risk analytics and product analytics"
+      }
+    },
+    {
+      "url": "https://block.xyz/careers/jobs",
+      "userData": {
+        "company": "Block",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Product Analytics",
+          "Risk Analytics",
+          "Data Science"
+        ],
+        "category": "Fintech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch Cash App and Square analytics roles"
+      }
+    },
+    {
+      "url": "https://stripe.com/jobs/search",
+      "userData": {
+        "company": "Stripe",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Operations",
+          "Strategy Analyst",
+          "Product Analytics",
+          "Risk Analytics"
+        ],
+        "category": "Fintech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "High bar; strong target for business operations analytics"
+      }
+    },
+    {
+      "url": "https://usa.visa.com/careers.html",
+      "userData": {
+        "company": "Visa",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Risk Analyst",
+          "Product Analytics"
+        ],
+        "category": "Fintech / Payments",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong sponsor-friendly signal and analytics-heavy teams"
+      }
+    },
+    {
+      "url": "https://careers.mastercard.com/us/en",
+      "userData": {
+        "company": "Mastercard",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Consulting Analyst"
+        ],
+        "category": "Fintech / Payments",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics consulting and data science roles"
+      }
+    },
+    {
+      "url": "https://www.uber.com/us/en/careers/list/",
+      "userData": {
+        "company": "Uber",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Operations Analyst",
+          "Data Science",
+          "Marketplace Analytics"
+        ],
+        "category": "Mobility / Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong analytics fit across operations and marketplace teams"
+      }
+    },
+    {
+      "url": "https://www.lyft.com/careers",
+      "userData": {
+        "company": "Lyft",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Operations Analyst",
+          "Data Science",
+          "Business Analytics"
+        ],
+        "category": "Mobility / Tech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good target for marketplace and operations analytics"
+      }
+    },
+    {
+      "url": "https://careers.airbnb.com/",
+      "userData": {
+        "company": "Airbnb",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Business Operations",
+          "Analytics"
+        ],
+        "category": "Marketplace Tech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Selective; prioritize analytics and business operations"
+      }
+    },
+    {
+      "url": "https://careers.doordash.com/",
+      "userData": {
+        "company": "DoorDash",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Strategy and Operations",
+          "Data Science",
+          "Product Analytics"
+        ],
+        "category": "Marketplace Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong fit for operations analytics and marketplace analytics"
+      }
+    },
+    {
+      "url": "https://instacart.careers/current-openings/",
+      "userData": {
+        "company": "Instacart",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Product Analytics",
+          "Operations Analytics",
+          "Data Science"
+        ],
+        "category": "Marketplace Tech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics and catalog/supply roles"
+      }
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/collections/recommended/",
+      "userData": {
+        "company": "LinkedIn",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Insights Analyst"
+        ],
+        "category": "Professional Network",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Microsoft-owned; use LinkedIn job filters plus Microsoft careers"
+      }
+    },
+    {
+      "url": "https://careers.tiktok.com/",
+      "userData": {
+        "company": "TikTok / ByteDance",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Trust and Safety Analytics"
+        ],
+        "category": "Consumer Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong international hiring signal; verify location and sponsorship"
+      }
+    },
+    {
+      "url": "https://snap.com/en-US/jobs",
+      "userData": {
+        "company": "Snap",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Measurement Analyst"
+        ],
+        "category": "Consumer Tech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch product analytics and measurement science"
+      }
+    },
+    {
+      "url": "https://www.pinterestcareers.com/jobs/",
+      "userData": {
+        "company": "Pinterest",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Growth Analytics"
+        ],
+        "category": "Consumer Tech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good target for product and growth analytics"
+      }
+    },
+    {
+      "url": "https://careers.roblox.com/jobs",
+      "userData": {
+        "company": "Roblox",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Economy Analytics"
+        ],
+        "category": "Gaming / Platform",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch trust safety economy and product analytics"
+      }
+    },
+    {
+      "url": "https://www.ea.com/careers",
+      "userData": {
+        "company": "Electronic Arts",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Game Analytics",
+          "Business Intelligence"
+        ],
+        "category": "Gaming",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good analytics fit for game telemetry and BI"
+      }
+    },
+    {
+      "url": "https://jobs.cisco.com/jobs/SearchJobs/",
+      "userData": {
+        "company": "Cisco",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Operations Analyst"
+        ],
+        "category": "Networking / Hardware",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Watch supply chain operations and product analytics"
+      }
+    },
+    {
+      "url": "https://careers.qualcomm.com/careers",
+      "userData": {
+        "company": "Qualcomm",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductors",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong hardware analytics and operations target"
+      }
+    },
+    {
+      "url": "https://www.broadcom.com/company/careers",
+      "userData": {
+        "company": "Broadcom",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analytics",
+          "Finance Analytics"
+        ],
+        "category": "Semiconductors",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Watch analytics roles after VMware integration"
+      }
+    },
+    {
+      "url": "https://jobs.intel.com/en",
+      "userData": {
+        "company": "Intel",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductors",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Very strong manufacturing analytics fit"
+      }
+    },
+    {
+      "url": "https://careers.amd.com/careers-home/jobs",
+      "userData": {
+        "company": "AMD",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductors",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics and operations roles"
+      }
+    },
+    {
+      "url": "https://www.micron.com/about/careers",
+      "userData": {
+        "company": "Micron Technology",
+        "priorityQueries": [
+          "Data Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductors",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Excellent manufacturing data target"
+      }
+    },
+    {
+      "url": "https://careers.ti.com/",
+      "userData": {
+        "company": "Texas Instruments",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Manufacturing Analytics",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductors",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch new grad and manufacturing analytics"
+      }
+    },
+    {
+      "url": "https://www.appliedmaterials.com/us/en/careers.html",
+      "userData": {
+        "company": "Applied Materials",
+        "priorityQueries": [
+          "Data Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductor Equipment",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Already appeared in refresh; strong manufacturing analytics target"
+      }
+    },
+    {
+      "url": "https://www.lamresearch.com/careers/",
+      "userData": {
+        "company": "Lam Research",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Manufacturing Analytics",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductor Equipment",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong process and manufacturing analytics alignment"
+      }
+    },
+    {
+      "url": "https://www.asml.com/en/careers/find-your-job",
+      "userData": {
+        "company": "ASML",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Semiconductor Equipment",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch data and supply chain roles in US locations"
+      }
+    },
+    {
+      "url": "https://jobs.dell.com/",
+      "userData": {
+        "company": "Dell Technologies",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Operations Analyst"
+        ],
+        "category": "Hardware / Enterprise Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Good target for BI and operations analytics"
+      }
+    },
+    {
+      "url": "https://jobs.hp.com/",
+      "userData": {
+        "company": "HP",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Supply Chain Analytics"
+        ],
+        "category": "Hardware",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch supply chain and business analytics"
+      }
+    },
+    {
+      "url": "https://careers.hpe.com/us/en/search-results",
+      "userData": {
+        "company": "Hewlett Packard Enterprise",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Operations Analyst"
+        ],
+        "category": "Enterprise Hardware",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good target for cloud and operations analytics"
+      }
+    },
+    {
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday",
+      "userData": {
+        "company": "Workday",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Product Analytics",
+          "Data Science",
+          "Business Operations"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch people analytics and product analytics"
+      }
+    },
+    {
+      "url": "https://careers.snowflake.com/us/en/search-results",
+      "userData": {
+        "company": "Snowflake",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Sales Operations Analytics"
+        ],
+        "category": "Data Platforms",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "High-fit data platform employer"
+      }
+    },
+    {
+      "url": "https://www.databricks.com/company/careers/open-positions",
+      "userData": {
+        "company": "Databricks",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Customer Analytics"
+        ],
+        "category": "Data Platforms",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "High-fit data and AI platform employer"
+      }
+    },
+    {
+      "url": "https://www.palantir.com/careers/",
+      "userData": {
+        "company": "Palantir",
+        "priorityQueries": [
+          "Data Analyst",
+          "Deployment Strategist",
+          "Data Science",
+          "Business Operations",
+          "Analytics"
+        ],
+        "category": "Data Platforms",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch role requirements carefully; some roles may need clearance"
+      }
+    },
+    {
+      "url": "https://www.mongodb.com/careers/jobs",
+      "userData": {
+        "company": "MongoDB",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Revenue Analytics"
+        ],
+        "category": "Data Platforms",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good target for product and revenue analytics"
+      }
+    },
+    {
+      "url": "https://www.atlassian.com/company/careers/all-jobs",
+      "userData": {
+        "company": "Atlassian",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Product Analytics",
+          "Data Science",
+          "Business Operations"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch distributed and remote-friendly analytics roles"
+      }
+    },
+    {
+      "url": "https://careers.zoom.us/jobs/search",
+      "userData": {
+        "company": "Zoom",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Product Analytics",
+          "Data Science",
+          "Operations Analytics"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch product and business operations analytics"
+      }
+    },
+    {
+      "url": "https://jobs.dropbox.com/all-jobs",
+      "userData": {
+        "company": "Dropbox",
+        "priorityQueries": [
+          "Data Analyst",
+          "Product Analyst",
+          "Data Science",
+          "Business Analytics",
+          "Growth Analytics"
+        ],
+        "category": "Enterprise Software",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Selective; prioritize analytics roles"
+      }
+    },
+    {
+      "url": "https://careers.jpmorgan.com/us/en/students/programs",
+      "userData": {
+        "company": "JPMorgan Chase",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst",
+          "Quantitative Analytics"
+        ],
+        "category": "Banking / Finance",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong student and early-career programs; sponsor varies by program"
+      }
+    },
+    {
+      "url": "https://www.goldmansachs.com/careers/",
+      "userData": {
+        "company": "Goldman Sachs",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst",
+          "Engineering Analyst"
+        ],
+        "category": "Banking / Finance",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Watch analyst programs and engineering/data roles"
+      }
+    },
+    {
+      "url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+      "userData": {
+        "company": "Morgan Stanley",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst"
+        ],
+        "category": "Banking / Finance",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Already appeared in refresh; good early-career target"
+      }
+    },
+    {
+      "url": "https://careers.bankofamerica.com/en-us",
+      "userData": {
+        "company": "Bank of America",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst",
+          "Business Intelligence"
+        ],
+        "category": "Banking / Finance",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Watch analyst development programs and sponsorship wording"
+      }
+    },
+    {
+      "url": "https://jobs.citi.com/",
+      "userData": {
+        "company": "Citi",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst",
+          "Business Intelligence"
+        ],
+        "category": "Banking / Finance",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Large international bank; verify job-specific sponsorship"
+      }
+    },
+    {
+      "url": "https://www.wellsfargojobs.com/",
+      "userData": {
+        "company": "Wells Fargo",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst",
+          "Business Intelligence"
+        ],
+        "category": "Banking / Finance",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch risk and operations analytics roles"
+      }
+    },
+    {
+      "url": "https://www.capitalonecareers.com/",
+      "userData": {
+        "company": "Capital One",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Product Analytics"
+        ],
+        "category": "Banking / Fintech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong analytics employer; some roles may be senior"
+      }
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/careers/",
+      "userData": {
+        "company": "American Express",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Risk Analyst",
+          "Marketing Analytics"
+        ],
+        "category": "Financial Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good target for risk and customer analytics"
+      }
+    },
+    {
+      "url": "https://www.bloomberg.com/company/careers/working-here/",
+      "userData": {
+        "company": "Bloomberg",
+        "priorityQueries": [
+          "Data Analyst",
+          "Data Science",
+          "Business Analyst",
+          "Analytics",
+          "Data Specialist"
+        ],
+        "category": "Financial Data",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong data-centered employer"
+      }
+    },
+    {
+      "url": "https://careers.blackrock.com/",
+      "userData": {
+        "company": "BlackRock",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Aladdin Analytics",
+          "Risk Analyst"
+        ],
+        "category": "Asset Management",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch Aladdin and risk analytics roles"
+      }
+    },
+    {
+      "url": "https://www.bny.com/corporate/global/en/careers.html",
+      "userData": {
+        "company": "BNY",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Risk Analyst"
+        ],
+        "category": "Financial Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good operations and risk analytics target"
+      }
+    },
+    {
+      "url": "https://jobs.fidelity.com/",
+      "userData": {
+        "company": "Fidelity Investments",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Operations Analyst"
+        ],
+        "category": "Financial Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch early-career and data development programs"
+      }
+    },
+    {
+      "url": "https://www.schwabjobs.com/",
+      "userData": {
+        "company": "Charles Schwab",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Risk Analyst",
+          "Business Intelligence"
+        ],
+        "category": "Financial Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good BI and risk analytics target"
+      }
+    },
+    {
+      "url": "https://www.spglobal.com/en/careers",
+      "userData": {
+        "company": "S&P Global",
+        "priorityQueries": [
+          "Data Analyst",
+          "Data Science",
+          "Business Analyst",
+          "Ratings Data",
+          "Market Intelligence"
+        ],
+        "category": "Financial Data",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong data provider with analytics roles"
+      }
+    },
+    {
+      "url": "https://careers.moodys.com/",
+      "userData": {
+        "company": "Moody's",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Risk Analytics",
+          "Financial Data"
+        ],
+        "category": "Financial Data",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good fit for analytics and risk data roles"
+      }
+    },
+    {
+      "url": "https://www.accenture.com/us-en/careers/jobsearch",
+      "userData": {
+        "company": "Accenture",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science Analyst",
+          "Analytics Consultant",
+          "Business Intelligence"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "High sponsor signal; confirm role quality and location"
+      }
+    },
+    {
+      "url": "https://apply.deloitte.com/careers/SearchJobs",
+      "userData": {
+        "company": "Deloitte",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Analytics Consultant",
+          "Data Science",
+          "Business Intelligence"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Sponsorship varies by practice and campus program"
+      }
+    },
+    {
+      "url": "https://careers.ey.com/ey/search/",
+      "userData": {
+        "company": "EY",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Analytics Consultant",
+          "Data Science",
+          "Technology Consulting"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Sponsorship varies; check job posting language"
+      }
+    },
+    {
+      "url": "https://jobs.us.pwc.com/",
+      "userData": {
+        "company": "PwC",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Analytics Consultant",
+          "Data Science",
+          "Technology Consulting"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Sponsorship varies by team and program"
+      }
+    },
+    {
+      "url": "https://kpmg.com/us/en/careers.html",
+      "userData": {
+        "company": "KPMG",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Analytics Consultant",
+          "Data Science",
+          "Technology Assurance"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Sponsorship varies; verify early-career postings"
+      }
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/search-jobs",
+      "userData": {
+        "company": "McKinsey & Company",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics and knowledge roles; high bar"
+      }
+    },
+    {
+      "url": "https://careers.bcg.com/search",
+      "userData": {
+        "company": "Boston Consulting Group",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Analytics",
+          "Knowledge Analyst"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch BCG X and analytics roles"
+      }
+    },
+    {
+      "url": "https://www.bain.com/careers/find-a-role/",
+      "userData": {
+        "company": "Bain & Company",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Advanced Analytics",
+          "Associate Consultant"
+        ],
+        "category": "Consulting",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics and AC roles"
+      }
+    },
+    {
+      "url": "https://www.infosys.com/careers/apply.html",
+      "userData": {
+        "company": "Infosys",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Very high-volume sponsor signal; role quality varies"
+      }
+    },
+    {
+      "url": "https://www.tcs.com/careers/united-states",
+      "userData": {
+        "company": "Tata Consultancy Services",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Very high-volume sponsor signal; verify client location"
+      }
+    },
+    {
+      "url": "https://careers.cognizant.com/us-en/jobs/",
+      "userData": {
+        "company": "Cognizant",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "High sponsor signal; verify role and client assignment"
+      }
+    },
+    {
+      "url": "https://careers.wipro.com/careers-home/jobs",
+      "userData": {
+        "company": "Wipro",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "High sponsor signal; role quality varies"
+      }
+    },
+    {
+      "url": "https://www.hcltech.com/careers/Careers-in-united-states",
+      "userData": {
+        "company": "HCLTech",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "High sponsor signal; verify client work and location"
+      }
+    },
+    {
+      "url": "https://www.capgemini.com/us-en/careers/job-search/",
+      "userData": {
+        "company": "Capgemini",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Analytics Consultant",
+          "BI Analyst"
+        ],
+        "category": "IT Services / Consulting",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good consulting analytics target"
+      }
+    },
+    {
+      "url": "https://www.techmahindra.com/en-in/careers/",
+      "userData": {
+        "company": "Tech Mahindra",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "High sponsor signal; verify US posting details"
+      }
+    },
+    {
+      "url": "https://www.ltts.com/careers",
+      "userData": {
+        "company": "L&T Technology Services",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analytics",
+          "Engineering Analytics"
+        ],
+        "category": "Engineering Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong engineering analytics alignment"
+      }
+    },
+    {
+      "url": "https://www.epam.com/careers/job-listings",
+      "userData": {
+        "company": "EPAM Systems",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch data and analytics consulting roles"
+      }
+    },
+    {
+      "url": "https://www.globant.com/careers",
+      "userData": {
+        "company": "Globant",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "BI Analyst",
+          "Analytics Consultant"
+        ],
+        "category": "IT Services",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch data studio and analytics roles"
+      }
+    },
+    {
+      "url": "https://careers.unitedhealthgroup.com/",
+      "userData": {
+        "company": "UnitedHealth Group / Optum",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Healthcare Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Healthcare / Insurance",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong target for healthcare analytics"
+      }
+    },
+    {
+      "url": "https://jobs.cvshealth.com/us/en",
+      "userData": {
+        "company": "CVS Health",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Healthcare Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Healthcare / Retail",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics roles in Aetna and pharmacy operations"
+      }
+    },
+    {
+      "url": "https://careers.elevancehealth.com/",
+      "userData": {
+        "company": "Elevance Health",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Healthcare Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Healthcare / Insurance",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good healthcare analytics target"
+      }
+    },
+    {
+      "url": "https://jobs.thecignagroup.com/us/en",
+      "userData": {
+        "company": "Cigna / Evernorth",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Healthcare Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Healthcare / Insurance",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch healthcare data and operations analytics"
+      }
+    },
+    {
+      "url": "https://www.careers.jnj.com/en/jobs",
+      "userData": {
+        "company": "Johnson & Johnson",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Supply Chain Analytics",
+          "Healthcare Analytics"
+        ],
+        "category": "Pharma / Medical Devices",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good supply chain and healthcare analytics target"
+      }
+    },
+    {
+      "url": "https://www.pfizer.com/about/careers",
+      "userData": {
+        "company": "Pfizer",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Pharma",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch commercial analytics and data science roles"
+      }
+    },
+    {
+      "url": "https://jobs.merck.com/us/en",
+      "userData": {
+        "company": "Merck",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Manufacturing Analytics"
+        ],
+        "category": "Pharma",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good pharma analytics and manufacturing target"
+      }
+    },
+    {
+      "url": "https://careers.bms.com/jobs",
+      "userData": {
+        "company": "Bristol Myers Squibb",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Pharma",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics and operations roles"
+      }
+    },
+    {
+      "url": "https://careers.lilly.com/us/en",
+      "userData": {
+        "company": "Eli Lilly",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Commercial Analytics"
+        ],
+        "category": "Pharma",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong manufacturing and commercial analytics fit"
+      }
+    },
+    {
+      "url": "https://www.novartis.com/careers/career-search",
+      "userData": {
+        "company": "Novartis",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Healthcare Analytics"
+        ],
+        "category": "Pharma",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch US analytics and data science roles"
+      }
+    },
+    {
+      "url": "https://careers.gene.com/us/en",
+      "userData": {
+        "company": "Roche / Genentech",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Healthcare Analytics",
+          "Commercial Analytics"
+        ],
+        "category": "Biotech / Pharma",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong analytics target in biotech"
+      }
+    },
+    {
+      "url": "https://careers.amgen.com/",
+      "userData": {
+        "company": "Amgen",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Commercial Analytics"
+        ],
+        "category": "Biotech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good manufacturing and commercial analytics fit"
+      }
+    },
+    {
+      "url": "https://www.gilead.com/careers/careers-at-gilead",
+      "userData": {
+        "company": "Gilead Sciences",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Healthcare Analytics"
+        ],
+        "category": "Biotech",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch analytics roles in California"
+      }
+    },
+    {
+      "url": "https://www.jobs.abbott/us/en",
+      "userData": {
+        "company": "Abbott",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Medical Devices",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong operations and manufacturing fit"
+      }
+    },
+    {
+      "url": "https://medtronic.eightfold.ai/careers",
+      "userData": {
+        "company": "Medtronic",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Medical Devices",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good healthcare operations analytics target"
+      }
+    },
+    {
+      "url": "https://jobs.thermofisher.com/global/en",
+      "userData": {
+        "company": "Thermo Fisher Scientific",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Supply Chain Analytics"
+        ],
+        "category": "Life Sciences Tools",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch supply chain and operations analytics"
+      }
+    },
+    {
+      "url": "https://jobs.iqvia.com/en",
+      "userData": {
+        "company": "IQVIA",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Healthcare Analytics",
+          "Clinical Data Analyst"
+        ],
+        "category": "Healthcare Data / CRO",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong data and analytics sponsor signal"
+      }
+    },
+    {
+      "url": "https://careers.walmart.com/",
+      "userData": {
+        "company": "Walmart",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Supply Chain Analytics"
+        ],
+        "category": "Retail / Tech",
+        "sponsorshipSignal": "Large H-1B employer signal",
+        "notes": "Strong analytics and supply chain target"
+      }
+    },
+    {
+      "url": "https://jobs.target.com/",
+      "userData": {
+        "company": "Target",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Supply Chain Analytics"
+        ],
+        "category": "Retail",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch HQ analytics and supply chain roles"
+      }
+    },
+    {
+      "url": "https://careers.homedepot.com/",
+      "userData": {
+        "company": "Home Depot",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Supply Chain Analytics"
+        ],
+        "category": "Retail",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good supply chain analytics target"
+      }
+    },
+    {
+      "url": "https://talent.lowes.com/us/en",
+      "userData": {
+        "company": "Lowe's",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Supply Chain Analytics"
+        ],
+        "category": "Retail",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch retail analytics and operations roles"
+      }
+    },
+    {
+      "url": "https://jobs.nike.com/",
+      "userData": {
+        "company": "Nike",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Consumer Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Retail / Consumer",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good consumer and supply chain analytics target"
+      }
+    },
+    {
+      "url": "https://www.starbucks.com/careers/",
+      "userData": {
+        "company": "Starbucks",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Business Intelligence",
+          "Supply Chain Analytics"
+        ],
+        "category": "Retail / Consumer",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch corporate analytics roles"
+      }
+    },
+    {
+      "url": "https://www.pgcareers.com/",
+      "userData": {
+        "company": "Procter & Gamble",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Consumer Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Consumer Goods",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good operations and consumer analytics target"
+      }
+    },
+    {
+      "url": "https://www.pepsicojobs.com/",
+      "userData": {
+        "company": "PepsiCo",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Revenue Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Consumer Goods",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong supply chain and commercial analytics target"
+      }
+    },
+    {
+      "url": "https://www.coca-colacompany.com/careers",
+      "userData": {
+        "company": "Coca-Cola",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Consumer Goods",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch corporate analytics roles"
+      }
+    },
+    {
+      "url": "https://www.mondelezinternational.com/careers/",
+      "userData": {
+        "company": "Mondelez International",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Commercial Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Consumer Goods",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good consumer and supply chain analytics target"
+      }
+    },
+    {
+      "url": "https://careers.unilever.com/",
+      "userData": {
+        "company": "Unilever",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Consumer Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Consumer Goods",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch US analytics roles"
+      }
+    },
+    {
+      "url": "https://careers.fedex.com/",
+      "userData": {
+        "company": "FedEx",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Logistics Analytics"
+        ],
+        "category": "Logistics",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong operations and logistics analytics fit"
+      }
+    },
+    {
+      "url": "https://www.jobs-ups.com/",
+      "userData": {
+        "company": "UPS",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Operations Analyst",
+          "Logistics Analytics"
+        ],
+        "category": "Logistics",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good operations analytics target"
+      }
+    },
+    {
+      "url": "https://search-careers.gm.com/en/jobs/",
+      "userData": {
+        "company": "General Motors",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Automotive",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong manufacturing analytics fit"
+      }
+    },
+    {
+      "url": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1",
+      "userData": {
+        "company": "Ford",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Automotive",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong automotive analytics fit"
+      }
+    },
+    {
+      "url": "https://www.tesla.com/careers/search",
+      "userData": {
+        "company": "Tesla",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Automotive / Energy",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong manufacturing and operations analytics target"
+      }
+    },
+    {
+      "url": "https://rivian.com/careers",
+      "userData": {
+        "company": "Rivian",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Automotive / EV",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch operations and supply chain analytics"
+      }
+    },
+    {
+      "url": "https://careers.toyota.com/us/en",
+      "userData": {
+        "company": "Toyota North America",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Automotive",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong automotive operations analytics target"
+      }
+    },
+    {
+      "url": "https://hondajobs.com/",
+      "userData": {
+        "company": "Honda",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Automotive",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch manufacturing and supply chain analytics"
+      }
+    },
+    {
+      "url": "https://jobs.boeing.com/",
+      "userData": {
+        "company": "Boeing",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Aerospace",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Some roles need clearance; screen carefully"
+      }
+    },
+    {
+      "url": "https://jobs.gecareers.com/aviation/global/en",
+      "userData": {
+        "company": "GE Aerospace",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Aerospace / Industrial",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong manufacturing analytics target"
+      }
+    },
+    {
+      "url": "https://careers.honeywell.com/us/en",
+      "userData": {
+        "company": "Honeywell",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Industrial",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good operations and manufacturing analytics target"
+      }
+    },
+    {
+      "url": "https://jobs.siemens.com/careers",
+      "userData": {
+        "company": "Siemens",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Operations Analyst"
+        ],
+        "category": "Industrial",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong industrial data target"
+      }
+    },
+    {
+      "url": "https://careers.caterpillar.com/en/jobs/",
+      "userData": {
+        "company": "Caterpillar",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Industrial / Manufacturing",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong manufacturing and supply chain analytics fit"
+      }
+    },
+    {
+      "url": "https://www.deere.com/en/our-company/john-deere-careers/",
+      "userData": {
+        "company": "John Deere",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Industrial / Manufacturing",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Strong operations analytics fit"
+      }
+    },
+    {
+      "url": "https://www.cummins.com/careers",
+      "userData": {
+        "company": "Cummins",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Industrial / Manufacturing",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good manufacturing analytics target"
+      }
+    },
+    {
+      "url": "https://www.3m.com/3M/en_US/careers-us/",
+      "userData": {
+        "company": "3M",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Manufacturing Analytics",
+          "Supply Chain Analytics"
+        ],
+        "category": "Industrial / Manufacturing",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Good operations analytics target"
+      }
+    },
+    {
+      "url": "https://jobs.comcast.com/",
+      "userData": {
+        "company": "Comcast / NBCUniversal",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Marketing Analytics"
+        ],
+        "category": "Telecom / Media",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch Comcast and NBCUniversal analytics roles"
+      }
+    },
+    {
+      "url": "https://www.disneycareers.com/en/search_jobs/search-results?c=US",
+      "userData": {
+        "company": "Disney",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science and Analytics",
+          "Technology",
+          "Operations",
+          "Internships"
+        ],
+        "category": "Media / Entertainment",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch Disney ESPN Experiences and Product and Technology"
+      }
+    },
+    {
+      "url": "https://careers.wbd.com/global/en",
+      "userData": {
+        "company": "Warner Bros. Discovery",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Marketing Analytics"
+        ],
+        "category": "Media / Entertainment",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch streaming and ad analytics"
+      }
+    },
+    {
+      "url": "https://www.paramount.com/careers",
+      "userData": {
+        "company": "Paramount",
+        "priorityQueries": [
+          "Data Analyst",
+          "Business Analyst",
+          "Data Science",
+          "Product Analytics",
+          "Marketing Analytics"
+        ],
+        "category": "Media / Entertainment",
+        "sponsorshipSignal": "Known H-1B filing signal",
+        "notes": "Watch streaming and content analytics"
+      }
+    }
+  ],
+  "rankingRules": [
+    "Prefer direct company career-page listings over reposted boards.",
+    "Prefer internship, new-grad, entry-level, junior, analyst, BI, operations, supply-chain, manufacturing analytics, data science, and data engineering roles.",
+    "Keep senior, principal, staff, and manager roles only for strategic watchlist companies and flag them for networking first.",
+    "Discard roles with unclear posting dates unless they are from a high-priority company and still open on the company site."
+  ],
+  "expectedFields": [
+    "company",
+    "role",
+    "location",
+    "salary",
+    "posted",
+    "source",
+    "url",
+    "applyUrl",
+    "description"
+  ],
+  "jobBoardOutput": "job_search_system/data/extracted_jobs.json"
+}

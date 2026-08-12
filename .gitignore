@@ -3,4 +3,8 @@ __pycache__/
 tmp/
 .DS_Store
 Thumbs.db
-
+*.local.env
+job_search_system/connectors/apify_config.local.env
+job_search_system/tmp/
+job_search_system/scripts/__pycache__/
+.deploy_tmp/

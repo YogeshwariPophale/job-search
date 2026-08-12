@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-08-12",
+  "sources": [
+    "LinkedIn logged-in browser",
+    "Handshake logged-in browser"
+  ],
+  "jobs": [
+    {
+      "applyUrl": "https://www.linkedin.com/jobs/view/4449890236/",
+      "company": "",
+      "description": "Data Analyst, Economic Consulting (US)",
+      "location": "",
+      "posted": "Last 24 hours",
+      "role": "Data Analyst, Economic Consulting (US)",
+      "salary": "Not listed",
+      "source": "LinkedIn logged-in browser",
+      "sourceRefreshId": "linkedin-browser-4449890236",
+      "url": "https://www.linkedin.com/jobs/view/4449890236/"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "Wipp data",
+      "description": "Procurement Data Analyst at Wipp data. $20-30/hr · Internship · Aug 24—Oct 2. Remote. Posted New.",
+      "location": "Remote",
+      "posted": "New",
+      "role": "Procurement Data Analyst",
+      "salary": "$20-30/hr · Internship · Aug 24—Oct 2",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-wipp-data-procurement-data-analyst-remote",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "Data Driven Enterprises",
+      "description": "Data Analyst at Data Driven Enterprises. $70-90K/yr · Full-time. Remote or Northglenn, CO. Posted 6d ago.",
+      "location": "Remote or Northglenn, CO",
+      "posted": "6d ago",
+      "role": "Data Analyst",
+      "salary": "$70-90K/yr · Full-time",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-data-driven-enterprises-data-analyst-remote-or-northglenn-co",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "U.S. Venture, Inc",
+      "description": "Data Analyst Intern – US AutoForce at U.S. Venture, Inc. Internship · May 17—Aug 13. Appleton, WI. Posted 5d ago.",
+      "location": "Appleton, WI",
+      "posted": "5d ago",
+      "role": "Data Analyst Intern – US AutoForce",
+      "salary": "Internship · May 17—Aug 13",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-u-s-venture-inc-data-analyst-intern-us-autoforce-appleton-wi",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "JPMorganChase",
+      "description": "2027 Data & AI Program - Summer Internship - Analyst - United States at JPMorganChase. Full-time. Chicago, IL. Posted 1wk ago.",
+      "location": "Chicago, IL",
+      "posted": "1wk ago",
+      "role": "2027 Data & AI Program - Summer Internship - Analyst - United States",
+      "salary": "Full-time",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-jpmorganchase-2027-data-ai-program-summer-internship-analyst-united-states-chicago-il",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "Sol IT",
+      "description": "Predictive Data Analyst, onsite at Los Angeles, CA at Sol IT. $25/hr · Full-time. Los Angeles, CA. Posted New.",
+      "location": "Los Angeles, CA",
+      "posted": "New",
+      "role": "Predictive Data Analyst, onsite at Los Angeles, CA",
+      "salary": "$25/hr · Full-time",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-sol-it-predictive-data-analyst-onsite-at-los-angeles-ca-los-angeles-ca",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "State of California Department of Motor Vehicles",
+      "description": "Student Assistant - CA DMV - Data Analyst at State of California Department of Motor Vehicles. $16.90-21.66/hr · Internship · Aug 24—Sep 1. Riverside, CA + 2. Posted 5d ago.",
+      "location": "Riverside, CA + 2",
+      "posted": "5d ago",
+      "role": "Student Assistant - CA DMV - Data Analyst",
+      "salary": "$16.90-21.66/hr · Internship · Aug 24—Sep 1",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-state-of-california-department-of-motor-vehicles-student-assistant-ca-dmv-data-analyst-riverside-ca-",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "Northwestern University",
+      "description": "Research Analyst - Evidence Aggregation and Data Science at Northwestern University. $58K/yr · Full-time · Oct 1—Jul 31. Chicago, IL + 1. Posted 5d ago.",
+      "location": "Chicago, IL + 1",
+      "posted": "5d ago",
+      "role": "Research Analyst - Evidence Aggregation and Data Science",
+      "salary": "$58K/yr · Full-time · Oct 1—Jul 31",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-northwestern-university-research-analyst-evidence-aggregation-and-data-science-chicago-il-1",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "Grande Cheese Company",
+      "description": "Data Analytics Intern at Grande Cheese Company. $20-30/hr · Internship · May 17—Aug 20. Fond du Lac, WI. Posted New.",
+      "location": "Fond du Lac, WI",
+      "posted": "New",
+      "role": "Data Analytics Intern",
+      "salary": "$20-30/hr · Internship · May 17—Aug 20",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-grande-cheese-company-data-analytics-intern-fond-du-lac-wi",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    },
+    {
+      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
+      "company": "U.S. Venture, Inc",
+      "description": "Business Intelligence Analyst - Intern at U.S. Venture, Inc. Internship · May 17—Aug 13. Appleton, WI. Posted 5d ago.",
+      "location": "Appleton, WI",
+      "posted": "5d ago",
+      "role": "Business Intelligence Analyst - Intern",
+      "salary": "Internship · May 17—Aug 13",
+      "source": "Handshake logged-in browser",
+      "sourceRefreshId": "handshake-browser-u-s-venture-inc-business-intelligence-analyst-intern-appleton-wi",
+      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25"
+    }
+  ]
+}

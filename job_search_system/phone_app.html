@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14213d">
+  <title>Yogeshwari Jobs Mobile</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --navy: #14213d;
+      --paper: #f7f3e8;
+      --panel: #ffffff;
+      --line: #d9d2c4;
+      --teal: #2a9d8f;
+      --coral: #e76f51;
+      --gold: #d59b2d;
+      --muted: #596273;
+      --soft: #fffaf0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      letter-spacing: 0;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--navy);
+      color: white;
+      border-bottom: 4px solid var(--teal);
+      padding: 14px 14px 12px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.15rem;
+      line-height: 1.15;
+    }
+
+    .sub {
+      margin: 3px 0 0;
+      color: #d9e3ee;
+      font-size: 0.82rem;
+    }
+
+    .refresh {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      background: var(--teal);
+      color: white;
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 12px 12px 88px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      min-height: 70px;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--navy);
+      font-size: 1.35rem;
+      margin-top: 5px;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 132px;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+      color: var(--ink);
+      padding: 9px 10px;
+    }
+
+    .tabs {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .tab {
+      min-height: 38px;
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--navy);
+      border: 1px solid var(--line);
+      font-weight: 800;
+    }
+
+    .tab.active {
+      background: var(--navy);
+      color: white;
+      border-color: var(--navy);
+    }
+
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .job {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .job.high {
+      border-top: 5px solid var(--teal);
+    }
+
+    .job.medium {
+      border-top: 5px solid var(--gold);
+    }
+
+    .job.low {
+      border-top: 5px solid var(--coral);
+    }
+
+    .job-body {
+      padding: 12px;
+    }
+
+    .job-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: start;
+    }
+
+    h2 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 1rem;
+      line-height: 1.25;
+    }
+
+    .company {
+      margin-top: 4px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 0.86rem;
+    }
+
+    .score {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--navy);
+      color: white;
+      font-weight: 800;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 0 8px;
+      border-radius: 8px;
+      border: 1px solid #c6e2dd;
+      background: #e8f3f1;
+      color: var(--navy);
+      font-size: 0.76rem;
+      font-weight: 800;
+    }
+
+    .pill.gold {
+      border-color: #f0d08b;
+      background: #fff1d6;
+    }
+
+    .desc {
+      margin: 0;
+      color: var(--ink);
+      line-height: 1.4;
+      font-size: 0.88rem;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      padding: 10px 12px 12px;
+      border-top: 1px solid var(--line);
+    }
+
+    .action {
+      min-height: 38px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 800;
+      background: var(--teal);
+      color: white;
+      text-align: center;
+    }
+
+    .action.secondary {
+      background: var(--soft);
+      color: var(--navy);
+      border: 1px solid var(--line);
+    }
+
+    .empty {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+
+    .dock {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--navy);
+      border-top: 4px solid var(--teal);
+      padding: 8px 12px;
+    }
+
+    .dock-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .dock a,
+    .dock button {
+      min-height: 42px;
+      border-radius: 8px;
+      background: transparent;
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .toast {
+      position: fixed;
+      left: 12px;
+      right: 12px;
+      bottom: 72px;
+      margin: auto;
+      max-width: 520px;
+      background: var(--navy);
+      color: white;
+      border-radius: 8px;
+      padding: 11px 12px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: 0.18s ease;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (min-width: 680px) {
+      .list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div>
+        <h1>Yogeshwari Jobs</h1>
+        <p class="sub" id="updatedLabel">Loading latest refresh</p>
+      </div>
+      <button class="refresh" id="refreshBtn" type="button" aria-label="Refresh jobs">R</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats" aria-label="Job stats">
+      <div class="stat"><span>Roles</span><strong id="totalCount">0</strong></div>
+      <div class="stat"><span>Fit 70+</span><strong id="strongCount">0</strong></div>
+      <div class="stat"><span>Top Fit</span><strong id="topFit">0</strong></div>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <input id="search" type="search" placeholder="Search company, role, location">
+      <select id="sort">
+        <option value="fit">Top fit</option>
+        <option value="recent">Freshest</option>
+        <option value="company">Company</option>
+      </select>
+    </section>
+
+    <section class="tabs" aria-label="Status filters">
+      <button class="tab active" data-view="all" type="button">All</button>
+      <button class="tab" data-view="strong" type="button">70+</button>
+      <button class="tab" data-view="fresh" type="button">Fresh</button>
+    </section>
+
+    <section class="list" id="jobsList" aria-label="Jobs"></section>
+  </main>
+
+  <nav class="dock" aria-label="Mobile actions">
+    <div class="dock-inner">
+      <a href="job_board.html">Board</a>
+      <a href="index.html">Home</a>
+      <button id="copyPromptBtn" type="button">Prompt</button>
+    </div>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const refreshUrl = "data/extracted_jobs.json";
+    const liveJobsUrl = "/api/jobs";
+    const liveRefreshMs = 60000;
+    const statusKey = "yogeshwari_mobile_job_status_v1";
+    const jobsList = document.getElementById("jobsList");
+    const search = document.getElementById("search");
+    const sort = document.getElementById("sort");
+    const toast = document.getElementById("toast");
+    let jobs = [];
+    let view = "all";
+    let latestRefreshSignature = "";
+
+    document.getElementById("refreshBtn").addEventListener("click", () => loadJobs({ manual: true }));
+    document.getElementById("copyPromptBtn").addEventListener("click", copyDailyPrompt);
+    search.addEventListener("input", render);
+    sort.addEventListener("change", render);
+    document.querySelectorAll(".tab").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        document.querySelectorAll(".tab").forEach((item) => item.classList.remove("active"));
+        tab.classList.add("active");
+        view = tab.dataset.view;
+        render();
+      });
+    });
+
+    async function fetchJson(url) {
+      const response = await fetch(`${url}${url.includes("?") ? "&" : "?"}t=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }
+
+    function refreshSignature(payload) {
+      const rawJobs = Array.isArray(payload) ? payload : payload.jobs || [];
+      return JSON.stringify(rawJobs.map((job) => job.sourceRefreshId || job.url || `${job.company}|${job.role}|${job.location}`));
+    }
+
+    function payloadLabel(payload, mode) {
+      const checked = new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+      const generatedAt = payload.generatedAt || "";
+      const today = new Date().toISOString().slice(0, 10);
+      if (generatedAt && generatedAt !== today) {
+        return `${mode} checked ${checked}; data from ${generatedAt}`;
+      }
+      return `${mode} updated ${generatedAt || payload.sourceUpdatedAt || checked}`;
+    }
+
+    async function loadJobs({ manual = false, silent = false } = {}) {
+      try {
+        let payload;
+        let mode = "Live";
+        try {
+          payload = await fetchJson(liveJobsUrl);
+        } catch {
+          payload = await fetchJson(refreshUrl);
+          mode = "File";
+        }
+        const signature = refreshSignature(payload);
+        if (silent && signature === latestRefreshSignature) {
+          document.getElementById("updatedLabel").textContent = payloadLabel(payload, mode);
+          return;
+        }
+        latestRefreshSignature = signature;
+        jobs = (Array.isArray(payload) ? payload : payload.jobs || []).map(normalizeJob);
+        document.getElementById("updatedLabel").textContent = payloadLabel(payload, mode);
+        if (!silent || manual) showToast(`Loaded ${jobs.length} roles.`);
+      } catch {
+        if (!jobs.length) jobs = [];
+        document.getElementById("updatedLabel").textContent = "Start the local server, then reload";
+        if (!silent || manual) showToast("Could not load job data from this address.");
+      }
+      render();
+    }
+
+    function normalizeJob(job) {
+      const fitScore = Number(job.fitScore || job.tailoredResumeMatch || 0);
+      return {
+        id: job.sourceRefreshId || `${job.company}-${job.role}-${job.location}`,
+        company: job.company || "Unknown company",
+        role: job.role || "Unknown role",
+        location: job.location || "Unknown location",
+        posted: job.posted || "Unknown posted date",
+        salary: job.salary || "Not listed",
+        source: job.source || "Refresh",
+        url: job.applyUrl || job.url || "",
+        resume: job.tailoredResumePdf || "",
+        description: job.description || "",
+        fitScore,
+        status: loadStatuses()[job.sourceRefreshId] || "To Apply"
+      };
+    }
+
+    function loadStatuses() {
+      try {
+        return JSON.parse(localStorage.getItem(statusKey)) || {};
+      } catch {
+        return {};
+      }
+    }
+
+    function saveStatus(id, status) {
+      const statuses = loadStatuses();
+      statuses[id] = status;
+      localStorage.setItem(statusKey, JSON.stringify(statuses));
+    }
+
+    function render() {
+      const query = search.value.trim().toLowerCase();
+      let visible = jobs.filter((job) => {
+        const text = `${job.company} ${job.role} ${job.location} ${job.description}`.toLowerCase();
+        if (query && !text.includes(query)) return false;
+        if (view === "strong" && job.fitScore < 70) return false;
+        if (view === "fresh" && !/minute|hour|today|1 day|24/.test(job.posted.toLowerCase())) return false;
+        return true;
+      });
+
+      visible.sort((a, b) => {
+        if (sort.value === "company") return a.company.localeCompare(b.company);
+        if (sort.value === "recent") return freshnessRank(b.posted) - freshnessRank(a.posted);
+        return b.fitScore - a.fitScore;
+      });
+
+      document.getElementById("totalCount").textContent = jobs.length;
+      document.getElementById("strongCount").textContent = jobs.filter((job) => job.fitScore >= 70).length;
+      document.getElementById("topFit").textContent = jobs.length ? Math.max(...jobs.map((job) => job.fitScore)) : 0;
+
+      if (!visible.length) {
+        jobsList.innerHTML = `<div class="empty">No roles match the current filters.</div>`;
+        return;
+      }
+
+      jobsList.innerHTML = visible.map(jobCard).join("");
+      jobsList.querySelectorAll("[data-status]").forEach((button) => {
+        button.addEventListener("click", () => {
+          saveStatus(button.dataset.status, "Applied");
+          showToast("Marked as applied on this phone.");
+          loadJobs({ manual: true });
+        });
+      });
+    }
+
+    function jobCard(job) {
+      const level = job.fitScore >= 75 ? "high" : job.fitScore >= 65 ? "medium" : "low";
+      const applyHref = job.url || "#";
+      const resumeLink = job.resume ? `<a class="action secondary" href="${escapeAttr(job.resume)}">Resume</a>` : `<button class="action secondary" data-status="${escapeAttr(job.id)}" type="button">Applied</button>`;
+      const sponsorSignal = job.h1bSponsorSignal || job.sponsorWatchlistMatch ? `<span class="pill gold">${escapeHtml(job.h1bSponsorSignal || "H-1B watchlist")}</span>` : "";
+      return `
+        <article class="job ${level}">
+          <div class="job-body">
+            <div class="job-head">
+              <div>
+                <h2>${escapeHtml(job.role)}</h2>
+                <div class="company">${escapeHtml(job.company)}</div>
+              </div>
+              <div class="score">${job.fitScore}</div>
+            </div>
+            <div class="meta">
+              <span class="pill">${escapeHtml(job.location)}</span>
+              <span class="pill gold">${escapeHtml(job.posted)}</span>
+              <span class="pill">${escapeHtml(job.source)}</span>
+              ${sponsorSignal}
+            </div>
+            <p class="desc">${escapeHtml(shorten(job.description, 210))}</p>
+          </div>
+          <div class="actions">
+            <a class="action" href="${escapeAttr(applyHref)}">Apply</a>
+            ${resumeLink}
+          </div>
+        </article>`;
+    }
+
+    function freshnessRank(posted) {
+      const text = posted.toLowerCase();
+      if (/minute|today/.test(text)) return 5;
+      if (/hour/.test(text)) return 4;
+      if (/1 day|24/.test(text)) return 3;
+      if (/reposted|search result/.test(text)) return 2;
+      return 1;
+    }
+
+    function copyDailyPrompt() {
+      const prompt = "Run my daily job refresh, then generate tailored resumes and tell me the top 5 roles to apply to today.";
+      navigator.clipboard.writeText(prompt).then(
+        () => showToast("Prompt copied."),
+        () => showToast("Could not copy prompt.")
+      );
+    }
+
+    function shorten(text, max) {
+      if (!text || text.length <= max) return text || "";
+      return `${text.slice(0, max - 3).trim()}...`;
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char]));
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replace(/`/g, "&#96;");
+    }
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2200);
+    }
+
+    loadJobs({ manual: true });
+    setInterval(() => loadJobs({ silent: true }), liveRefreshMs);
+  </script>
+</body>
+</html>

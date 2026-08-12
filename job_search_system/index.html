@@ -328,6 +328,7 @@
       </div>
       <div class="hero-actions">
         <a class="button" href="job_board.html">Open Job Board</a>
+        <a class="button secondary" href="phone_app.html">Open Phone App</a>
         <a class="button secondary" href="profile/job_search_profile.md">View Profile</a>
       </div>
     </div>
@@ -336,9 +337,9 @@
   <main>
     <div class="wrap">
       <section class="stats" aria-label="System stats">
-        <div class="stat"><span>Core Files</span><strong>20+</strong></div>
-        <div class="stat"><span>Watchlist Companies</span><strong>10</strong></div>
-        <div class="stat"><span>Logged-In Platforms</span><strong>2</strong></div>
+        <div class="stat"><span>Core Files</span><strong>30+</strong></div>
+        <div class="stat"><span>Sponsor Targets</span><strong>133</strong></div>
+        <div class="stat"><span>Refresh Paths</span><strong>3</strong></div>
         <div class="stat"><span>Jobs Imported</span><strong>12</strong></div>
       </section>
 
@@ -360,7 +361,7 @@
           </div>
           <div class="card">
             <h3>Application Agent</h3>
-            <p>Full 8-step workflow for company research, fit analysis, contact research, tailored resume, cover letter, outreach, answers, and send sequence.</p>
+            <p>Full 9-step workflow for company research, fit analysis, contact research, tailored resume, cover letter, outreach, answers, send sequence, and coach follow-ups.</p>
             <div class="pill-row"><span class="pill">Codex prompt</span><span class="pill">Resume PDFs</span><span class="pill coral">Review before submit</span></div>
           </div>
           <div class="card">
@@ -370,13 +371,18 @@
           </div>
           <div class="card">
             <h3>Search Platforms</h3>
-            <p>LinkedIn, Handshake, Indeed, Simplify, Wellfound, RippleMatch, Jobright, GradLeaders, UCR, company pages, and search templates.</p>
-            <div class="pill-row"><span class="pill">All platforms</span><span class="pill gold">Login tabs open</span></div>
+            <p>LinkedIn, Handshake, Indeed, Simplify, Wellfound, RippleMatch, Jobright, GradLeaders, UCR, company pages, connector seeds, and search templates.</p>
+            <div class="pill-row"><span class="pill">All platforms</span><span class="pill gold">Login tabs open</span><span class="pill">Connector seed</span></div>
           </div>
           <div class="card">
             <h3>Scoring Script</h3>
             <p>Lightweight scorer that compares base resume match, tailored resume match, keyword coverage, missing keywords, seniority risks, and next actions.</p>
             <div class="pill-row"><span class="pill">Base vs tailored</span><span class="pill">Interview actions</span></div>
+          </div>
+          <div class="card">
+            <h3>Coach Modules</h3>
+            <p>Codex-native versions of the Job Search Coach modules for ATS resume tailoring, LinkedIn quick feedback, LinkedIn deep audits, and interview prep planning.</p>
+            <div class="pill-row"><span class="pill">4 modules</span><span class="pill">LinkedIn</span><span class="pill gold">Interview prep</span></div>
           </div>
         </div>
       </section>
@@ -428,7 +434,7 @@
           </div>
           <div class="card">
             <h3>Refresh Loop</h3>
-            <p>Ask Codex to run the daily refresh. Codex extracts from logged-in pages and watchlist company career sites, writes `data/extracted_jobs.json`, generates top-15 ATS resume PDFs, then the job board imports new roles and skips duplicates.</p>
+            <p>Ask Codex to run the daily refresh. Codex extracts from logged-in pages, connector datasets, and watchlist company career sites, writes data/extracted_jobs.json, generates top-15 ATS resume PDFs, then the job board imports new roles and skips duplicates.</p>
             <div class="pill-row">
               <span class="pill">De-duplicates</span>
               <span class="pill">Re-scores</span>
@@ -437,13 +443,31 @@
               <span class="pill coral">No applying during refresh</span>
             </div>
           </div>
+          <div class="card">
+            <h3>Connector Refresh</h3>
+            <p>Use the Apify seed to watch direct company career pages every 24 hours, then rank fresh postings from the last 24 to 48 hours before they are buried on public job boards.</p>
+            <div class="pill-row">
+              <span class="pill">Apify-ready</span>
+              <span class="pill">Company pages</span>
+              <span class="pill gold">24-48 hour window</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Live Local App</h3>
+            <p>Run the live server to keep the desktop board and phone app online on your Wi-Fi. Both pages poll the jobs API every 60 seconds and update when the refresh file changes.</p>
+            <div class="pill-row">
+              <span class="pill">Phone-ready</span>
+              <span class="pill">/api/jobs</span>
+              <span class="pill gold">60 sec sync</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>Company Watchlist</h2>
-          <p class="note">Official career pages and priority role queries.</p>
+          <h2>Sponsor-Friendly Watchlist</h2>
+          <p class="note">Full database: 133 large companies with H-1B filing/sponsorship signals and Data Analyst search queries.</p>
         </div>
         <div class="list">
           <div class="row"><strong>Microsoft</strong><span>Data Analyst, Data Science, Business Analytics, Program Manager - Data, Operations Analyst</span><a href="https://careers.microsoft.com/v2/global/en/home.html">Open</a></div>
@@ -465,10 +489,11 @@
           <p class="note">This is the loop we run now that the system exists.</p>
         </div>
         <div class="timeline">
-          <div class="step"><strong>Search</strong><span>Use Jobright, GradLeaders, direct company pages, and watchlist queries to find current roles.</span></div>
+          <div class="step"><strong>Search</strong><span>Use connector refreshes, Jobright, GradLeaders, direct company pages, and watchlist queries to find current roles.</span></div>
           <div class="step"><strong>Score</strong><span>Add each promising role to the board, score it, and keep anything above 70 unless there is a strategic reason.</span></div>
           <div class="step"><strong>Tailor</strong><span>Generate a role-specific resume, cover letter, screening answers, and outreach message.</span></div>
           <div class="step"><strong>Apply</strong><span>Fill the application. Pause on sensitive fields if wording is unclear. Submit after final review.</span></div>
+          <div class="step"><strong>Coach</strong><span>Run LinkedIn feedback, a deep profile audit, or interview prep for high-fit roles and active interview processes.</span></div>
           <div class="step"><strong>Track</strong><span>Update the CSV tracker and schedule follow-ups for 5 to 7 business days later.</span></div>
         </div>
       </section>
