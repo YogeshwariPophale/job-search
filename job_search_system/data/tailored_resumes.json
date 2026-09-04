@@ -1,1059 +1,128 @@
 {
-  "generatedAt": "2026-08-12",
+  "generatedAt": "2026-09-04",
   "resumes": [
     {
       "rank": 1,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, R2L Analytics",
+      "company": "Capital One",
+      "role": "Business Analyst Intern - Summer 2027",
       "fitScore": 0,
-      "baseResumeMatch": 44,
+      "baseResumeMatch": 47,
       "tailoredResumeMatch": 85,
-      "matchDelta": 41,
+      "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/01_amazon_business-intelligence-engineer-r2l-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-r2l-analytics.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/01_capital-one_business-analyst-intern-summer-2027.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
       "keywords": [
         "SQL",
         "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
+        "Git",
+        "Data Quality Analysis",
         "Statistical Analysis",
-        "Root Cause Analysis",
-        "Operations Analytics",
-        "Large Language Models",
-        "Data Quality Analysis"
+        "Dashboard Development"
       ],
       "essentialKeywords": [
         "SQL",
         "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Root Cause Analysis",
-        "Operations Analytics",
-        "Large Language Models"
+        "Git"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
         "AWS"
       ],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Intelligence Engineer, R2L Analytics at Amazon - data analytics background"
+        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
       }
     },
     {
       "rank": 2,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, ADSP Product Operations & Analytics",
+      "company": "Capital One",
+      "role": "Business Analyst Intern - Summer 2027",
       "fitScore": 0,
-      "baseResumeMatch": 44,
+      "baseResumeMatch": 47,
       "tailoredResumeMatch": 85,
-      "matchDelta": 41,
+      "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/02_amazon_business-intelligence-engineer-adsp-product-operations-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-adsp-product-operations-analytics.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/02_capital-one_business-analyst-intern-summer-2027.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
       "keywords": [
         "SQL",
         "Python",
-        "R",
-        "MATLAB",
+        "Git",
         "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Business Intelligence",
         "Statistical Analysis",
-        "Root Cause Analysis",
-        "Operations Analytics"
+        "Dashboard Development"
       ],
       "essentialKeywords": [
         "SQL",
         "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Root Cause Analysis",
-        "Operations Analytics"
+        "Git"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
         "AWS"
       ],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Intelligence Engineer, ADSP Product Operations & Analytics at Amazon - data analytics background"
+        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
       }
     },
     {
       "rank": 3,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, AHS Finance",
+      "company": "Capital One",
+      "role": "Business Analyst Intern - Summer 2027",
       "fitScore": 0,
-      "baseResumeMatch": 44,
+      "baseResumeMatch": 47,
       "tailoredResumeMatch": 85,
-      "matchDelta": 41,
+      "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/03_amazon_business-intelligence-engineer-ahs-finance.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-ahs-finance.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/03_capital-one_business-analyst-intern-summer-2027.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
       "keywords": [
         "SQL",
         "Python",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
         "Git",
-        "Large Language Models",
-        "Data Quality Analysis"
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
       ],
       "essentialKeywords": [
         "SQL",
         "Python",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Git",
-        "Large Language Models"
+        "Git"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
         "AWS"
       ],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Intelligence Engineer, AHS Finance at Amazon - data analytics background"
+        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
       }
     },
     {
       "rank": 4,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer II, WFS Product and Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/04_amazon_business-intelligence-engineer-ii-wfs-product-and-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-ii-wfs-product-and-analytics.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Operations Analytics",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer II, WFS Product and Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 5,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, Denied Party Screening",
-      "fitScore": 0,
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/05_amazon_business-intelligence-engineer-denied-party-screening.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-denied-party-screening.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Root Cause Analysis",
-        "Operations Analytics",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Root Cause Analysis",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer, Denied Party Screening at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 6,
-      "company": "Amazon",
-      "role": "Business Analyst , Worldwide Grocery Stores (WWGS)",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/06_amazon_business-analyst-worldwide-grocery-stores-wwgs.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-worldwide-grocery-stores-wwgs.md",
-      "keywords": [
-        "SQL",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst , Worldwide Grocery Stores (WWGS) at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 7,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer II, SCOT - Long Term Planning and Forecasting",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/07_amazon_business-intelligence-engineer-ii-scot-long-term-planning-and-forecast.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-ii-scot-long-term-planning-and-forecast.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Inventory Analytics"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Inventory Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer II, SCOT - Long Term Planning and Forecasting at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 8,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, Amazon Shipping BI",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/08_amazon_business-intelligence-engineer-amazon-shipping-bi.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-amazon-shipping-bi.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Large Language Models",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Large Language Models"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer, Amazon Shipping BI at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 9,
-      "company": "Amazon",
-      "role": "Business Analyst, WWGS Business and Customer Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/09_amazon_business-analyst-wwgs-business-and-customer-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-wwgs-business-and-customer-analytics.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Supply Chain Analytics",
-        "Python",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Supply Chain Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, WWGS Business and Customer Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 10,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer I, SCOT Buying",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/10_amazon_business-intelligence-engineer-i-scot-buying.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-i-scot-buying.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "Data Quality Analysis",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Inventory Analytics"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "Data Quality Analysis",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Inventory Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer I, SCOT Buying at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 11,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, ADSP Product Operations & Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/11_amazon_business-intelligence-engineer-adsp-product-operations-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-adsp-product-operations-analytics.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Root Cause Analysis",
-        "Operations Analytics"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Root Cause Analysis",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer, ADSP Product Operations & Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 12,
-      "company": "Amazon",
-      "role": "Business Analyst, Selling Partner Services, FP&A",
-      "fitScore": 0,
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/12_amazon_business-analyst-selling-partner-services-fp-a.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-selling-partner-services-fp-a.md",
-      "keywords": [
-        "Python",
-        "Reporting",
-        "Dashboard Development",
-        "Statistical Analysis",
-        "Variance Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Large Language Models",
-        "SQL",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "Python",
-        "Reporting",
-        "Dashboard Development",
-        "Statistical Analysis",
-        "Variance Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Large Language Models"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Selling Partner Services, FP&A at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 13,
-      "company": "Tata Consultancy Services",
-      "role": "Data Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/13_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/tata-consultancy-services_data-analyst.md",
-      "keywords": [
-        "SQL",
-        "Dashboard Development",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Power BI",
-        "Snowflake"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Do not claim Tableau, Power BI, Snowflake unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst at Tata Consultancy Services - data analytics background"
-      }
-    },
-    {
-      "rank": 14,
-      "company": "Amazon",
-      "role": "Business Analyst, Fuse Billing Operations",
-      "fitScore": 0,
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/14_amazon_business-analyst-fuse-billing-operations.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-fuse-billing-operations.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Root Cause Analysis",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Root Cause Analysis",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Fuse Billing Operations at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 15,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, FIO Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/15_amazon_business-intelligence-engineer-fio-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-fio-analytics.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Model Evaluation",
-        "Inventory Analytics",
-        "Data Quality Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Model Evaluation",
-        "Inventory Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer, FIO Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 16,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer, Listing Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/16_amazon_business-intelligence-engineer-listing-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-listing-analytics.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer, Listing Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 17,
-      "company": "Amazon",
-      "role": "Business Analyst, WWGS Business and Customer Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/17_amazon_business-analyst-wwgs-business-and-customer-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-wwgs-business-and-customer-analytics.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Supply Chain Analytics",
-        "Python",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Supply Chain Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, WWGS Business and Customer Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 18,
-      "company": "Amazon",
-      "role": "Business Analyst, Worldwide Grocery, Merch Ops Business Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/18_amazon_business-analyst-worldwide-grocery-merch-ops-business-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-worldwide-grocery-merch-ops-business-analytics.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Worldwide Grocery, Merch Ops Business Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 19,
-      "company": "Amazon",
-      "role": "Business Analyst , Worldwide Grocery Stores (WWGS)",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/19_amazon_business-analyst-worldwide-grocery-stores-wwgs.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-worldwide-grocery-stores-wwgs.md",
-      "keywords": [
-        "SQL",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst , Worldwide Grocery Stores (WWGS) at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 20,
-      "company": "Amazon",
-      "role": "Business Analyst, Selling Partner Services, FP&A",
-      "fitScore": 0,
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/20_amazon_business-analyst-selling-partner-services-fp-a.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-selling-partner-services-fp-a.md",
-      "keywords": [
-        "Python",
-        "Reporting",
-        "Dashboard Development",
-        "Statistical Analysis",
-        "Variance Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Large Language Models",
-        "SQL",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "Python",
-        "Reporting",
-        "Dashboard Development",
-        "Statistical Analysis",
-        "Variance Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Large Language Models"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Selling Partner Services, FP&A at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 21,
-      "company": "Lyft",
-      "role": "Data Analyst, Go-To-Market Sales Insights",
-      "fitScore": 0,
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/21_lyft_data-analyst-go-to-market-sales-insights.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/lyft_data-analyst-go-to-market-sales-insights.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Production Analytics",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Production Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Airflow",
-        "dbt"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, Airflow, dbt unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst, Go-To-Market Sales Insights at Lyft - data analytics background"
-      }
-    },
-    {
-      "rank": 22,
       "company": "Amazon",
       "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
       "fitScore": 0,
@@ -1062,8 +131,8 @@
       "matchDelta": 4,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/22_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/04_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
       "keywords": [
         "SQL",
         "Reporting",
@@ -1100,397 +169,70 @@
       }
     },
     {
-      "rank": 23,
-      "company": "Lyft",
-      "role": "Data Analyst, Go-To-Market Sales Insights",
-      "fitScore": 0,
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/23_lyft_data-analyst-go-to-market-sales-insights.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/lyft_data-analyst-go-to-market-sales-insights.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Production Analytics",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Production Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Airflow",
-        "dbt"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, Airflow, dbt unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst, Go-To-Market Sales Insights at Lyft - data analytics background"
-      }
-    },
-    {
-      "rank": 24,
-      "company": "Amazon",
-      "role": "Business Analyst, Fuse Billing Operations",
-      "fitScore": 0,
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/24_amazon_business-analyst-fuse-billing-operations.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-fuse-billing-operations.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Root Cause Analysis",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Root Cause Analysis",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Fuse Billing Operations at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 25,
-      "company": "Amazon",
-      "role": "Business Analyst I, Global Logistics Domestic First Mile",
-      "fitScore": 0,
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/25_amazon_business-analyst-i-global-logistics-domestic-first-mile.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-i-global-logistics-domestic-first-mile.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Business Intelligence",
-        "Machine Learning",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Large Language Models",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Business Intelligence",
-        "Machine Learning",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Large Language Models"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Power BI",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, Power BI, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst I, Global Logistics Domestic First Mile at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 26,
-      "company": "Tata Consultancy Services",
-      "role": "Business Analyst",
+      "rank": 5,
+      "company": "EPAM Systems",
+      "role": "Murex Front Office Business Analyst",
       "fitScore": 0,
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
-      "baseCoveragePercent": 83,
+      "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/26_tata-consultancy-services_business-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/tata-consultancy-services_business-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/05_epam-systems_murex-front-office-business-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/epam-systems_murex-front-office-business-analyst.md",
       "keywords": [
-        "SQL",
-        "Data Validation",
-        "Reporting",
-        "Root Cause Analysis",
-        "Process Improvement",
+        "Operations Analytics",
         "Production Analytics",
+        "Git",
+        "SQL",
         "Python",
         "Data Quality Analysis",
         "Statistical Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
-        "SQL",
-        "Data Validation",
-        "Reporting",
-        "Root Cause Analysis",
-        "Process Improvement",
-        "Production Analytics"
+        "Operations Analytics",
+        "Production Analytics",
+        "Git"
       ],
       "unconfirmedKeywords": [],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [],
-        "outreachSubject": "Business Analyst at Tata Consultancy Services - data analytics background"
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Murex Front Office Business Analyst at EPAM Systems - data analytics background"
       }
     },
     {
-      "rank": 27,
-      "company": "Amazon",
-      "role": "Supply Chain Analyst, WWGS, DC Ops & SC Integration, SCPM Team",
+      "rank": 6,
+      "company": "Capital One",
+      "role": "Business Analyst Intern - Summer 2027",
       "fitScore": 0,
       "baseResumeMatch": 47,
       "tailoredResumeMatch": 85,
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/27_amazon_supply-chain-analyst-wwgs-dc-ops-sc-integration-scpm-team.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_supply-chain-analyst-wwgs-dc-ops-sc-integration-scpm-team.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/06_capital-one_business-analyst-intern-summer-2027.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
       "keywords": [
         "SQL",
-        "Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Manufacturing Analytics",
-        "Supply Chain Analytics",
-        "Inventory Analytics",
         "Python",
+        "Git",
         "Data Quality Analysis",
         "Statistical Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
         "SQL",
-        "Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Manufacturing Analytics",
-        "Supply Chain Analytics",
-        "Inventory Analytics"
+        "Python",
+        "Git"
       ],
       "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Supply Chain Analyst, WWGS, DC Ops & SC Integration, SCPM Team at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 28,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer II, SCOT-FO, TVP",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/28_amazon_business-intelligence-engineer-ii-scot-fo-tvp.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-ii-scot-fo-tvp.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Root Cause Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Inventory Analytics",
-        "Large Language Models"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Machine Learning",
-        "Root Cause Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Inventory Analytics",
-        "Large Language Models"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer II, SCOT-FO, TVP at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 29,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer II, WFS Product and Analytics",
-      "fitScore": 0,
-      "baseResumeMatch": 44,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 41,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/29_amazon_business-intelligence-engineer-ii-wfs-product-and-analytics.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-intelligence-engineer-ii-wfs-product-and-analytics.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Operations Analytics",
-        "Data Quality Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "MATLAB",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Engineer II, WFS Product and Analytics at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 30,
-      "company": "Bristol Myers Squibb",
-      "role": "Data Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/30_bristol-myers-squibb_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/bristol-myers-squibb_data-analyst.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "R",
-        "Reporting",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Large Language Models",
-        "Data Quality Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "R",
-        "Reporting",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Large Language Models"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Power BI",
         "AWS"
       ],
       "seniorityRisk": false,
@@ -1499,115 +241,255 @@
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
         "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, Power BI, AWS unless Yogeshwari confirms hands-on experience.",
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Data Analyst at Bristol Myers Squibb - data analytics background"
+        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
       }
     },
     {
-      "rank": 31,
+      "rank": 7,
       "company": "Amazon",
-      "role": "Business Analyst, Fuse Billing Operations",
+      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
       "fitScore": 0,
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
+      "baseResumeMatch": 32,
+      "tailoredResumeMatch": 36,
       "matchDelta": 4,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/31_amazon_business-analyst-fuse-billing-operations.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_business-analyst-fuse-billing-operations.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/07_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
       "keywords": [
         "SQL",
         "Reporting",
-        "Root Cause Analysis",
+        "Dashboard Development",
+        "KPI Reporting",
         "Process Improvement",
         "Operations Analytics",
         "Python",
         "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
+        "Statistical Analysis"
       ],
       "essentialKeywords": [
         "SQL",
         "Reporting",
-        "Root Cause Analysis",
+        "Dashboard Development",
+        "KPI Reporting",
         "Process Improvement",
         "Operations Analytics"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
-        "AWS"
+        "Tableau"
       ],
       "seniorityRisk": true,
       "recommendedAction": {
         "priority": "Network first",
         "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, AWS unless Yogeshwari confirms hands-on experience.",
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
           "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Analyst, Fuse Billing Operations at Amazon - data analytics background"
+        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
       }
     },
     {
-      "rank": 32,
+      "rank": 8,
       "company": "Amazon",
-      "role": "Comms Business Analyst, Operations Internal Communications",
+      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
       "fitScore": 0,
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
+      "baseResumeMatch": 32,
+      "tailoredResumeMatch": 36,
       "matchDelta": 4,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/32_amazon_comms-business-analyst-operations-internal-communications.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/amazon_comms-business-analyst-operations-internal-communications.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/08_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
       "keywords": [
         "SQL",
-        "Python",
         "Reporting",
         "Dashboard Development",
         "KPI Reporting",
-        "Business Intelligence",
-        "Statistical Analysis",
         "Process Improvement",
         "Operations Analytics",
-        "Git",
-        "Data Quality Analysis"
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
       ],
       "essentialKeywords": [
         "SQL",
-        "Python",
         "Reporting",
         "Dashboard Development",
         "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "seniorityRisk": true,
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 9,
+      "company": "FedEx",
+      "role": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/09_fedex_business-analyst-data-insights-workforce-management-global-trade-servi.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/fedex_business-analyst-data-insights-workforce-management-global-trade-servi.md",
+      "keywords": [
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "Dashboard Development",
         "Business Intelligence",
-        "Statistical Analysis",
+        "Machine Learning",
+        "Process Improvement",
+        "Operations Analytics",
+        "Git",
+        "SQL",
+        "Python",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "Dashboard Development",
+        "Business Intelligence",
+        "Machine Learning",
         "Process Improvement",
         "Operations Analytics",
         "Git"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
         "Power BI"
       ],
-      "seniorityRisk": true,
+      "seniorityRisk": false,
       "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, Power BI unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Do not claim Power BI unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Comms Business Analyst, Operations Internal Communications at Amazon - data analytics background"
+        "outreachSubject": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services) at FedEx - data analytics background"
       }
     },
     {
-      "rank": 33,
+      "rank": 10,
+      "company": "FedEx",
+      "role": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/10_fedex_business-analyst-data-insights-workforce-management-global-trade-servi.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/fedex_business-analyst-data-insights-workforce-management-global-trade-servi.md",
+      "keywords": [
+        "Data Quality Analysis",
+        "Reporting",
+        "Dashboard Development",
+        "Business Intelligence",
+        "Exploratory Data Analysis",
+        "Machine Learning",
+        "Process Improvement",
+        "Operations Analytics",
+        "Git",
+        "SQL",
+        "Python",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "Data Quality Analysis",
+        "Reporting",
+        "Dashboard Development",
+        "Business Intelligence",
+        "Exploratory Data Analysis",
+        "Machine Learning",
+        "Process Improvement",
+        "Operations Analytics",
+        "Git"
+      ],
+      "unconfirmedKeywords": [
+        "Power BI"
+      ],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim Power BI unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services) at FedEx - data analytics background"
+      }
+    },
+    {
+      "rank": 11,
+      "company": "EPAM Systems",
+      "role": "Data Analyst",
+      "fitScore": 0,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/11_epam-systems_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/epam-systems_data-analyst.md",
+      "keywords": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Data Quality Analysis",
+        "Git",
+        "Python",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Data Quality Analysis",
+        "Git"
+      ],
+      "unconfirmedKeywords": [],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst at EPAM Systems - data analytics background"
+      }
+    },
+    {
+      "rank": 12,
       "company": "",
       "role": "Data Analyst, Economic Consulting (US)",
       "fitScore": 0,
@@ -1616,8 +498,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/33_tailored-resume_data-analyst-economic-consulting-us.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/tailored-resume_data-analyst-economic-consulting-us.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/12_tailored-resume_data-analyst-economic-consulting-us.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/tailored-resume_data-analyst-economic-consulting-us.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1645,7 +527,7 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 13,
       "company": "Wipp data",
       "role": "Procurement Data Analyst",
       "fitScore": 0,
@@ -1654,8 +536,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/34_wipp-data_procurement-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/wipp-data_procurement-data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/13_wipp-data_procurement-data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/wipp-data_procurement-data-analyst.md",
       "keywords": [
         "Procurement Analytics",
         "SQL",
@@ -1680,7 +562,7 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 14,
       "company": "Data Driven Enterprises",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -1689,8 +571,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/35_data-driven-enterprises_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/data-driven-enterprises_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/14_data-driven-enterprises_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/data-driven-enterprises_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1718,7 +600,7 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 15,
       "company": "U.S. Venture, Inc",
       "role": "Data Analyst Intern \u2013 US AutoForce",
       "fitScore": 0,
@@ -1727,8 +609,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/36_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/15_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1756,7 +638,7 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 16,
       "company": "JPMorganChase",
       "role": "2027 Data & AI Program - Summer Internship - Analyst - United States",
       "fitScore": 0,
@@ -1765,8 +647,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/37_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/16_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1794,7 +676,7 @@
       }
     },
     {
-      "rank": 38,
+      "rank": 17,
       "company": "Sol IT",
       "role": "Predictive Data Analyst, onsite at Los Angeles, CA",
       "fitScore": 0,
@@ -1803,8 +685,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/38_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/17_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1832,7 +714,7 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 18,
       "company": "State of California Department of Motor Vehicles",
       "role": "Student Assistant - CA DMV - Data Analyst",
       "fitScore": 0,
@@ -1841,8 +723,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/39_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/18_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1870,7 +752,7 @@
       }
     },
     {
-      "rank": 40,
+      "rank": 19,
       "company": "Northwestern University",
       "role": "Research Analyst - Evidence Aggregation and Data Science",
       "fitScore": 0,
@@ -1879,8 +761,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/40_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/19_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1908,7 +790,7 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 20,
       "company": "Grande Cheese Company",
       "role": "Data Analytics Intern",
       "fitScore": 0,
@@ -1917,8 +799,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/41_grande-cheese-company_data-analytics-intern.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/grande-cheese-company_data-analytics-intern.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/20_grande-cheese-company_data-analytics-intern.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/grande-cheese-company_data-analytics-intern.md",
       "keywords": [
         "SQL",
         "Python",
@@ -1946,7 +828,7 @@
       }
     },
     {
-      "rank": 42,
+      "rank": 21,
       "company": "U.S. Venture, Inc",
       "role": "Business Intelligence Analyst - Intern",
       "fitScore": 0,
@@ -1955,8 +837,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/42_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/u-s-venture-inc_business-intelligence-analyst-intern.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/21_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/u-s-venture-inc_business-intelligence-analyst-intern.md",
       "keywords": [
         "Business Intelligence",
         "SQL",
@@ -1981,7 +863,7 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 22,
       "company": "Oscar Health",
       "role": "Data Scientist I",
       "fitScore": 0,
@@ -1990,8 +872,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/43_oscar-health_data-scientist-i.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/oscar-health_data-scientist-i.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/22_oscar-health_data-scientist-i.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
         "Python",
@@ -2019,7 +901,7 @@
       }
     },
     {
-      "rank": 44,
+      "rank": 23,
       "company": "Averna",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -2028,8 +910,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/44_averna_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/averna_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/23_averna_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/averna_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -2057,7 +939,7 @@
       }
     },
     {
-      "rank": 45,
+      "rank": 24,
       "company": "Tata Consultancy Services",
       "role": "Analytics / Data Engineer",
       "fitScore": 0,
@@ -2066,8 +948,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/45_tata-consultancy-services_analytics-data-engineer.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/tata-consultancy-services_analytics-data-engineer.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/24_tata-consultancy-services_analytics-data-engineer.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
         "Python",
@@ -2095,7 +977,7 @@
       }
     },
     {
-      "rank": 46,
+      "rank": 25,
       "company": "Tata Consultancy Services",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -2104,8 +986,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-08-12/46_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-08-12/tata-consultancy-services_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-04/25_tata-consultancy-services_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
