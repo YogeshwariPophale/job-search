@@ -44,6 +44,25 @@ function Log($message) {
   Add-Content -LiteralPath $LogFile -Value $line
 }
 
+function Invoke-Git($Arguments) {
+  $previousErrorActionPreference = $ErrorActionPreference
+  $ErrorActionPreference = "Continue"
+  try {
+    $output = & git @Arguments 2>&1 | Out-String
+    $exitCode = $LASTEXITCODE
+  } finally {
+    $ErrorActionPreference = $previousErrorActionPreference
+  }
+
+  if ($output.Trim()) {
+    Add-Content -LiteralPath $LogFile -Value $output
+  }
+  if ($exitCode -ne 0) {
+    throw "git $($Arguments -join ' ') failed with exit code ${exitCode}: $output"
+  }
+  return $output
+}
+
 $Python = "C:\Users\hp\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
 if (-not (Test-Path $Python)) {
   $Python = "python"
@@ -68,12 +87,12 @@ try {
 # 2. Make sure we're not behind origin before committing, to avoid push rejections
 try {
   Log "Fetching latest from origin..."
-  git fetch origin master 2>&1 | Out-String | ForEach-Object { Add-Content -LiteralPath $LogFile -Value $_ }
+  Invoke-Git @("fetch", "origin", "master") | Out-Null
 
   $behindCount = (git rev-list --count HEAD..origin/master).Trim()
   if ($behindCount -ne "0") {
     Log "Local branch is $behindCount commit(s) behind origin/master. Attempting fast-forward pull..."
-    git pull --ff-only origin master 2>&1 | Out-String | ForEach-Object { Add-Content -LiteralPath $LogFile -Value $_ }
+    Invoke-Git @("pull", "--ff-only", "origin", "master") | Out-Null
   }
 } catch {
   Log "WARNING: could not fetch/pull cleanly: $_"
@@ -90,7 +109,7 @@ if ($PathsToStage.Count -eq 0) {
   exit 0
 }
 
-git add $PathsToStage 2>&1 | Out-String | ForEach-Object { Add-Content -LiteralPath $LogFile -Value $_ }
+Invoke-Git (@("add") + $PathsToStage) | Out-Null
 
 # 4. Check if there's actually anything to commit
 $statusOutput = git status --porcelain -- $PathsToStage
@@ -107,10 +126,10 @@ if (-not $CommitMessage.Trim()) {
 }
 
 try {
-  git commit -m $CommitMessage 2>&1 | Out-String | ForEach-Object { Add-Content -LiteralPath $LogFile -Value $_ }
+  Invoke-Git @("commit", "-m", $CommitMessage) | Out-Null
   Log "Committed: $CommitMessage"
 
-  git push origin master 2>&1 | Out-String | ForEach-Object { Add-Content -LiteralPath $LogFile -Value $_ }
+  Invoke-Git @("push", "origin", "master") | Out-Null
   Log "Pushed to origin/master. GitHub Pages should redeploy shortly."
 } catch {
   Log "Commit/push FAILED: $_"
