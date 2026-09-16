@@ -2,668 +2,101 @@
   "generatedAt": "2026-09-16",
   "sources": [
     "Apify actor run",
-    "Handshake logged-in browser",
     "Jobright logged-in browser",
     "LinkedIn logged-in browser",
+    "Handshake logged-in browser",
     "Jobot public",
     "USCIS/H-1B sponsor watchlist"
   ],
-  "rawItemCount": 3,
-  "filteredOutCount": 2,
-  "preservedNonApifyCount": 14,
+  "rawItemCount": 4,
+  "filteredOutCount": 3,
+  "preservedNonApifyCount": 4,
   "jobs": [
     {
-      "sourceRefreshId": "4468245387",
+      "sourceRefreshId": "4458265355",
       "source": "LinkedIn via Apify",
-      "company": "Cisco",
-      "role": "Business Analyst I (Intern) United States",
-      "location": "Austin, TX",
+      "company": "Amazon",
+      "role": "Business Intelligence Engineer , North America Network Sales and Operations planning",
+      "location": "New York, United States",
       "salary": "Not listed",
-      "posted": "2026-09-16T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-i-intern-united-states-at-cisco-4468245387?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-i-intern-united-states-at-cisco-4468245387?trk=public_jobs_topcard-title",
-      "description": "Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.\n\nApplications are accepted until further notice.\n\nThis role may be eligible for remote work in the United States depending on business needs and hiring manager approval.\n\nMeet the Team\n\nAt Cisco, you\u2019ll become part of a dynamic, inclusive team focused on driving business transformation and innovation. We collaborate across departments and geographies, bringing together a wealth of perspectives and expertise to tackle sophisticated challenges and deliver impactful solutions. As a Business Analyst, you\u2019ll work alongside hard-working colleagues who are committed to learning from each other, supporting growth, and celebrating every team member\u2019s contribution. Here, your insights and skills will help shape the future of our business\u2014while you build lasting relationships and continue to develop your career in an environment that values inclusion, curiosity, and excellence.\n\nYour Impact\n\nAs a Business Analyst for Cisco, you will develop creative solutions for real business challenges. You will collaborate on multi-functional projects to identify areas for improvement. Analyze internal processes, data, and problems and identify benefits from enabling new capabilities. Ultimately you will improve how Cisco operates and how we work together.\n\nMinimum Qualifications\n\nCurrently enrolled in one of the following: \nAn undergraduate degree program (Associate's or Bachelor's); or \nAn educational or workforce development program (e.g., Apprenticeship, Boot camp, or Certification). \nQualifying education and work experience should be in Business, Supply Chain, Communications, Mathematics, Finance, Industrial Engineering, Statistics, or a related program \nExpected to continue enrollment in a degree or qualifying educational or workforce development program following completion of the internship. \n\nPreferred Qualifications\n\nYou have excellent analytical, problem-solving and decision-making skills. \nYou possess a high level of customer focus and service excellence as you seek practical solutions. \nYou have collaboration skills with internal and external customers and multi-functional teams. \nYou have superb interpersonal skills, a \"can do\" demeanor and are able to collaborate with others in a global environment. \nYou possess effective time-management skills and the ability to prioritize work assignments. \nYou are process-oriented with a strive to simplify and improve processes. \n\nWhy Cisco?\n\nAt Cisco, we\u2019re revolutionizing how data and infrastructure connect and protect organizations in the AI era \u2013 and beyond. We\u2019ve been innovating fearlessly for 40 years to create solutions that power how humans and technology work together across the physical and digital worlds. These solutions provide customers with unparalleled security, visibility, and insights across the entire digital footprint.\n\nFueled by the depth and breadth of our technology, we experiment and create meaningful solutions. Add to that our worldwide network of doers and experts, and you\u2019ll see that the opportunities to grow and build are limitless. We work as a team, collaborating with empathy to make really big things happen on a global scale. Because our solutions are everywhere, our impact is everywhere.\n\nWe are Cisco, and our power starts with you.\n\nMessage to applicants applying to work in the U.S. and/or Canada:\n\nIndividual pay is determined by the candidate's hiring location, market conditions, job-related skillset, experience, qualifications, education, certifications, and/or training. The full salary range for certain locations is listed below. For locations not listed below, the recruiter can share more details about compensation for the role in your location during the hiring process.\n\nU.S. employees are offered benefits, subject to Cisco\u2019s plan eligibility rules, which include medical, dental and vision insurance, a 401(k) plan with a Cisco matching contribution, paid parental leave, short and long-term disability coverage, and basic life insurance. Please see the Cisco careers site to discover more benefits and perks. Employees may be eligible to receive grants of Cisco restricted stock units, which vest following continued employment with Cisco for defined periods of time.\n\nU.S. employees are eligible for paid time away as described below, subject to Cisco\u2019s policies:\n\n10 paid holidays per full calendar year, plus 1 floating holiday for non-exempt employees\n1 paid day off for employee\u2019s birthday, paid year-end holiday shutdown, and 4 paid days off for personal wellness determined by Cisco\nNon-exempt employees** receive 16 days of paid vacation time per full calendar year, accrued at rate of 4.92 hours per pay period for full-time employees\nExempt employees participate in Cisco\u2019s flexible vacation time off program, which has no defined limit on how much vacation time eligible employees may use (subject to availability and some business limitations)\n80 hours of sick time off provided on hire date and each January 1st thereafter, and up to 80 hours of unused sick time carried forward from one calendar year to the next\nAdditional paid time away may be requested to deal with critical or emergency issues for family members\nOptional 10 paid days per full calendar year to volunteer\n\nFor non-sales roles, employees are also eligible to earn annual bonuses subject to Cisco\u2019s policies.\n\nEmployees On Sales Plans Earn Performance-based Incentive Pay On Top Of Their Base Salary, Which Is Split Between Quota And Non-quota Components, Subject To The Applicable Cisco Plan. For Quota-based Incentive Pay, Cisco Typically Pays As Follows\n\n.75% of incentive target for each 1% of revenue attainment up to 50% of quota;\n1.5% of incentive target for each 1% of attainment between 50% and 75%;\n1% of incentive target for each 1% of attainment between 75% and 100%; and\nOnce performance exceeds 100% attainment, incentive rates are at or above 1% for each 1% of attainment with no cap on incentive compensation.\n\nFor non-quota-based sales performance elements such as strategic sales objectives, Cisco may pay 0% up to 125% of target. Cisco sales plans do not have a minimum threshold of performance for sales incentive compensation to be paid.\n\nThe applicable full salary ranges for this position, by specific state, are listed below:\n\nNew York City Metro Area\n\n$44,000.00 - $185,000.00\n\nNon-Metro New York State & Washington State\n\n$44,000.00 - $185,000.00\n\nFor quota-based sales roles on Cisco\u2019s sales plan, the ranges provided in this posting include base pay and sales target incentive compensation combined.\nEmployees in Illinois, whether exempt or non-exempt, will participate in a unique time off program to meet local requirements.\nShow more Show less",
+      "posted": "2026-09-15T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-intelligence-engineer-north-america-network-sales-and-operations-planning-at-amazon-4458265355?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-intelligence-engineer-north-america-network-sales-and-operations-planning-at-amazon-4458265355?trk=public_jobs_topcard-title",
+      "description": "Description\n\nAt Amazon Supply Chain, we power the world's fastest-growing e-commerce business and embrace the mission of being Earth\u2019s most customer-centric company. As our business continues to expand, the customer fulfillment operations become larger and more complex each year.\n\nThe Network Sales and Operations Planning (S&OP) team forecasts all inventory flows across the entire North America Fulfillment network. We manage everything from what Amazon receives from vendors and sellers to what it ships from our Fulfillment Centers (FCs). The network S&OP forecast is the starting point of a weekly planning process spanning first, middle mile, last mile and defining the amount of resources (trucks, labor) that need to be secured to ensure we fulfill our customer orders at the highest speed, best quality, lowest cost and least carbon intensity as possible. We partner closely with Supply Chain Optimization Technology (SCOT) teams in North America and internal tech stakeholders across Transportation, Labor Planning and Finance teams to reconcile bottom-up and top-down inputs to build analytical forecasts which are accurate and provide valuable insight. We also partner with Supply Chain Execution (SCE) teams as well as Science partners to define the optimal allocation under constraints of volumes across the 9 Regions of the US fulfillment network.\n\nWe are now seeking a Business Intelligence Engineer to be part of a 2-3 person analytical group within the network S&OP team. This is a Day 1 opportunity to be part of an entrepreneurial and pioneering team building from the ground up. You will research forecasting techniques, deep dive existing data sources to build new models to improve forecasting accuracy. You will also develop data solutions and advanced visualization techniques to offer forecast analysis to senior stakeholders (up to SVP). You will collaborate with business, product management, and engineering teams to drive progress.\n\nKey job responsibilities\n\nDevelop new forecasting models\nBuild advanced visualization solutions to allow business and tech stakeholders to deep dive and understand the teams forecasts.\nCollaborate across multiple teams to ensure alignment with business goals and objectives.\n\nBasic Qualifications\n\n2+ years of analyzing and interpreting data with Redshift, Oracle, NoSQL etc. experience\nExperience with data visualization using Tableau, Quicksight, or similar tools\nExperience with one or more industry analytics visualization tools (e.g. Excel, Tableau, QuickSight, MicroStrategy, PowerBI) and statistical methods (e.g. t-test, Chi-squared)\nExperience with scripting language (e.g., Python, Java, or R)\n\nPreferred Qualifications\n\nMaster's degree, or Advanced technical degree\nKnowledge of data modeling and data pipeline design\nExperience with statistical analysis, co-relation analysis\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, NY, New York - 90,500.00 - 158,400.00 USD annually\n\nUSA, TX, Houston - 82,300.00 - 144,000.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10511971 \nShow more Show less",
       "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Cisco",
-      "sponsorCareerUrl": "https://jobs.cisco.com/jobs/SearchJobs/",
-      "sponsorCategory": "Networking / Hardware",
-      "sponsorNotes": "Watch supply chain operations and product analytics",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/01_cisco_business-analyst-i-intern-united-states.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/cisco_business-analyst-i-intern-united-states.md",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/01_amazon_business-intelligence-engineer-north-america-network-sales-and-operati.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/amazon_business-intelligence-engineer-north-america-network-sales-and-operati.md",
       "tailoredKeywords": [
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Git",
-        "Large Language Models",
         "SQL",
         "Python",
+        "R",
+        "Business Intelligence",
+        "Statistical Analysis",
+        "Operations Analytics",
+        "Supply Chain Analytics",
+        "Inventory Analytics",
+        "Large Language Models",
         "Data Quality Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Business Intelligence",
         "Statistical Analysis",
+        "Operations Analytics",
         "Supply Chain Analytics",
-        "Git",
+        "Inventory Analytics",
         "Large Language Models"
       ],
-      "unconfirmedKeywords": [],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
       "tailoredRank": 1,
       "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Git",
-        "Large Language Models"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Git",
-        "Large Language Models"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst I (Intern) United States at Cisco - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://www.linkedin.com/jobs/view/4449890236/",
-      "company": "",
-      "description": "Data Analyst, Economic Consulting (US)",
-      "location": "",
-      "posted": "Last 24 hours",
-      "role": "Data Analyst, Economic Consulting (US)",
-      "salary": "Not listed",
-      "source": "LinkedIn logged-in browser",
-      "sourceRefreshId": "linkedin-browser-4449890236",
-      "url": "https://www.linkedin.com/jobs/view/4449890236/",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/02_tailored-resume_data-analyst-economic-consulting-us.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/tailored-resume_data-analyst-economic-consulting-us.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 2,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
         "SQL",
         "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst, Economic Consulting (US) at  - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "Wipp data",
-      "description": "Procurement Data Analyst at Wipp data. $20-30/hr \u00b7 Internship \u00b7 Aug 24\u2014Oct 2. Remote. Posted New.",
-      "location": "Remote",
-      "posted": "New",
-      "role": "Procurement Data Analyst",
-      "salary": "$20-30/hr \u00b7 Internship \u00b7 Aug 24\u2014Oct 2",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-wipp-data-procurement-data-analyst-remote",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/03_wipp-data_procurement-data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/wipp-data_procurement-data-analyst.md",
-      "tailoredKeywords": [
-        "Procurement Analytics",
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "Procurement Analytics"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 3,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "Procurement Analytics"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "Procurement Analytics"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Procurement Data Analyst at Wipp data - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "Data Driven Enterprises",
-      "description": "Data Analyst at Data Driven Enterprises. $70-90K/yr \u00b7 Full-time. Remote or Northglenn, CO. Posted 6d ago.",
-      "location": "Remote or Northglenn, CO",
-      "posted": "6d ago",
-      "role": "Data Analyst",
-      "salary": "$70-90K/yr \u00b7 Full-time",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-data-driven-enterprises-data-analyst-remote-or-northglenn-co",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/04_data-driven-enterprises_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/data-driven-enterprises_data-analyst.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 4,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst at Data Driven Enterprises - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "U.S. Venture, Inc",
-      "description": "Data Analyst Intern \u2013 US AutoForce at U.S. Venture, Inc. Internship \u00b7 May 17\u2014Aug 13. Appleton, WI. Posted 5d ago.",
-      "location": "Appleton, WI",
-      "posted": "5d ago",
-      "role": "Data Analyst Intern \u2013 US AutoForce",
-      "salary": "Internship \u00b7 May 17\u2014Aug 13",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-u-s-venture-inc-data-analyst-intern-us-autoforce-appleton-wi",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/05_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 5,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst Intern \u2013 US AutoForce at U.S. Venture, Inc - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "JPMorganChase",
-      "description": "2027 Data & AI Program - Summer Internship - Analyst - United States at JPMorganChase. Full-time. Chicago, IL. Posted 1wk ago.",
-      "location": "Chicago, IL",
-      "posted": "1wk ago",
-      "role": "2027 Data & AI Program - Summer Internship - Analyst - United States",
-      "salary": "Full-time",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-jpmorganchase-2027-data-ai-program-summer-internship-analyst-united-states-chicago-il",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/06_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 6,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "2027 Data & AI Program - Summer Internship - Analyst - United States at JPMorganChase - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "Sol IT",
-      "description": "Predictive Data Analyst, onsite at Los Angeles, CA at Sol IT. $25/hr \u00b7 Full-time. Los Angeles, CA. Posted New.",
-      "location": "Los Angeles, CA",
-      "posted": "New",
-      "role": "Predictive Data Analyst, onsite at Los Angeles, CA",
-      "salary": "$25/hr \u00b7 Full-time",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-sol-it-predictive-data-analyst-onsite-at-los-angeles-ca-los-angeles-ca",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/07_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 7,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Predictive Data Analyst, onsite at Los Angeles, CA at Sol IT - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "State of California Department of Motor Vehicles",
-      "description": "Student Assistant - CA DMV - Data Analyst at State of California Department of Motor Vehicles. $16.90-21.66/hr \u00b7 Internship \u00b7 Aug 24\u2014Sep 1. Riverside, CA + 2. Posted 5d ago.",
-      "location": "Riverside, CA + 2",
-      "posted": "5d ago",
-      "role": "Student Assistant - CA DMV - Data Analyst",
-      "salary": "$16.90-21.66/hr \u00b7 Internship \u00b7 Aug 24\u2014Sep 1",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-state-of-california-department-of-motor-vehicles-student-assistant-ca-dmv-data-analyst-riverside-ca-",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/08_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 8,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Student Assistant - CA DMV - Data Analyst at State of California Department of Motor Vehicles - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "Northwestern University",
-      "description": "Research Analyst - Evidence Aggregation and Data Science at Northwestern University. $58K/yr \u00b7 Full-time \u00b7 Oct 1\u2014Jul 31. Chicago, IL + 1. Posted 5d ago.",
-      "location": "Chicago, IL + 1",
-      "posted": "5d ago",
-      "role": "Research Analyst - Evidence Aggregation and Data Science",
-      "salary": "$58K/yr \u00b7 Full-time \u00b7 Oct 1\u2014Jul 31",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-northwestern-university-research-analyst-evidence-aggregation-and-data-science-chicago-il-1",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/09_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 9,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Research Analyst - Evidence Aggregation and Data Science at Northwestern University - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "Grande Cheese Company",
-      "description": "Data Analytics Intern at Grande Cheese Company. $20-30/hr \u00b7 Internship \u00b7 May 17\u2014Aug 20. Fond du Lac, WI. Posted New.",
-      "location": "Fond du Lac, WI",
-      "posted": "New",
-      "role": "Data Analytics Intern",
-      "salary": "$20-30/hr \u00b7 Internship \u00b7 May 17\u2014Aug 20",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-grande-cheese-company-data-analytics-intern-fond-du-lac-wi",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/10_grande-cheese-company_data-analytics-intern.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/grande-cheese-company_data-analytics-intern.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 10,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analytics Intern at Grande Cheese Company - data analytics background"
-      }
-    },
-    {
-      "applyUrl": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "company": "U.S. Venture, Inc",
-      "description": "Business Intelligence Analyst - Intern at U.S. Venture, Inc. Internship \u00b7 May 17\u2014Aug 13. Appleton, WI. Posted 5d ago.",
-      "location": "Appleton, WI",
-      "posted": "5d ago",
-      "role": "Business Intelligence Analyst - Intern",
-      "salary": "Internship \u00b7 May 17\u2014Aug 13",
-      "source": "Handshake logged-in browser",
-      "sourceRefreshId": "handshake-browser-u-s-venture-inc-business-intelligence-analyst-intern-appleton-wi",
-      "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/11_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_business-intelligence-analyst-intern.md",
-      "tailoredKeywords": [
+        "R",
         "Business Intelligence",
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
         "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "Business Intelligence"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 11,
-      "tailoredGeneratedAt": "2026-09-16",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "Business Intelligence"
+        "Operations Analytics",
+        "Supply Chain Analytics",
+        "Inventory Analytics",
+        "Large Language Models"
       ],
       "baseMissingKeywords": [],
       "tailoredCoveredKeywords": [
-        "Business Intelligence"
+        "SQL",
+        "Python",
+        "R",
+        "Business Intelligence",
+        "Statistical Analysis",
+        "Operations Analytics",
+        "Supply Chain Analytics",
+        "Inventory Analytics",
+        "Large Language Models"
       ],
       "tailoredMissingKeywords": [],
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
         "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Intelligence Analyst - Intern at U.S. Venture, Inc - data analytics background"
+        "outreachSubject": "Business Intelligence Engineer , North America Network Sales and Operations planning at Amazon - data analytics background"
       }
     },
     {
@@ -679,7 +112,7 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b6ee877e6b569c61c0754",
       "url": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/12_oscar-health_data-scientist-i.pdf",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/02_oscar-health_data-scientist-i.pdf",
       "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/oscar-health_data-scientist-i.md",
       "tailoredKeywords": [
         "SQL",
@@ -696,7 +129,7 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 12,
+      "tailoredRank": 2,
       "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
@@ -742,7 +175,7 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b2f00ecfd2977075374e5",
       "url": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/13_averna_data-analyst.pdf",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/03_averna_data-analyst.pdf",
       "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/averna_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
@@ -759,7 +192,7 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 13,
+      "tailoredRank": 3,
       "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
@@ -809,7 +242,7 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/14_tata-consultancy-services_analytics-data-engineer.pdf",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/04_tata-consultancy-services_analytics-data-engineer.pdf",
       "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_analytics-data-engineer.md",
       "tailoredKeywords": [
         "SQL",
@@ -826,7 +259,7 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 14,
+      "tailoredRank": 4,
       "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
@@ -876,7 +309,7 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/15_tata-consultancy-services_data-analyst.pdf",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/05_tata-consultancy-services_data-analyst.pdf",
       "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
@@ -893,7 +326,7 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 15,
+      "tailoredRank": 5,
       "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,

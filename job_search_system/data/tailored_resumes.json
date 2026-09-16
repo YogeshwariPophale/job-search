@@ -3,420 +3,57 @@
   "resumes": [
     {
       "rank": 1,
-      "company": "Cisco",
-      "role": "Business Analyst I (Intern) United States",
+      "company": "Amazon",
+      "role": "Business Intelligence Engineer , North America Network Sales and Operations planning",
       "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/01_cisco_business-analyst-i-intern-united-states.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/cisco_business-analyst-i-intern-united-states.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/01_amazon_business-intelligence-engineer-north-america-network-sales-and-operati.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/amazon_business-intelligence-engineer-north-america-network-sales-and-operati.md",
       "keywords": [
-        "Statistical Analysis",
-        "Supply Chain Analytics",
-        "Git",
-        "Large Language Models",
         "SQL",
         "Python",
+        "R",
+        "Business Intelligence",
+        "Statistical Analysis",
+        "Operations Analytics",
+        "Supply Chain Analytics",
+        "Inventory Analytics",
+        "Large Language Models",
         "Data Quality Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Business Intelligence",
         "Statistical Analysis",
+        "Operations Analytics",
         "Supply Chain Analytics",
-        "Git",
+        "Inventory Analytics",
         "Large Language Models"
       ],
-      "unconfirmedKeywords": [],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
         "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Analyst I (Intern) United States at Cisco - data analytics background"
+        "outreachSubject": "Business Intelligence Engineer , North America Network Sales and Operations planning at Amazon - data analytics background"
       }
     },
     {
       "rank": 2,
-      "company": "",
-      "role": "Data Analyst, Economic Consulting (US)",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/02_tailored-resume_data-analyst-economic-consulting-us.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tailored-resume_data-analyst-economic-consulting-us.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst, Economic Consulting (US) at  - data analytics background"
-      }
-    },
-    {
-      "rank": 3,
-      "company": "Wipp data",
-      "role": "Procurement Data Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/03_wipp-data_procurement-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/wipp-data_procurement-data-analyst.md",
-      "keywords": [
-        "Procurement Analytics",
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "Procurement Analytics"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Procurement Data Analyst at Wipp data - data analytics background"
-      }
-    },
-    {
-      "rank": 4,
-      "company": "Data Driven Enterprises",
-      "role": "Data Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/04_data-driven-enterprises_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/data-driven-enterprises_data-analyst.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst at Data Driven Enterprises - data analytics background"
-      }
-    },
-    {
-      "rank": 5,
-      "company": "U.S. Venture, Inc",
-      "role": "Data Analyst Intern \u2013 US AutoForce",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/05_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst Intern \u2013 US AutoForce at U.S. Venture, Inc - data analytics background"
-      }
-    },
-    {
-      "rank": 6,
-      "company": "JPMorganChase",
-      "role": "2027 Data & AI Program - Summer Internship - Analyst - United States",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/06_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "2027 Data & AI Program - Summer Internship - Analyst - United States at JPMorganChase - data analytics background"
-      }
-    },
-    {
-      "rank": 7,
-      "company": "Sol IT",
-      "role": "Predictive Data Analyst, onsite at Los Angeles, CA",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/07_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Predictive Data Analyst, onsite at Los Angeles, CA at Sol IT - data analytics background"
-      }
-    },
-    {
-      "rank": 8,
-      "company": "State of California Department of Motor Vehicles",
-      "role": "Student Assistant - CA DMV - Data Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/08_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Student Assistant - CA DMV - Data Analyst at State of California Department of Motor Vehicles - data analytics background"
-      }
-    },
-    {
-      "rank": 9,
-      "company": "Northwestern University",
-      "role": "Research Analyst - Evidence Aggregation and Data Science",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/09_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Research Analyst - Evidence Aggregation and Data Science at Northwestern University - data analytics background"
-      }
-    },
-    {
-      "rank": 10,
-      "company": "Grande Cheese Company",
-      "role": "Data Analytics Intern",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/10_grande-cheese-company_data-analytics-intern.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/grande-cheese-company_data-analytics-intern.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analytics Intern at Grande Cheese Company - data analytics background"
-      }
-    },
-    {
-      "rank": 11,
-      "company": "U.S. Venture, Inc",
-      "role": "Business Intelligence Analyst - Intern",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/11_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_business-intelligence-analyst-intern.md",
-      "keywords": [
-        "Business Intelligence",
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "Business Intelligence"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Intelligence Analyst - Intern at U.S. Venture, Inc - data analytics background"
-      }
-    },
-    {
-      "rank": 12,
       "company": "Oscar Health",
       "role": "Data Scientist I",
       "fitScore": 0,
@@ -425,7 +62,7 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/12_oscar-health_data-scientist-i.pdf",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/02_oscar-health_data-scientist-i.pdf",
       "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
@@ -454,7 +91,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 3,
       "company": "Averna",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -463,7 +100,7 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/13_averna_data-analyst.pdf",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/03_averna_data-analyst.pdf",
       "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/averna_data-analyst.md",
       "keywords": [
         "SQL",
@@ -492,7 +129,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 4,
       "company": "Tata Consultancy Services",
       "role": "Analytics / Data Engineer",
       "fitScore": 0,
@@ -501,7 +138,7 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/14_tata-consultancy-services_analytics-data-engineer.pdf",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/04_tata-consultancy-services_analytics-data-engineer.pdf",
       "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
@@ -530,7 +167,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 5,
       "company": "Tata Consultancy Services",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -539,7 +176,7 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/15_tata-consultancy-services_data-analyst.pdf",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/05_tata-consultancy-services_data-analyst.pdf",
       "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
