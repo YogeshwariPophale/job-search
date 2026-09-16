@@ -1,7 +1,8 @@
 from __future__ import annotations
 
 import json
-from datetime import date
+import re
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 
@@ -10,6 +11,7 @@ SYSTEM = ROOT / "job_search_system"
 BOARD_FILE = SYSTEM / "data" / "extracted_jobs.json"
 BROWSER_FILE = SYSTEM / "data" / "browser_session_jobs.json"
 SOURCE_FEEDS = SYSTEM / "data" / "source_feeds"
+MAX_POSTING_AGE_DAYS = 3
 
 
 def job_key(job: dict) -> str:
@@ -22,6 +24,50 @@ def job_key(job: dict) -> str:
 
 def load_payload(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"jobs": []}
+
+
+def parse_posted_date(value: object) -> date | None:
+    if value in (None, ""):
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+
+    lowered = text.lower()
+    today = date.today()
+    if lowered in {"today", "just posted"}:
+        return today
+    if lowered in {"yesterday", "1 day ago"}:
+        return today - timedelta(days=1)
+
+    match = re.search(r"(\d+)\s+(minute|minutes|hour|hours|day|days)\s+ago", lowered)
+    if match:
+        amount = int(match.group(1))
+        unit = match.group(2)
+        if unit.startswith(("minute", "hour")):
+            return today
+        return today - timedelta(days=amount)
+
+    normalized = text.replace("Z", "+00:00")
+    try:
+        return datetime.fromisoformat(normalized).date()
+    except ValueError:
+        pass
+
+    for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%b %d, %Y", "%B %d, %Y"):
+        try:
+            return datetime.strptime(text, fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def is_recent_posting(job: dict) -> bool:
+    posted_date = parse_posted_date(job.get("posted"))
+    if posted_date is None:
+        return False
+    age = date.today() - posted_date
+    return timedelta(days=0) <= age <= timedelta(days=MAX_POSTING_AGE_DAYS)
 
 
 def source_payloads() -> list[dict]:
@@ -45,6 +91,8 @@ def main() -> int:
     merged: dict[str, dict] = {}
     for job in board.get("jobs", []):
         if isinstance(job, dict):
+            if not is_recent_posting(job):
+                continue
             if job.get("source") in refreshed_sources:
                 continue
             merged[job_key(job)] = job
@@ -53,6 +101,8 @@ def main() -> int:
         for job in feed.get("jobs", []):
             if isinstance(job, dict):
                 imported_count += 1
+                if not is_recent_posting(job):
+                    continue
                 merged[job_key(job)] = {**merged.get(job_key(job), {}), **job}
 
     sources = []

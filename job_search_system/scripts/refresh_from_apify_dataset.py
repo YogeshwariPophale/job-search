@@ -4,7 +4,7 @@ import json
 import os
 import re
 import sys
-from datetime import date
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -152,6 +152,8 @@ NON_US_LOCATION_TERMS = [
     "australia",
 ]
 
+MAX_POSTING_AGE_DAYS = 3
+
 
 def slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
@@ -163,6 +165,50 @@ def first_value(item: dict, names: list[str], default: str = "") -> str:
         if value not in (None, ""):
             return str(value).strip()
     return default
+
+
+def parse_posted_date(value: object) -> date | None:
+    if value in (None, ""):
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+
+    lowered = text.lower()
+    today = date.today()
+    if lowered in {"today", "just posted"}:
+        return today
+    if lowered in {"yesterday", "1 day ago"}:
+        return today - timedelta(days=1)
+
+    match = re.search(r"(\d+)\s+(minute|minutes|hour|hours|day|days)\s+ago", lowered)
+    if match:
+        amount = int(match.group(1))
+        unit = match.group(2)
+        if unit.startswith(("minute", "hour")):
+            return today
+        return today - timedelta(days=amount)
+
+    normalized = text.replace("Z", "+00:00")
+    try:
+        return datetime.fromisoformat(normalized).date()
+    except ValueError:
+        pass
+
+    for fmt in ("%Y-%m-%d", "%m/%d/%Y", "%b %d, %Y", "%B %d, %Y"):
+        try:
+            return datetime.strptime(text, fmt).date()
+        except ValueError:
+            continue
+    return None
+
+
+def is_recent_posting(job: dict) -> bool:
+    posted_date = parse_posted_date(job.get("posted"))
+    if posted_date is None:
+        return False
+    age = date.today() - posted_date
+    return timedelta(days=0) <= age <= timedelta(days=MAX_POSTING_AGE_DAYS)
 
 
 def load_local_env() -> None:
@@ -261,7 +307,7 @@ def normalize_job(item: dict) -> dict:
     location = first_value(item, ["location", "jobLocation", "formattedLocation", "address"], "United States")
     url = first_value(item, ["url", "jobUrl", "jobPostingUrl", "link"])
     apply_url = first_value(item, ["applyUrl", "apply_url", "applicationUrl", "directApplyUrl"], url)
-    posted = first_value(item, ["posted", "postedAt", "datePosted", "publishedAt", "postedDate"], "Fresh connector result")
+    posted = first_value(item, ["posted", "postedAt", "datePosted", "publishedAt", "postedDate"], "Unknown posted date")
     salary = first_value(item, ["salary", "salaryText", "compensation"], "Not listed")
     description = first_value(item, ["description", "jobDescription", "summary", "text"], f"{role} at {company} in {location}")
     source = first_value(item, ["source", "site", "platform"], "LinkedIn via Apify")
@@ -285,6 +331,9 @@ def is_relevant_job(job: dict) -> bool:
     role = str(job.get("role", "")).lower()
     location = f" {str(job.get('location', '')).lower().replace(',', ' ')} "
     text = " ".join(str(job.get(key, "")) for key in ("role", "description", "company", "source")).lower()
+
+    if not is_recent_posting(job):
+        return False
 
     if any(term in role for term in EXCLUDE_ROLE_TERMS):
         return False
@@ -318,7 +367,7 @@ def preserved_non_apify_jobs() -> list[dict]:
         if not isinstance(job, dict):
             continue
         source = str(job.get("source", "")).lower()
-        if "apify" not in source:
+        if "apify" not in source and is_recent_posting(job):
             preserved.append(job)
     return preserved
 
