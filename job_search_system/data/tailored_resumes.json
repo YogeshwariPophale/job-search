@@ -1,495 +1,48 @@
 {
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-16",
   "resumes": [
     {
       "rank": 1,
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
+      "company": "Cisco",
+      "role": "Business Analyst I (Intern) United States",
       "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/01_capital-one_business-analyst-intern-summer-2027.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/01_cisco_business-analyst-i-intern-united-states.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/cisco_business-analyst-i-intern-united-states.md",
       "keywords": [
+        "Statistical Analysis",
+        "Supply Chain Analytics",
+        "Git",
+        "Large Language Models",
         "SQL",
         "Python",
-        "Git",
         "Data Quality Analysis",
-        "Statistical Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
+        "Statistical Analysis",
+        "Supply Chain Analytics",
+        "Git",
+        "Large Language Models"
       ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
+      "unconfirmedKeywords": [],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
         "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
+        "outreachSubject": "Business Analyst I (Intern) United States at Cisco - data analytics background"
       }
     },
     {
       "rank": 2,
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/02_capital-one_business-analyst-intern-summer-2027.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "rank": 3,
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/03_capital-one_business-analyst-intern-summer-2027.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "rank": 4,
-      "company": "Amazon",
-      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
-      "fitScore": 0,
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/04_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 5,
-      "company": "EPAM Systems",
-      "role": "Murex Front Office Business Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/05_epam-systems_murex-front-office-business-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/epam-systems_murex-front-office-business-analyst.md",
-      "keywords": [
-        "Operations Analytics",
-        "Production Analytics",
-        "Git",
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "Operations Analytics",
-        "Production Analytics",
-        "Git"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Murex Front Office Business Analyst at EPAM Systems - data analytics background"
-      }
-    },
-    {
-      "rank": 6,
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/06_capital-one_business-analyst-intern-summer-2027.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "keywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "rank": 7,
-      "company": "Amazon",
-      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
-      "fitScore": 0,
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/07_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 8,
-      "company": "Amazon",
-      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
-      "fitScore": 0,
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/08_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
-      "keywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
-      }
-    },
-    {
-      "rank": 9,
-      "company": "FedEx",
-      "role": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/09_fedex_business-analyst-data-insights-workforce-management-global-trade-servi.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/fedex_business-analyst-data-insights-workforce-management-global-trade-servi.md",
-      "keywords": [
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git",
-        "SQL",
-        "Python",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "Power BI"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Power BI unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services) at FedEx - data analytics background"
-      }
-    },
-    {
-      "rank": 10,
-      "company": "FedEx",
-      "role": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)",
-      "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/10_fedex_business-analyst-data-insights-workforce-management-global-trade-servi.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/fedex_business-analyst-data-insights-workforce-management-global-trade-servi.md",
-      "keywords": [
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Exploratory Data Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git",
-        "SQL",
-        "Python",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Exploratory Data Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "Power BI"
-      ],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Power BI unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services) at FedEx - data analytics background"
-      }
-    },
-    {
-      "rank": 11,
-      "company": "EPAM Systems",
-      "role": "Data Analyst",
-      "fitScore": 0,
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/11_epam-systems_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/epam-systems_data-analyst.md",
-      "keywords": [
-        "SQL",
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Data Quality Analysis",
-        "Git",
-        "Python",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Data Quality Analysis",
-        "Git"
-      ],
-      "unconfirmedKeywords": [],
-      "seniorityRisk": false,
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Data Analyst at EPAM Systems - data analytics background"
-      }
-    },
-    {
-      "rank": 12,
       "company": "",
       "role": "Data Analyst, Economic Consulting (US)",
       "fitScore": 0,
@@ -498,8 +51,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/12_tailored-resume_data-analyst-economic-consulting-us.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/tailored-resume_data-analyst-economic-consulting-us.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/02_tailored-resume_data-analyst-economic-consulting-us.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tailored-resume_data-analyst-economic-consulting-us.md",
       "keywords": [
         "SQL",
         "Python",
@@ -527,7 +80,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 3,
       "company": "Wipp data",
       "role": "Procurement Data Analyst",
       "fitScore": 0,
@@ -536,8 +89,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/13_wipp-data_procurement-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/wipp-data_procurement-data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/03_wipp-data_procurement-data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/wipp-data_procurement-data-analyst.md",
       "keywords": [
         "Procurement Analytics",
         "SQL",
@@ -562,7 +115,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 4,
       "company": "Data Driven Enterprises",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -571,8 +124,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/14_data-driven-enterprises_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/data-driven-enterprises_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/04_data-driven-enterprises_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/data-driven-enterprises_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -600,7 +153,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 5,
       "company": "U.S. Venture, Inc",
       "role": "Data Analyst Intern \u2013 US AutoForce",
       "fitScore": 0,
@@ -609,8 +162,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/15_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/05_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
       "keywords": [
         "SQL",
         "Python",
@@ -638,7 +191,7 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 6,
       "company": "JPMorganChase",
       "role": "2027 Data & AI Program - Summer Internship - Analyst - United States",
       "fitScore": 0,
@@ -647,8 +200,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/16_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/06_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
       "keywords": [
         "SQL",
         "Python",
@@ -676,7 +229,7 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 7,
       "company": "Sol IT",
       "role": "Predictive Data Analyst, onsite at Los Angeles, CA",
       "fitScore": 0,
@@ -685,8 +238,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/17_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/07_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
       "keywords": [
         "SQL",
         "Python",
@@ -714,7 +267,7 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 8,
       "company": "State of California Department of Motor Vehicles",
       "role": "Student Assistant - CA DMV - Data Analyst",
       "fitScore": 0,
@@ -723,8 +276,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/18_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/08_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -752,7 +305,7 @@
       }
     },
     {
-      "rank": 19,
+      "rank": 9,
       "company": "Northwestern University",
       "role": "Research Analyst - Evidence Aggregation and Data Science",
       "fitScore": 0,
@@ -761,8 +314,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/19_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/09_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
       "keywords": [
         "SQL",
         "Python",
@@ -790,7 +343,7 @@
       }
     },
     {
-      "rank": 20,
+      "rank": 10,
       "company": "Grande Cheese Company",
       "role": "Data Analytics Intern",
       "fitScore": 0,
@@ -799,8 +352,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/20_grande-cheese-company_data-analytics-intern.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/grande-cheese-company_data-analytics-intern.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/10_grande-cheese-company_data-analytics-intern.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/grande-cheese-company_data-analytics-intern.md",
       "keywords": [
         "SQL",
         "Python",
@@ -828,7 +381,7 @@
       }
     },
     {
-      "rank": 21,
+      "rank": 11,
       "company": "U.S. Venture, Inc",
       "role": "Business Intelligence Analyst - Intern",
       "fitScore": 0,
@@ -837,8 +390,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/21_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/u-s-venture-inc_business-intelligence-analyst-intern.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/11_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_business-intelligence-analyst-intern.md",
       "keywords": [
         "Business Intelligence",
         "SQL",
@@ -863,7 +416,7 @@
       }
     },
     {
-      "rank": 22,
+      "rank": 12,
       "company": "Oscar Health",
       "role": "Data Scientist I",
       "fitScore": 0,
@@ -872,8 +425,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/22_oscar-health_data-scientist-i.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/oscar-health_data-scientist-i.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/12_oscar-health_data-scientist-i.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
         "Python",
@@ -901,7 +454,7 @@
       }
     },
     {
-      "rank": 23,
+      "rank": 13,
       "company": "Averna",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -910,8 +463,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/23_averna_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/averna_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/13_averna_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/averna_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -939,7 +492,7 @@
       }
     },
     {
-      "rank": 24,
+      "rank": 14,
       "company": "Tata Consultancy Services",
       "role": "Analytics / Data Engineer",
       "fitScore": 0,
@@ -948,8 +501,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/24_tata-consultancy-services_analytics-data-engineer.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/tata-consultancy-services_analytics-data-engineer.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/14_tata-consultancy-services_analytics-data-engineer.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
         "Python",
@@ -977,7 +530,7 @@
       }
     },
     {
-      "rank": 25,
+      "rank": 15,
       "company": "Tata Consultancy Services",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -986,8 +539,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-04/25_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-04/tata-consultancy-services_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-16/15_tata-consultancy-services_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",

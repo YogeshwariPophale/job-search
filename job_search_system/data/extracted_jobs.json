@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-16",
   "sources": [
     "Apify actor run",
     "Handshake logged-in browser",
@@ -8,807 +8,74 @@
     "Jobot public",
     "USCIS/H-1B sponsor watchlist"
   ],
-  "rawItemCount": 50,
-  "filteredOutCount": 39,
+  "rawItemCount": 3,
+  "filteredOutCount": 2,
   "preservedNonApifyCount": 14,
   "jobs": [
     {
-      "sourceRefreshId": "4453619440",
+      "sourceRefreshId": "4468245387",
       "source": "LinkedIn via Apify",
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "location": "Plano, TX",
-      "salary": "Not listed",
-      "posted": "2026-09-03T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453619440?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453619440?trk=public_jobs_topcard-title",
-      "description": "Key Role Details\n\nThis is a full-time paid internship program spanning ten weeks from June through August 2027. \nIf you have previously interviewed for the Business Analyst role (AIP or ADP), we ask that you wait a minimum of 6 months from your last Powerday date. \nParticipation in the internship requires that you are located in the continental United States with in-person attendance at your assigned location, in accordance with Capital One\u2019s hybrid working model, for the duration of the program. \nInterns will be evaluated for a full-time position within our rotational programs, with start dates six months to one year following the completion of the internship. \n\nAt this time, Capital One will not sponsor a new applicant for employment authorization, or offer any immigration related support for this position (e.g. H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-3, and O-1, or any other forms of work authorization that require immigration support from an employer). \n\nBasic Qualifications\n\nCurrently pursuing a Bachelor\u2019s degree or higher with an expectation that you will complete your most recent full-time degree program by August 2028 or earlier\n(for example: If you are graduating with a Bachelor\u2019s degree in May 2027 and are also currently enrolled in a full-time Master\u2019s degree program with an expected graduation date of May 2028, then your most recent full-time degree program is your Master\u2019s degree)\nMust be continuing in the same course of study of your most recent full-time degree program following completion of the internship\n\nBusiness Analyst Internship - Summer 2027\n\nAs an intern in the Analyst Intern Program (AIP), you\u2019ll apply your strategic and analytical skills to impactful challenges on an experienced and collaborative team, that drive company growth\u2014like building strong technology-driven products for our customers, crafting our marketing and digital strategy, and analyzing the business impacts of credit approval and real-time fraud detection, just to name a few. You\u2019ll have the opportunity to grow and explore, while being mentored by senior leaders and associates in our Analyst Development Program.\n\nWhether you want to develop your strategic business acumen or refine your technical skills through coding and modeling, this experience will help launch your career journey. With the strong business foundation and supportive cohort of peers and leaders you\u2019ll gain as an AIP intern, the career possibilities are endless.\n\nBuild your business acumen. Develop strategic problem-solving, quantitative analytics and communication skills. Armed with our best-in-class analytical practices, you\u2019ll partner across teams to create new solutions to major challenges. \nLeverage technology to drive solutions: Refine your tech skills by learning tools such as SQL and Python to drive your analysis forward. Lean into a data-backed decision making approach as you evaluate efficiencies and solve business problems. \nAct as an owner. Drive recommendations, implement solutions and realize your impact, all while collaborating with cross-functional leaders. \nReimagine banking. Use information, data, analytics, ingenuity and empathy in innovative ways to deliver technology-driven solutions for our customers. \nBe a change agent. Help people improve their relationship with their money. Transform the communities we serve through financial inclusion\u2014helping to identify the right products for the right customers, assessing risks and optimizing our lending practices. \nFind answers. Develop hypotheses and set up your own analytical frameworks to test for the best solutions. \nBuild and grow your network. Establish an impactful network of peers, leaders and mentors who will help you develop a clear and a vision for your career. \nPrioritize your wellbeing. Create your definition of balance through resources and benefits, while working in an environment that emphasizes creativity, collaboration, innovation and fun. \n\nYou\u2019ll love your internship if:\n\nYou ask why, explore and bring your unique perspective to the table. You\u2019re comfortable with ambiguity and constantly seek out new challenges. \nYou have a desire to take action, try new things, and fail fast so you can grow quickly\nYou\u2019re organized and can juggle multiple deliverables while utilizing data analysis, technology and human-centered design to create solutions for our customers. \nYou thrive in a collaborative and inclusive team environment where diverse perspectives and backgrounds are valued and celebrated. \nYou have the desire and ability to connect and empathize with your colleagues and customers. \nYou always keep the people around you in the loop and are excited to communicate ideas clearly to help your colleagues understand the \u201cwhy\u201d and key priorities. \n\nAbout Capital One\n\nOver the last 30 years, Capital One has grown from a small credit card start-up pioneering the use of predictive modeling to democratize credit into one of the fastest-growing and most dynamic financial technology companies forever changing the way people and businesses interact with money. We believe our success is fueled by data and insights, deep customer understanding, innovative business strategy and a culture that prioritizes our associates\u2019 growth and wellbeing. Our incredibly talented associates are passionate about changing banking for good and have the humility to understand that collaboration, fresh perspectives, ingenuity and empathy are all needed to make it happen.\n\nThe minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.\n\nChicago, IL: $99,000 - $99,000 for Product Management and Analytics Intern\n\nMcLean, VA: $109,000 - $109,000 for Product Management and Analytics Intern\n\nNew York, NY: $119,000 - $119,000 for Product Management and Analytics Intern\n\nPlano, TX: $99,000 - $99,000 for Product Management and Analytics Intern\n\nRichmond, VA: $99,000 - $99,000 for Product Management and Analytics Intern\n\nCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate\u2019s offer letter.\n\nCapital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at the Capital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.\n\nThis role is expected to accept applications for a minimum of 5 business days.\n\nNo agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City\u2019s Fair Chance Act; Philadelphia\u2019s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.\n\nIf you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.\n\nFor technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com\n\nCapital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.\n\nCapital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC). \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Capital One",
-      "sponsorCareerUrl": "https://www.capitalonecareers.com/",
-      "sponsorCategory": "Banking / Fintech",
-      "sponsorNotes": "Strong analytics employer; some roles may be senior",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/01_capital-one_business-analyst-intern-summer-2027.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "tailoredRank": 1,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4453618458",
-      "source": "LinkedIn via Apify",
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "location": "Richmond, VA",
-      "salary": "Not listed",
-      "posted": "2026-09-03T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453618458?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453618458?trk=public_jobs_topcard-title",
-      "description": "Key Role Details\n\nThis is a full-time paid internship program spanning ten weeks from June through August 2027. \nIf you have previously interviewed for the Business Analyst role (AIP or ADP), we ask that you wait a minimum of 6 months from your last Powerday date. \nParticipation in the internship requires that you are located in the continental United States with in-person attendance at your assigned location, in accordance with Capital One\u2019s hybrid working model, for the duration of the program. \nInterns will be evaluated for a full-time position within our rotational programs, with start dates six months to one year following the completion of the internship. \n\nAt this time, Capital One will not sponsor a new applicant for employment authorization, or offer any immigration related support for this position (e.g. H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-3, and O-1, or any other forms of work authorization that require immigration support from an employer). \n\nBasic Qualifications\n\nCurrently pursuing a Bachelor\u2019s degree or higher with an expectation that you will complete your most recent full-time degree program by August 2028 or earlier\n(for example: If you are graduating with a Bachelor\u2019s degree in May 2027 and are also currently enrolled in a full-time Master\u2019s degree program with an expected graduation date of May 2028, then your most recent full-time degree program is your Master\u2019s degree)\nMust be continuing in the same course of study of your most recent full-time degree program following completion of the internship\n\nBusiness Analyst Internship - Summer 2027\n\nAs an intern in the Analyst Intern Program (AIP), you\u2019ll apply your strategic and analytical skills to impactful challenges on an experienced and collaborative team, that drive company growth\u2014like building strong technology-driven products for our customers, crafting our marketing and digital strategy, and analyzing the business impacts of credit approval and real-time fraud detection, just to name a few. You\u2019ll have the opportunity to grow and explore, while being mentored by senior leaders and associates in our Analyst Development Program.\n\nWhether you want to develop your strategic business acumen or refine your technical skills through coding and modeling, this experience will help launch your career journey. With the strong business foundation and supportive cohort of peers and leaders you\u2019ll gain as an AIP intern, the career possibilities are endless.\n\nBuild your business acumen. Develop strategic problem-solving, quantitative analytics and communication skills. Armed with our best-in-class analytical practices, you\u2019ll partner across teams to create new solutions to major challenges. \nLeverage technology to drive solutions: Refine your tech skills by learning tools such as SQL and Python to drive your analysis forward. Lean into a data-backed decision making approach as you evaluate efficiencies and solve business problems. \nAct as an owner. Drive recommendations, implement solutions and realize your impact, all while collaborating with cross-functional leaders. \nReimagine banking. Use information, data, analytics, ingenuity and empathy in innovative ways to deliver technology-driven solutions for our customers. \nBe a change agent. Help people improve their relationship with their money. Transform the communities we serve through financial inclusion\u2014helping to identify the right products for the right customers, assessing risks and optimizing our lending practices. \nFind answers. Develop hypotheses and set up your own analytical frameworks to test for the best solutions. \nBuild and grow your network. Establish an impactful network of peers, leaders and mentors who will help you develop a clear and a vision for your career. \nPrioritize your wellbeing. Create your definition of balance through resources and benefits, while working in an environment that emphasizes creativity, collaboration, innovation and fun. \n\nYou\u2019ll love your internship if:\n\nYou ask why, explore and bring your unique perspective to the table. You\u2019re comfortable with ambiguity and constantly seek out new challenges. \nYou have a desire to take action, try new things, and fail fast so you can grow quickly\nYou\u2019re organized and can juggle multiple deliverables while utilizing data analysis, technology and human-centered design to create solutions for our customers. \nYou thrive in a collaborative and inclusive team environment where diverse perspectives and backgrounds are valued and celebrated. \nYou have the desire and ability to connect and empathize with your colleagues and customers. \nYou always keep the people around you in the loop and are excited to communicate ideas clearly to help your colleagues understand the \u201cwhy\u201d and key priorities. \n\nAbout Capital One\n\nOver the last 30 years, Capital One has grown from a small credit card start-up pioneering the use of predictive modeling to democratize credit into one of the fastest-growing and most dynamic financial technology companies forever changing the way people and businesses interact with money. We believe our success is fueled by data and insights, deep customer understanding, innovative business strategy and a culture that prioritizes our associates\u2019 growth and wellbeing. Our incredibly talented associates are passionate about changing banking for good and have the humility to understand that collaboration, fresh perspectives, ingenuity and empathy are all needed to make it happen.\n\nThe minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.\n\nChicago, IL: $99,000 - $99,000 for Product Management and Analytics Intern\n\nMcLean, VA: $109,000 - $109,000 for Product Management and Analytics Intern\n\nNew York, NY: $119,000 - $119,000 for Product Management and Analytics Intern\n\nPlano, TX: $99,000 - $99,000 for Product Management and Analytics Intern\n\nRichmond, VA: $99,000 - $99,000 for Product Management and Analytics Intern\n\nCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate\u2019s offer letter.\n\nCapital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at the Capital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.\n\nThis role is expected to accept applications for a minimum of 5 business days.\n\nNo agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City\u2019s Fair Chance Act; Philadelphia\u2019s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.\n\nIf you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.\n\nFor technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com\n\nCapital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.\n\nCapital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC). \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Capital One",
-      "sponsorCareerUrl": "https://www.capitalonecareers.com/",
-      "sponsorCategory": "Banking / Fintech",
-      "sponsorNotes": "Strong analytics employer; some roles may be senior",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/02_capital-one_business-analyst-intern-summer-2027.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "tailoredRank": 2,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4453631251",
-      "source": "LinkedIn via Apify",
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "location": "Chicago, IL",
-      "salary": "Not listed",
-      "posted": "2026-09-03T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453631251?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453631251?trk=public_jobs_topcard-title",
-      "description": "Key Role Details\n\nThis is a full-time paid internship program spanning ten weeks from June through August 2027. \nIf you have previously interviewed for the Business Analyst role (AIP or ADP), we ask that you wait a minimum of 6 months from your last Powerday date. \nParticipation in the internship requires that you are located in the continental United States with in-person attendance at your assigned location, in accordance with Capital One\u2019s hybrid working model, for the duration of the program. \nInterns will be evaluated for a full-time position within our rotational programs, with start dates six months to one year following the completion of the internship. \n\nAt this time, Capital One will not sponsor a new applicant for employment authorization, or offer any immigration related support for this position (e.g. H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-3, and O-1, or any other forms of work authorization that require immigration support from an employer). \n\nBasic Qualifications\n\nCurrently pursuing a Bachelor\u2019s degree or higher with an expectation that you will complete your most recent full-time degree program by August 2028 or earlier\n(for example: If you are graduating with a Bachelor\u2019s degree in May 2027 and are also currently enrolled in a full-time Master\u2019s degree program with an expected graduation date of May 2028, then your most recent full-time degree program is your Master\u2019s degree)\nMust be continuing in the same course of study of your most recent full-time degree program following completion of the internship\n\nBusiness Analyst Internship - Summer 2027\n\nAs an intern in the Analyst Intern Program (AIP), you\u2019ll apply your strategic and analytical skills to impactful challenges on an experienced and collaborative team, that drive company growth\u2014like building strong technology-driven products for our customers, crafting our marketing and digital strategy, and analyzing the business impacts of credit approval and real-time fraud detection, just to name a few. You\u2019ll have the opportunity to grow and explore, while being mentored by senior leaders and associates in our Analyst Development Program.\n\nWhether you want to develop your strategic business acumen or refine your technical skills through coding and modeling, this experience will help launch your career journey. With the strong business foundation and supportive cohort of peers and leaders you\u2019ll gain as an AIP intern, the career possibilities are endless.\n\nBuild your business acumen. Develop strategic problem-solving, quantitative analytics and communication skills. Armed with our best-in-class analytical practices, you\u2019ll partner across teams to create new solutions to major challenges. \nLeverage technology to drive solutions: Refine your tech skills by learning tools such as SQL and Python to drive your analysis forward. Lean into a data-backed decision making approach as you evaluate efficiencies and solve business problems. \nAct as an owner. Drive recommendations, implement solutions and realize your impact, all while collaborating with cross-functional leaders. \nReimagine banking. Use information, data, analytics, ingenuity and empathy in innovative ways to deliver technology-driven solutions for our customers. \nBe a change agent. Help people improve their relationship with their money. Transform the communities we serve through financial inclusion\u2014helping to identify the right products for the right customers, assessing risks and optimizing our lending practices. \nFind answers. Develop hypotheses and set up your own analytical frameworks to test for the best solutions. \nBuild and grow your network. Establish an impactful network of peers, leaders and mentors who will help you develop a clear and a vision for your career. \nPrioritize your wellbeing. Create your definition of balance through resources and benefits, while working in an environment that emphasizes creativity, collaboration, innovation and fun. \n\nYou\u2019ll love your internship if:\n\nYou ask why, explore and bring your unique perspective to the table. You\u2019re comfortable with ambiguity and constantly seek out new challenges. \nYou have a desire to take action, try new things, and fail fast so you can grow quickly\nYou\u2019re organized and can juggle multiple deliverables while utilizing data analysis, technology and human-centered design to create solutions for our customers. \nYou thrive in a collaborative and inclusive team environment where diverse perspectives and backgrounds are valued and celebrated. \nYou have the desire and ability to connect and empathize with your colleagues and customers. \nYou always keep the people around you in the loop and are excited to communicate ideas clearly to help your colleagues understand the \u201cwhy\u201d and key priorities. \n\nAbout Capital One\n\nOver the last 30 years, Capital One has grown from a small credit card start-up pioneering the use of predictive modeling to democratize credit into one of the fastest-growing and most dynamic financial technology companies forever changing the way people and businesses interact with money. We believe our success is fueled by data and insights, deep customer understanding, innovative business strategy and a culture that prioritizes our associates\u2019 growth and wellbeing. Our incredibly talented associates are passionate about changing banking for good and have the humility to understand that collaboration, fresh perspectives, ingenuity and empathy are all needed to make it happen.\n\nThe minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.\n\nChicago, IL: $99,000 - $99,000 for Product Management and Analytics Intern\n\nMcLean, VA: $109,000 - $109,000 for Product Management and Analytics Intern\n\nNew York, NY: $119,000 - $119,000 for Product Management and Analytics Intern\n\nPlano, TX: $99,000 - $99,000 for Product Management and Analytics Intern\n\nRichmond, VA: $99,000 - $99,000 for Product Management and Analytics Intern\n\nCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate\u2019s offer letter.\n\nCapital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at the Capital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.\n\nThis role is expected to accept applications for a minimum of 5 business days.\n\nNo agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City\u2019s Fair Chance Act; Philadelphia\u2019s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.\n\nIf you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.\n\nFor technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com\n\nCapital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.\n\nCapital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC). \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Capital One",
-      "sponsorCareerUrl": "https://www.capitalonecareers.com/",
-      "sponsorCategory": "Banking / Fintech",
-      "sponsorNotes": "Strong analytics employer; some roles may be senior",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/03_capital-one_business-analyst-intern-summer-2027.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "tailoredRank": 3,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4463146711",
-      "source": "LinkedIn via Apify",
-      "company": "Amazon",
-      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
+      "company": "Cisco",
+      "role": "Business Analyst I (Intern) United States",
       "location": "Austin, TX",
       "salary": "Not listed",
-      "posted": "2026-09-04T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4463146711?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4463146711?trk=public_jobs_topcard-title",
-      "description": "Description\n\nAmazon Logistics (AMZL) is seeking an experienced candidate to identify, create, develop and integrate innovative solutions and programs that lead to improvements in our last mile delivery network. This position will lead the development and execution of new worldwide transportation initiatives designed to improve overall efficiency and meet the ever-growing demand for last mile capacity. The successful candidate will have strong data mining and modeling skills and is comfortable facilitating ideas and working from concept through to execution.\n\nKey job responsibilities\n\nOwn the development and maintenance of new and existing solution artifacts which are focused on driving efficiency within the business via analysis, metrics and reporting dashboards\nPartner with operations/business teams to consult, develop and implement KPI's, automated reporting/process solutions, and process improvements to meet business needs.\nEnable effective decision making by retrieving and aggregating data from multiple sources and compiling it into a digestible and actionable format.\nPrepare and deliver business requirements reviews to the senior management team regarding progress and roadblocks.\nParticipate in strategic and tactical planning discussions.\nDesign, develop and maintain scaled, automated, user-friendly systems, reports, dashboards, etc. that will support our business needs.\n\nBasic Qualifications\n\n3+ years of tax, finance or a related analytical field experience\n3+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n5+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10467988 \nShow more Show less",
+      "posted": "2026-09-16T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-i-intern-united-states-at-cisco-4468245387?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-i-intern-united-states-at-cisco-4468245387?trk=public_jobs_topcard-title",
+      "description": "Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.\n\nApplications are accepted until further notice.\n\nThis role may be eligible for remote work in the United States depending on business needs and hiring manager approval.\n\nMeet the Team\n\nAt Cisco, you\u2019ll become part of a dynamic, inclusive team focused on driving business transformation and innovation. We collaborate across departments and geographies, bringing together a wealth of perspectives and expertise to tackle sophisticated challenges and deliver impactful solutions. As a Business Analyst, you\u2019ll work alongside hard-working colleagues who are committed to learning from each other, supporting growth, and celebrating every team member\u2019s contribution. Here, your insights and skills will help shape the future of our business\u2014while you build lasting relationships and continue to develop your career in an environment that values inclusion, curiosity, and excellence.\n\nYour Impact\n\nAs a Business Analyst for Cisco, you will develop creative solutions for real business challenges. You will collaborate on multi-functional projects to identify areas for improvement. Analyze internal processes, data, and problems and identify benefits from enabling new capabilities. Ultimately you will improve how Cisco operates and how we work together.\n\nMinimum Qualifications\n\nCurrently enrolled in one of the following: \nAn undergraduate degree program (Associate's or Bachelor's); or \nAn educational or workforce development program (e.g., Apprenticeship, Boot camp, or Certification). \nQualifying education and work experience should be in Business, Supply Chain, Communications, Mathematics, Finance, Industrial Engineering, Statistics, or a related program \nExpected to continue enrollment in a degree or qualifying educational or workforce development program following completion of the internship. \n\nPreferred Qualifications\n\nYou have excellent analytical, problem-solving and decision-making skills. \nYou possess a high level of customer focus and service excellence as you seek practical solutions. \nYou have collaboration skills with internal and external customers and multi-functional teams. \nYou have superb interpersonal skills, a \"can do\" demeanor and are able to collaborate with others in a global environment. \nYou possess effective time-management skills and the ability to prioritize work assignments. \nYou are process-oriented with a strive to simplify and improve processes. \n\nWhy Cisco?\n\nAt Cisco, we\u2019re revolutionizing how data and infrastructure connect and protect organizations in the AI era \u2013 and beyond. We\u2019ve been innovating fearlessly for 40 years to create solutions that power how humans and technology work together across the physical and digital worlds. These solutions provide customers with unparalleled security, visibility, and insights across the entire digital footprint.\n\nFueled by the depth and breadth of our technology, we experiment and create meaningful solutions. Add to that our worldwide network of doers and experts, and you\u2019ll see that the opportunities to grow and build are limitless. We work as a team, collaborating with empathy to make really big things happen on a global scale. Because our solutions are everywhere, our impact is everywhere.\n\nWe are Cisco, and our power starts with you.\n\nMessage to applicants applying to work in the U.S. and/or Canada:\n\nIndividual pay is determined by the candidate's hiring location, market conditions, job-related skillset, experience, qualifications, education, certifications, and/or training. The full salary range for certain locations is listed below. For locations not listed below, the recruiter can share more details about compensation for the role in your location during the hiring process.\n\nU.S. employees are offered benefits, subject to Cisco\u2019s plan eligibility rules, which include medical, dental and vision insurance, a 401(k) plan with a Cisco matching contribution, paid parental leave, short and long-term disability coverage, and basic life insurance. Please see the Cisco careers site to discover more benefits and perks. Employees may be eligible to receive grants of Cisco restricted stock units, which vest following continued employment with Cisco for defined periods of time.\n\nU.S. employees are eligible for paid time away as described below, subject to Cisco\u2019s policies:\n\n10 paid holidays per full calendar year, plus 1 floating holiday for non-exempt employees\n1 paid day off for employee\u2019s birthday, paid year-end holiday shutdown, and 4 paid days off for personal wellness determined by Cisco\nNon-exempt employees** receive 16 days of paid vacation time per full calendar year, accrued at rate of 4.92 hours per pay period for full-time employees\nExempt employees participate in Cisco\u2019s flexible vacation time off program, which has no defined limit on how much vacation time eligible employees may use (subject to availability and some business limitations)\n80 hours of sick time off provided on hire date and each January 1st thereafter, and up to 80 hours of unused sick time carried forward from one calendar year to the next\nAdditional paid time away may be requested to deal with critical or emergency issues for family members\nOptional 10 paid days per full calendar year to volunteer\n\nFor non-sales roles, employees are also eligible to earn annual bonuses subject to Cisco\u2019s policies.\n\nEmployees On Sales Plans Earn Performance-based Incentive Pay On Top Of Their Base Salary, Which Is Split Between Quota And Non-quota Components, Subject To The Applicable Cisco Plan. For Quota-based Incentive Pay, Cisco Typically Pays As Follows\n\n.75% of incentive target for each 1% of revenue attainment up to 50% of quota;\n1.5% of incentive target for each 1% of attainment between 50% and 75%;\n1% of incentive target for each 1% of attainment between 75% and 100%; and\nOnce performance exceeds 100% attainment, incentive rates are at or above 1% for each 1% of attainment with no cap on incentive compensation.\n\nFor non-quota-based sales performance elements such as strategic sales objectives, Cisco may pay 0% up to 125% of target. Cisco sales plans do not have a minimum threshold of performance for sales incentive compensation to be paid.\n\nThe applicable full salary ranges for this position, by specific state, are listed below:\n\nNew York City Metro Area\n\n$44,000.00 - $185,000.00\n\nNon-Metro New York State & Washington State\n\n$44,000.00 - $185,000.00\n\nFor quota-based sales roles on Cisco\u2019s sales plan, the ranges provided in this posting include base pay and sales target incentive compensation combined.\nEmployees in Illinois, whether exempt or non-exempt, will participate in a unique time off program to meet local requirements.\nShow more Show less",
       "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Amazon",
-      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
-      "sponsorCategory": "Big Tech / Retail",
-      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/04_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
+      "sponsorWatchlistMatch": "Cisco",
+      "sponsorCareerUrl": "https://jobs.cisco.com/jobs/SearchJobs/",
+      "sponsorCategory": "Networking / Hardware",
+      "sponsorNotes": "Watch supply chain operations and product analytics",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/01_cisco_business-analyst-i-intern-united-states.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/cisco_business-analyst-i-intern-united-states.md",
       "tailoredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "tailoredRank": 4,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4461919424",
-      "source": "LinkedIn via Apify",
-      "company": "EPAM Systems",
-      "role": "Murex Front Office Business Analyst",
-      "location": "New York, NY",
-      "salary": "Not listed",
-      "posted": "2026-09-03T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/murex-front-office-business-analyst-at-epam-systems-4461919424?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/murex-front-office-business-analyst-at-epam-systems-4461919424?trk=public_jobs_topcard-title",
-      "description": "First Derivative is driven by people, data, and technology, unlocking the value of insight, hindsight, and foresight to drive organizations forward. Counting many of the world's leading investment banks as clients, we help our clients navigate the data-driven, digital revolution that is transforming the financial services sector. Our global teams span across 15 offices serving clients across EMEA, North America and APAC.\n\nAs an EPAM Systems, Inc. (NYSE: EPAM) company, a leading global provider of digital platform engineering and development services, we deliver advanced financial services solutions by empowering operational insights, driving innovation, and enabling more effective risk management in an increasingly data-centric world. Together with EPAM, we combine deep industry expertise with cutting-edge technology to help clients stay ahead in a rapidly evolving financial landscape, offering comprehensive solutions that drive business transformation and sustainable growth.\n\nWe need a strong Murex Front Office Business Analyst with a strong focus on Murex Front Office functionality and some workflow experience. The ideal candidate will have hands-on Murex expertise supporting FO users, including trade capture, pricing, and related workflows, and be comfortable working closely with business stakeholders and IT teams in a production environment. We want a pure Front office resource with skills in valuation, Risk analytics and MRA/MRB, pre-trade, etc.\n\nResponsibilities\n\nSupport Front Office users on Murex, covering trade capture, pricing, and related workflows\nPartner with business stakeholders and IT teams to deliver solutions in a production environment\nAnalyze and document complex business requirements, translating them into clear technical specifications\nContribute to or lead large-scale system transformation and implementation initiatives\nConfigure and support Murex across front-to-back workflows\nProvide expertise in valuation, risk analytics, MRA/MRB, and pre-trade processes\nIdentify operational bottlenecks and implement resilient system solutions\nCollaborate with cross-functional teams to ensure smooth day-to-day Front Office operations\nAssist in workflow design and enhancements to optimize Front Office activities\n\nRequirements\n\nFront Office Murex expertise \u2013 strong knowledge of Front Office Murex modules alongside skills in valuation, risk analytics and MRA/MRB, pre-trade\nMurex Proficiency: Deep hands-on experience with the Murex platform, covering front-to-back workflows, system configuration, and support\nTransformation Delivery: Demonstrated track record of contributing to or leading large-scale system transformation and implementation projects\nAnalytical & Communication Skills: Strong ability to translate complex business requirements into clear technical specifications, alongside excellent stakeholder management capabilities\nProblem Solving: A proactive approach to identifying operational bottlenecks and implementing resilient system solutions\n\nWe offer\n\nMedical, Dental and Vision Insurance (Subsidized)\nHealth Savings Account\nFlexible Spending Accounts (Healthcare, Dependent Care, Commuter)\nShort-Term and Long-Term Disability (Company Provided)\nLife and AD&D Insurance (Company Provided)\nEmployee Assistance Program\nUnlimited access to LinkedIn learning solutions\nMatched 401(k) Retirement Savings Plan\nPaid Time Off\nLegal Plan and Identity Theft Protection\nAccident Insurance\nEmployee Discounts\nPet Insurance\nEmployee Stock Purchase Program\n\nEPAM is a leading global provider of digital platform engineering and development services. We are committed to having a positive impact on our clients, our employees, and our communities. We embrace a dynamic and inclusive culture. Here you will collaborate with multi-national teams, contribute to a myriad of innovative projects that deliver the most creative and cutting-edge solutions, and have an opportunity to continuously learn and grow. No matter where you are located, you will join a dedicated, creative, and diverse community that will help you discover your fullest potential.\n\nEngineer the Future with a Career at EPAM\n\nThis posting includes a good faith range of the salary EPAM would reasonably expect to pay the selected candidate. The range provided reflects base salary only. Individual compensation offers within the range are based on a variety of factors, including, but not limited to: geographic location, experience, credentials, education, training; the demand for the role; and overall business and labor market considerations. Most candidates are hired at a salary within the range disclosed. Salary range: $140,000 - $172,000. In addition, the details highlighted in this job posting above are a general description of all other expected benefits and compensation for the position.\n\nApplications will be accepted on a rolling basis.\n\nEPAM will not provide new H-1B visa sponsorship for this position. Candidates with existing transferable H-1B status may be considered. \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
-      "sponsorWatchlistMatch": "EPAM Systems",
-      "sponsorCareerUrl": "https://www.epam.com/careers/job-listings",
-      "sponsorCategory": "IT Services",
-      "sponsorNotes": "Watch data and analytics consulting roles",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/05_epam-systems_murex-front-office-business-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/epam-systems_murex-front-office-business-analyst.md",
-      "tailoredKeywords": [
-        "Operations Analytics",
-        "Production Analytics",
-        "Git",
-        "SQL",
-        "Python",
-        "Data Quality Analysis",
         "Statistical Analysis",
+        "Supply Chain Analytics",
+        "Git",
+        "Large Language Models",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
-        "Operations Analytics",
-        "Production Analytics",
-        "Git"
+        "Statistical Analysis",
+        "Supply Chain Analytics",
+        "Git",
+        "Large Language Models"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 5,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 1,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
-        "Operations Analytics",
-        "Production Analytics",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "Operations Analytics",
-        "Production Analytics",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
-        "cautions": [
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Murex Front Office Business Analyst at EPAM Systems - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4453615634",
-      "source": "LinkedIn via Apify",
-      "company": "Capital One",
-      "role": "Business Analyst Intern - Summer 2027",
-      "location": "McLean, VA",
-      "salary": "Not listed",
-      "posted": "2026-09-03T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453615634?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-intern-summer-2027-at-capital-one-4453615634?trk=public_jobs_topcard-title",
-      "description": "Key Role Details\n\nThis is a full-time paid internship program spanning ten weeks from June through August 2027. \nIf you have previously interviewed for the Business Analyst role (AIP or ADP), we ask that you wait a minimum of 6 months from your last Powerday date. \nParticipation in the internship requires that you are located in the continental United States with in-person attendance at your assigned location, in accordance with Capital One\u2019s hybrid working model, for the duration of the program. \nInterns will be evaluated for a full-time position within our rotational programs, with start dates six months to one year following the completion of the internship. \n\nAt this time, Capital One will not sponsor a new applicant for employment authorization, or offer any immigration related support for this position (e.g. H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-3, and O-1, or any other forms of work authorization that require immigration support from an employer). \n\nBasic Qualifications\n\nCurrently pursuing a Bachelor\u2019s degree or higher with an expectation that you will complete your most recent full-time degree program by August 2028 or earlier\n(for example: If you are graduating with a Bachelor\u2019s degree in May 2027 and are also currently enrolled in a full-time Master\u2019s degree program with an expected graduation date of May 2028, then your most recent full-time degree program is your Master\u2019s degree)\nMust be continuing in the same course of study of your most recent full-time degree program following completion of the internship\n\nBusiness Analyst Internship - Summer 2027\n\nAs an intern in the Analyst Intern Program (AIP), you\u2019ll apply your strategic and analytical skills to impactful challenges on an experienced and collaborative team, that drive company growth\u2014like building strong technology-driven products for our customers, crafting our marketing and digital strategy, and analyzing the business impacts of credit approval and real-time fraud detection, just to name a few. You\u2019ll have the opportunity to grow and explore, while being mentored by senior leaders and associates in our Analyst Development Program.\n\nWhether you want to develop your strategic business acumen or refine your technical skills through coding and modeling, this experience will help launch your career journey. With the strong business foundation and supportive cohort of peers and leaders you\u2019ll gain as an AIP intern, the career possibilities are endless.\n\nBuild your business acumen. Develop strategic problem-solving, quantitative analytics and communication skills. Armed with our best-in-class analytical practices, you\u2019ll partner across teams to create new solutions to major challenges. \nLeverage technology to drive solutions: Refine your tech skills by learning tools such as SQL and Python to drive your analysis forward. Lean into a data-backed decision making approach as you evaluate efficiencies and solve business problems. \nAct as an owner. Drive recommendations, implement solutions and realize your impact, all while collaborating with cross-functional leaders. \nReimagine banking. Use information, data, analytics, ingenuity and empathy in innovative ways to deliver technology-driven solutions for our customers. \nBe a change agent. Help people improve their relationship with their money. Transform the communities we serve through financial inclusion\u2014helping to identify the right products for the right customers, assessing risks and optimizing our lending practices. \nFind answers. Develop hypotheses and set up your own analytical frameworks to test for the best solutions. \nBuild and grow your network. Establish an impactful network of peers, leaders and mentors who will help you develop a clear and a vision for your career. \nPrioritize your wellbeing. Create your definition of balance through resources and benefits, while working in an environment that emphasizes creativity, collaboration, innovation and fun. \n\nYou\u2019ll love your internship if:\n\nYou ask why, explore and bring your unique perspective to the table. You\u2019re comfortable with ambiguity and constantly seek out new challenges. \nYou have a desire to take action, try new things, and fail fast so you can grow quickly\nYou\u2019re organized and can juggle multiple deliverables while utilizing data analysis, technology and human-centered design to create solutions for our customers. \nYou thrive in a collaborative and inclusive team environment where diverse perspectives and backgrounds are valued and celebrated. \nYou have the desire and ability to connect and empathize with your colleagues and customers. \nYou always keep the people around you in the loop and are excited to communicate ideas clearly to help your colleagues understand the \u201cwhy\u201d and key priorities. \n\nAbout Capital One\n\nOver the last 30 years, Capital One has grown from a small credit card start-up pioneering the use of predictive modeling to democratize credit into one of the fastest-growing and most dynamic financial technology companies forever changing the way people and businesses interact with money. We believe our success is fueled by data and insights, deep customer understanding, innovative business strategy and a culture that prioritizes our associates\u2019 growth and wellbeing. Our incredibly talented associates are passionate about changing banking for good and have the humility to understand that collaboration, fresh perspectives, ingenuity and empathy are all needed to make it happen.\n\nThe minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.\n\nChicago, IL: $99,000 - $99,000 for Product Management and Analytics Intern\n\nMcLean, VA: $109,000 - $109,000 for Product Management and Analytics Intern\n\nNew York, NY: $119,000 - $119,000 for Product Management and Analytics Intern\n\nPlano, TX: $99,000 - $99,000 for Product Management and Analytics Intern\n\nRichmond, VA: $99,000 - $99,000 for Product Management and Analytics Intern\n\nCandidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate\u2019s offer letter.\n\nCapital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at the Capital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.\n\nThis role is expected to accept applications for a minimum of 5 business days.\n\nNo agencies please. Capital One is an equal opportunity employer (EOE, including disability/vet) committed to non-discrimination in compliance with applicable federal, state, and local laws. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City\u2019s Fair Chance Act; Philadelphia\u2019s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.\n\nIf you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.\n\nFor technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com\n\nCapital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.\n\nCapital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC). \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Capital One",
-      "sponsorCareerUrl": "https://www.capitalonecareers.com/",
-      "sponsorCategory": "Banking / Fintech",
-      "sponsorNotes": "Strong analytics employer; some roles may be senior",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/06_capital-one_business-analyst-intern-summer-2027.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/capital-one_business-analyst-intern-summer-2027.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Python",
-        "Git",
-        "Data Quality Analysis",
         "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "AWS"
-      ],
-      "tailoredRank": 6,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Python",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst Intern - Summer 2027 at Capital One - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4463137868",
-      "source": "LinkedIn via Apify",
-      "company": "Amazon",
-      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
-      "location": "Nashville, TN",
-      "salary": "Not listed",
-      "posted": "2026-09-04T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4463137868?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4463137868?trk=public_jobs_topcard-title",
-      "description": "Description\n\nAmazon Logistics (AMZL) is seeking an experienced candidate to identify, create, develop and integrate innovative solutions and programs that lead to improvements in our last mile delivery network. This position will lead the development and execution of new worldwide transportation initiatives designed to improve overall efficiency and meet the ever-growing demand for last mile capacity. The successful candidate will have strong data mining and modeling skills and is comfortable facilitating ideas and working from concept through to execution.\n\nKey job responsibilities\n\nOwn the development and maintenance of new and existing solution artifacts which are focused on driving efficiency within the business via analysis, metrics and reporting dashboards\nPartner with operations/business teams to consult, develop and implement KPI's, automated reporting/process solutions, and process improvements to meet business needs.\nEnable effective decision making by retrieving and aggregating data from multiple sources and compiling it into a digestible and actionable format.\nPrepare and deliver business requirements reviews to the senior management team regarding progress and roadblocks.\nParticipate in strategic and tactical planning discussions.\nDesign, develop and maintain scaled, automated, user-friendly systems, reports, dashboards, etc. that will support our business needs.\n\nBasic Qualifications\n\n3+ years of tax, finance or a related analytical field experience\n3+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n5+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10467988 \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Amazon",
-      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
-      "sponsorCategory": "Big Tech / Retail",
-      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/07_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "tailoredRank": 7,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4463134848",
-      "source": "LinkedIn via Apify",
-      "company": "Amazon",
-      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
-      "location": "Bellevue, WA",
-      "salary": "Not listed",
-      "posted": "2026-09-04T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4463134848?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4463134848?trk=public_jobs_topcard-title",
-      "description": "Description\n\nAmazon Logistics (AMZL) is seeking an experienced candidate to identify, create, develop and integrate innovative solutions and programs that lead to improvements in our last mile delivery network. This position will lead the development and execution of new worldwide transportation initiatives designed to improve overall efficiency and meet the ever-growing demand for last mile capacity. The successful candidate will have strong data mining and modeling skills and is comfortable facilitating ideas and working from concept through to execution.\n\nKey job responsibilities\n\nOwn the development and maintenance of new and existing solution artifacts which are focused on driving efficiency within the business via analysis, metrics and reporting dashboards\nPartner with operations/business teams to consult, develop and implement KPI's, automated reporting/process solutions, and process improvements to meet business needs.\nEnable effective decision making by retrieving and aggregating data from multiple sources and compiling it into a digestible and actionable format.\nPrepare and deliver business requirements reviews to the senior management team regarding progress and roadblocks.\nParticipate in strategic and tactical planning discussions.\nDesign, develop and maintain scaled, automated, user-friendly systems, reports, dashboards, etc. that will support our business needs.\n\nBasic Qualifications\n\n3+ years of tax, finance or a related analytical field experience\n3+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n5+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10467988 \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Amazon",
-      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
-      "sponsorCategory": "Big Tech / Retail",
-      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/08_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
-      "tailoredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau"
-      ],
-      "tailoredRank": 8,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 32,
-      "tailoredResumeMatch": 36,
-      "matchDelta": 4,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "Reporting",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Process Improvement",
-        "Operations Analytics"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4463345548",
-      "source": "LinkedIn via Apify",
-      "company": "FedEx",
-      "role": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)",
-      "location": "Cracow Metropolitan Area",
-      "salary": "Not listed",
-      "posted": "2026-09-04T00:00:00.000Z",
-      "url": "https://pl.linkedin.com/jobs/view/business-analyst-%E2%80%93-data-insights-workforce-management-global-trade-services-at-fedex-4463345548?trk=public_jobs_topcard-title",
-      "applyUrl": "https://pl.linkedin.com/jobs/view/business-analyst-%E2%80%93-data-insights-workforce-management-global-trade-services-at-fedex-4463345548?trk=public_jobs_topcard-title",
-      "description": "Are you passionate about turning data into actionable insights that drive operational excellence? Join FedEx Global Trade Services (GTS) as a Business Analyst supporting a strategic transformation initiative focused on workforce management, operational visibility, data governance, and intelligent decision-making across Europe.\n\nIn this role, you will partner with Operations, Planning & Engineering, Technology, Compliance, and Data & AI teams to deliver reporting solutions, workforce management capabilities, AI governance processes, and data-driven business improvements. You will help shape how Clearance operations leverage data, analytics, and modern digital tools to improve productivity, service levels, compliance, and customer experience.\n\nWe have an exciting opportunity for you to join our team as a Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)\n\nPosition Summary\n\nAre you passionate about turning data into actionable insights that drive operational excellence? Join FedEx Global Trade Services (GTS) as a Business Analyst supporting a strategic transformation initiative focused on workforce management, operational visibility, data governance, and intelligent decision-making across Europe.\n\nIn this role, you will partner with Operations, Planning & Engineering, Technology, Compliance, and Data & AI teams to deliver reporting solutions, workforce management capabilities, AI governance processes, and data-driven business improvements. You will help shape how Clearance operations leverage data, analytics, and modern digital tools to improve productivity, service levels, compliance, and customer experience.\n\nWho We Are\n\nFedEx is the largest express transportation company in the world, connecting more than 220 countries and territories. We work every moment to deliver the most important package of someone\u2019s day. Our team of passionate people know their day-to-day work is invaluable in delivering outstanding experience to our customers. 530,000 team members strong, we are as diverse as the world we serve. We love what we do, and we do it well. Our reach is big, and so are our dreams. Join us and let's write our next chapter together.\n\nWhat You Will Be Doing\n\nPartner with Operations, Compliance, Technology, and Data & AI teams to identify opportunities for productivity and process improvements. \nGather, analyze, and document business requirements for data, reporting, workforce management, and transformation initiatives. \nSupport the development of Power BI dashboards and operational performance reporting. \nAnalyze data to identify trends, risks, and opportunities for improvement. \nGather and document business requirements for Workforce Management capabilities including Forecasting & Scheduling, Time & Attendance Tracking, Performance Management & Analytics, Employee Self-Service, and Compliance & Risk Management solutions. \nSupport AI governance and compliance activities, including documentation, controls, and audit requirements. \nFacilitate workshops, stakeholder discussions, user testing, and adoption activities. \nTranslate business challenges into scalable data, reporting, and technology solutions.\nSupport implementation of strategic workforce management, telephony, and operational performance initiatives. \nFacilitate workshops, process reviews, and requirements discussions. \nSupport user acceptance testing (UAT), solution adoption, and change management activities. \n\nWhat Do You Bring With You\n\nStrong analytical and problem-solving skills. \nAbility to convert complex business challenges into practical solutions. \nExcellent communication and stakeholder management capabilities. \nExperience documenting business requirements, user stories, and process workflows.\nAbility to work effectively in cross-functional and international environments. \nStrong attention to detail combined with strategic thinking. \nFluency in English, both written and verbal. \nWillingness to travel within Europe when required (up to 25%). \n\nPreferred Qualifications\n\nDegree in Business, Engineering, Information Systems, Data Analytics, or a related field. \nExperience as a Business Analyst, Process Analyst, Product Analyst, or similar role. \nExperience with Power BI, reporting solutions, or business intelligence platforms. \nUnderstanding of data governance, data quality, and analytics concepts. \nExposure to Artificial Intelligence, Generative AI, machine learning, or AI governance frameworks. \nExperience working within regulated or compliance-driven environments. \nFamiliarity with Agile delivery methodologies. \nExperience within logistics, transportation, customs clearance, or international trade is an advantage. \nBusiness Analysis certification (CBAP, PMI-PBA, IIBA, or equivalent) is a plus. \n\nWhat Do We Offer\n\nOpportunity to play a key role in the transformation of Clearance operations across Europe. \nExposure to strategic initiatives with direct executive visibility. \nExperience working at the intersection of Data, AI, Operations, and Business Transformation. \nA collaborative and innovative international environment. \nExtensive professional development opportunities in analytics, AI, data governance, and digital transformation. \nCompetitive salary and comprehensive benefits package. \nFlexible hybrid working arrangements. \nTuition Assistance Program. \nEmployee Assistance Program for you and your family. \n\nIf you are passionate about innovation, technology, and solving complex business challenges, we would love to hear from you.\n\nBring your ideas, individuality, and dreams to our global community. Feel good about where you work. Choose your career path - we\u2019re ready to invest in your development. Join FedEx.\n\nFirma FedEx powa\u017cnie podchodzi do filozofii, kt\u00f3ra stawia pracownik\u00f3w na pierwszym miejscu. Jeste\u015bmy pracodawc\u0105 zapewniaj\u0105cym r\u00f3wne szanse rozwoju dla wszystkich i zaanga\u017cowanym w budowanie r\u00f3\u017cnorodnego i wolnego od dyskryminacji zespo\u0142u pracowniczego.\n\nNasza firma\n\nFedEx to jedna z najwi\u0119kszych firm \u015bwiadcz\u0105cych us\u0142ugi transportu ekspresowego, kt\u00f3ra konsekwentnie uznawana jest za jedn\u0105 z 10 najbardziej podziwianych firm w rankingu magazynu \u201eFortune\u201d. Ka\u017cdego dnia FedEx dostarcza rozwi\u0105zania transportowe i biznesowe dla swoich klient\u00f3w pochodz\u0105cych z 220 kraj\u00f3w i na obszarze ca\u0142ego \u015bwiata. Obs\u0142uga tej globalnej sieci jest mo\u017cliwa dzi\u0119ki wyj\u0105tkowemu zespo\u0142owi pracownik\u00f3w FedEx zaanga\u017cowanych w dostarczanie us\u0142ug najwy\u017cszej jako\u015bci.\n\nNasza filozofia\n\nFilozofia P-S-P (ang. People-Service-Profit \u2013 Ludzie-Us\u0142uga-Zysk) okre\u015bla zasady le\u017c\u0105ce u podstaw ka\u017cdej decyzji, polityki lub dzia\u0142ania firmy FedEx. Nasza firma troszczy si\u0119 o swoich pracownik\u00f3w, a oni w zamian zapewniaj\u0105 perfekcyjn\u0105 obs\u0142ug\u0119 naszych klient\u00f3w, kt\u00f3rzy z kolei nagradzaj\u0105 nas dochodem niezb\u0119dnym dla zabezpieczenia naszej przysz\u0142ej dzia\u0142alno\u015bci. Najwa\u017cniejszym elementem, dzi\u0119ki kt\u00f3remu filozofia People-Service-Profit ma tak pozytywny wp\u0142yw na firm\u0119, jest zamkni\u0119cie tego ko\u0142a poprzez wprowadzenie zysk\u00f3w z powrotem do dzia\u0142alno\u015bci i inwestowanie w naszych pracownik\u00f3w.\n\nNasz sukces w bran\u017cy jest zas\u0142ug\u0105 naszych pracownik\u00f3w. Dzi\u0119ki naszej filozofii P-S-P stworzyli\u015bmy \u015brodowisko pracy zach\u0119caj\u0105ce cz\u0142onk\u00f3w zespo\u0142\u00f3w do stosowania innowacyjnego podej\u015bcia podczas \u015bwiadczenia jak najwy\u017cszej jako\u015bci us\u0142ug dla naszych klient\u00f3w. Troszczymy si\u0119 o ich dobro i doceniamy ich wk\u0142ad w dzia\u0142alno\u015b\u0107 firmy.\n\nNasza kultura\n\nNasz sukces w bran\u017cy jest zas\u0142ug\u0105 naszych pracownik\u00f3w. Dzi\u0119ki naszej filozofii P-S-P stworzyli\u015bmy \u015brodowisko pracy zach\u0119caj\u0105ce cz\u0142onk\u00f3w zespo\u0142\u00f3w do stosowania innowacyjnego podej\u015bcia podczas \u015bwiadczenia jak najwy\u017cszej jako\u015bci us\u0142ug dla naszych klient\u00f3w. Troszczymy si\u0119 o ich dobro i doceniamy ich wk\u0142ad w dzia\u0142alno\u015b\u0107 firmy.\n\nR\u00f3wno\u015b\u0107, r\u00f3wne szanse i r\u00f3\u017cnorodno\u015b\u0107 (EO&D)\n\nNajwi\u0119kszym atutem FedEx s\u0105 nasi pracownicy. Dlatego zobowi\u0105zujemy si\u0119 do budowania zr\u00f3\u017cnicowanego, sprawiedliwego i inkluzywnego \u015brodowiska pracy, opartego na r\u00f3wnych szansach, szacunku i uczciwym traktowaniu wszystkich os\u00f3b - niezale\u017cnie od tego, kim s\u0105. Zach\u0119camy do aplikowania, r\u00f3wnie\u017c wtedy, gdy masz wra\u017cenie, \u017ce Twoje do\u015bwiadczenie nie w pe\u0142ni odpowiada wszystkim wymaganiom zawartym w og\u0142oszeniu - mo\u017ce si\u0119 bowiem okaza\u0107, \u017ce jeste\u015b dok\u0142adnie osob\u0105, kt\u00f3rej potrzebujemy na to lub na inne stanowisko.\n\nNie tolerujemy \u017cadnych form dyskryminacji ani n\u0119kania, w tym ze wzgl\u0119du na kolor sk\u00f3ry, pochodzenie etniczne, narodowo\u015b\u0107, wyznanie, p\u0142e\u0107, wiek, informacje genetyczne, niepe\u0142nosprawno\u015b\u0107, stan cywilny, ci\u0105\u017c\u0119, orientacj\u0119 seksualn\u0105, to\u017csamo\u015b\u0107 lub ekspresj\u0119 p\u0142ciow\u0105, ani jak\u0105kolwiek inn\u0105 cech\u0119 chronion\u0105 przez mi\u0119dzynarodowe i krajowe przepisy prawa. Zapewniamy odpowiednie dostosowania i warunki pracy, umo\u017cliwiaj\u0105ce r\u00f3wny dost\u0119p i r\u00f3wne traktowanie, zgodnie z obowi\u0105zuj\u0105cymi przepisami prawa. \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
-      "sponsorWatchlistMatch": "X / xAI",
-      "sponsorCareerUrl": "https://x.ai/careers",
-      "sponsorCategory": "AI / Social",
-      "sponsorNotes": "X careers redirects to xAI careers; verify role location and sponsorship",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/09_fedex_business-analyst-data-insights-workforce-management-global-trade-servi.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/fedex_business-analyst-data-insights-workforce-management-global-trade-servi.md",
-      "tailoredKeywords": [
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
+        "Supply Chain Analytics",
         "Git",
-        "SQL",
-        "Python",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "Power BI"
-      ],
-      "tailoredRank": 9,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
+        "Large Language Models"
       ],
       "baseMissingKeywords": [],
       "tailoredCoveredKeywords": [
-        "R",
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Power BI unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services) at FedEx - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4463348522",
-      "source": "LinkedIn via Apify",
-      "company": "FedEx",
-      "role": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)",
-      "location": "Madrid, Community of Madrid, Spain",
-      "salary": "Not listed",
-      "posted": "2026-09-04T00:00:00.000Z",
-      "url": "https://es.linkedin.com/jobs/view/business-analyst-%E2%80%93-data-insights-workforce-management-global-trade-services-at-fedex-4463348522?trk=public_jobs_topcard-title",
-      "applyUrl": "https://es.linkedin.com/jobs/view/business-analyst-%E2%80%93-data-insights-workforce-management-global-trade-services-at-fedex-4463348522?trk=public_jobs_topcard-title",
-      "description": "Are you passionate about turning data into actionable insights that drive operational excellence? Join FedEx Global Trade Services (GTS) as a Business Analyst supporting a strategic transformation initiative focused on workforce management, operational visibility, data governance, and intelligent decision-making across Europe.\n\nIn this role, you will partner with Operations, Planning & Engineering, Technology, Compliance, and Data & AI teams to deliver reporting solutions, workforce management capabilities, AI governance processes, and data-driven business improvements. You will help shape how Clearance operations leverage data, analytics, and modern digital tools to improve productivity, service levels, compliance, and customer experience.\n\nWe have an exciting opportunity for you to join our team as a Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services)\n\nPosition Summary\n\nAre you passionate about turning data into actionable insights that drive operational excellence? Join FedEx Global Trade Services (GTS) as a Business Analyst supporting a strategic transformation initiative focused on workforce management, operational visibility, data governance, and intelligent decision-making across Europe.\n\nIn this role, you will partner with Operations, Planning & Engineering, Technology, Compliance, and Data & AI teams to deliver reporting solutions, workforce management capabilities, AI governance processes, and data-driven business improvements. You will help shape how Clearance operations leverage data, analytics, and modern digital tools to improve productivity, service levels, compliance, and customer experience.\n\nWho We Are\n\nFedEx is the largest express transportation company in the world, connecting more than 220 countries and territories. We work every moment to deliver the most important package of someone\u2019s day. Our team of passionate people know their day-to-day work is invaluable in delivering outstanding experience to our customers. 530,000 team members strong, we are as diverse as the world we serve. We love what we do, and we do it well. Our reach is big, and so are our dreams. Join us and let's write our next chapter together.\n\nWhat You Will Be Doing\n\nPartner with Operations, Compliance, Technology, and Data & AI teams to identify opportunities for productivity and process improvements. \nGather, analyze, and document business requirements for data, reporting, workforce management, and transformation initiatives. \nSupport the development of Power BI dashboards and operational performance reporting. \nAnalyze data to identify trends, risks, and opportunities for improvement. \nGather and document business requirements for Workforce Management capabilities including Forecasting & Scheduling, Time & Attendance Tracking, Performance Management & Analytics, Employee Self-Service, and Compliance & Risk Management solutions. \nSupport AI governance and compliance activities, including documentation, controls, and audit requirements. \nFacilitate workshops, stakeholder discussions, user testing, and adoption activities. \nTranslate business challenges into scalable data, reporting, and technology solutions.\nSupport implementation of strategic workforce management, telephony, and operational performance initiatives. \nFacilitate workshops, process reviews, and requirements discussions. \nSupport user acceptance testing (UAT), solution adoption, and change management activities. \n\nWhat Do You Bring With You\n\nStrong analytical and problem-solving skills. \nAbility to convert complex business challenges into practical solutions. \nExcellent communication and stakeholder management capabilities. \nExperience documenting business requirements, user stories, and process workflows.\nAbility to work effectively in cross-functional and international environments. \nStrong attention to detail combined with strategic thinking. \nFluency in English, both written and verbal. \nWillingness to travel within Europe when required (up to 25%). \n\nPreferred Qualifications\n\nDegree in Business, Engineering, Information Systems, Data Analytics, or a related field. \nExperience as a Business Analyst, Process Analyst, Product Analyst, or similar role. \nExperience with Power BI, reporting solutions, or business intelligence platforms. \nUnderstanding of data governance, data quality, and analytics concepts. \nExposure to Artificial Intelligence, Generative AI, machine learning, or AI governance frameworks. \nExperience working within regulated or compliance-driven environments. \nFamiliarity with Agile delivery methodologies. \nExperience within logistics, transportation, customs clearance, or international trade is an advantage. \nBusiness Analysis certification (CBAP, PMI-PBA, IIBA, or equivalent) is a plus. \n\nWhat Do We Offer\n\nOpportunity to play a key role in the transformation of Clearance operations across Europe. \nExposure to strategic initiatives with direct executive visibility. \nExperience working at the intersection of Data, AI, Operations, and Business Transformation. \nA collaborative and innovative international environment. \nExtensive professional development opportunities in analytics, AI, data governance, and digital transformation. \nCompetitive salary and comprehensive benefits package. \nFlexible hybrid working arrangements. \nTuition Assistance Program. \nEmployee Assistance Program for you and your family. \n\nIf you are passionate about innovation, technology, and solving complex business challenges, we would love to hear from you.\n\nBring your ideas, individuality, and dreams to our global community. Feel good about where you work. Choose your career path - we\u2019re ready to invest in your development. Join FedEx.\n\nFedEx se fund\u00f3 siguiendo la filosof\u00eda de que las personas son lo principal, una actitud que nos tomamos muy en serio. Ofrecemos oportunidades de empleo equitativas y estamos comprometidos con una plantilla inclusiva y diversa con oportunidades de desarrollo para todos.\n\nNuestra compa\u00f1\u00eda\n\nFedEx es una de las compa\u00f1\u00edas de transporte expr\u00e9s m\u00e1s grandes del mundo y ha sido elegida sistem\u00e1ticamente como una de las 10 empresas m\u00e1s admiradas del planeta por la revista Fortune. Cada d\u00eda FedEx cumple las expectativas de sus clientes con soluciones comerciales y de transporte, y ofrece servicio en m\u00e1s de 220 pa\u00edses y territorios en todo el mundo. Logramos prestar servicio con esta red internacional gracias a los excelentes miembros que componen el equipo de FedEx, encargados de que cada experiencia con FedEx sea excepcional.\n\nNuestra filosof\u00eda\n\nLa filosof\u00eda Personas-Servicio-Beneficio describe los principios que rigen todas las decisiones, pol\u00edticas o actividades de FedEx. FedEx se preocupa por las personas que integran su plantilla y ellas, a su vez, ofrecen el impecable servicio exigido por nuestros clientes, que nos proporcionan el beneficio necesario para garantizar nuestro futuro. El elemento esencial que convierte a la filosof\u00eda Personas-Servicio-Beneficio en la fuerza positiva que es para la compa\u00f1\u00eda radica all\u00ed donde cerramos el c\u00edrculo y devolvemos dichos beneficios al negocio e invertimos en nuestra gente.\n\nNuestro \u00e9xito en el sector se debe a nuestros trabajadores. Mediante la filosof\u00eda Personas-Servicio-Beneficio, nuestro entorno de trabajo anima a que los miembros de los equipos sean innovadores a la hora de ofrecer un servicio de la mayor calidad posible a nuestros clientes. Nos preocupamos por su bienestar y valoramos sus aportaciones a la compa\u00f1\u00eda.\n\nNuestra cultura\n\nNuestra cultura es importante por muchas razones y hacemos que cobre vida deliberadamente a trav\u00e9s de nuestro comportamiento, nuestras acciones y nuestras actividades en cada rinc\u00f3n del mundo. La cultura y los valores de FedEx llevan siendo la piedra angular de nuestro \u00e9xito y expansi\u00f3n desde nuestros comienzos a principios de la d\u00e9cada de los 70. A pesar de que otras compa\u00f1\u00edas puedan copiar nuestros sistemas, infraestructura y procesos, nuestra cultura nos hace \u00fanicos y es, con frecuencia, un factor diferenciador en nuestra competencia y desarrollo en el mercado internacional actual.\n\nEquidad, oportunidades y diversidad (EO&D)\n\nEn FedEx, nuestro mayor activo son las personas. Estamos comprometidos con la creaci\u00f3n de una fuerza laboral diversa, equitativa e inclusiva, y ofrecemos igualdad de oportunidades, trato justo y respeto a todas las personas, independientemente de qui\u00e9nes sean. Le animamos a presentar su candidatura incluso si considera que su experiencia no se ajusta a todos los aspectos descritos en la oferta, ya que podr\u00eda ser exactamente la persona que necesitamos para este puesto u otra oportunidad.\n\nNo toleramos ninguna forma de discriminaci\u00f3n ni acoso por motivos de raza, color de piel, origen \u00e9tnico, nacionalidad, religi\u00f3n, sexo, edad, informaci\u00f3n gen\u00e9tica, ciudadan\u00eda, discapacidad, estado civil, embarazo, orientaci\u00f3n sexual, identidad de g\u00e9nero, expresi\u00f3n de g\u00e9nero o cualquier otra caracter\u00edstica protegida por las leyes y normativas nacionales e internacionales. Proporcionamos adaptaciones razonables a los miembros de nuestro equipo y a terceros para garantizar la igualdad de acceso, la inclusi\u00f3n y la equidad en todas las caracter\u00edsticas protegidas. \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
-      "sponsorWatchlistMatch": "X / xAI",
-      "sponsorCareerUrl": "https://x.ai/careers",
-      "sponsorCategory": "AI / Social",
-      "sponsorNotes": "X careers redirects to xAI careers; verify role location and sponsorship",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/10_fedex_business-analyst-data-insights-workforce-management-global-trade-servi.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/fedex_business-analyst-data-insights-workforce-management-global-trade-servi.md",
-      "tailoredKeywords": [
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Exploratory Data Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git",
-        "SQL",
-        "Python",
-        "Statistical Analysis"
-      ],
-      "essentialKeywords": [
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Exploratory Data Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "Power BI"
-      ],
-      "tailoredRank": 10,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Exploratory Data Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "Data Quality Analysis",
-        "Reporting",
-        "Dashboard Development",
-        "Business Intelligence",
-        "Exploratory Data Analysis",
-        "Machine Learning",
-        "Process Improvement",
-        "Operations Analytics",
-        "Git"
-      ],
-      "tailoredMissingKeywords": [],
-      "recommendedAction": {
-        "priority": "Apply today",
-        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
-        "cautions": [
-          "Do not claim Power BI unless Yogeshwari confirms hands-on experience.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Business Analyst \u2013 Data, Insights & Workforce Management (Global Trade Services) at FedEx - data analytics background"
-      }
-    },
-    {
-      "sourceRefreshId": "4461916501",
-      "source": "LinkedIn via Apify",
-      "company": "EPAM Systems",
-      "role": "Data Analyst",
-      "location": "Colombia",
-      "salary": "Not listed",
-      "posted": "2026-09-03T00:00:00.000Z",
-      "url": "https://co.linkedin.com/jobs/view/data-analyst-at-epam-systems-4461916501?trk=public_jobs_topcard-title",
-      "applyUrl": "https://co.linkedin.com/jobs/view/data-analyst-at-epam-systems-4461916501?trk=public_jobs_topcard-title",
-      "description": "EPAM is a leading global provider of digital platform engineering and development services. We are committed to having a positive impact on our customers, our employees, and our communities. We embrace a dynamic and inclusive culture. Here you will collaborate with multi-national teams, contribute to a myriad of innovative projects that deliver the most creative and cutting-edge solutions, and have an opportunity to continuously learn and grow. No matter where you are located, you will join a dedicated, creative, and diverse community that will help you discover your fullest potential.\n\nWe are looking for a Data Analyst to join our team. The successful candidate will examine and document the structure of our existing databases, contribute to building new data models, and ensure alignment with business needs, rules, and regulations. This position calls for a solid grasp of data management, strong analytical abilities, and the capacity to collaborate closely with cross-functional teams and data architects.\n\nResponsibilities\n\nExamine current database structures to gain insight into data flows, relationships, and dependencies\nRecord the existing database schema, data dictionaries, and data lineage\nPinpoint opportunities for improvement and optimization within current database structures\nWork with product owners, data architects, and software engineers to design and build new data models that address business needs\nConfirm that data models remain scalable, efficient, and consistent with best practices\nProduce and update data models, diagrams, and accompanying documentation\nEngage with stakeholders to collect and understand business requirements tied to data\nConvert business requirements into technical specifications for data models and databases\nUnderstand and apply applicable data governance, data privacy, and regulatory requirements\nVerify that data models and database structures align with industry standards and regulations\nTrack and report on adherence to data governance standards\nBuild and roll out data quality checks and validation processes\nIdentify and fix data quality issues to preserve data integrity\nCoordinate with software and data engineers, business analysts, and other IT staff to implement and refine data models\nShare findings, insights, and recommendations with both technical and non-technical stakeholders\nOffer support and training to users on new data models and database structures\nRequirements\n\nRequirements\n\nBachelor's degree in Computer Science, Information Technology, Data Science, or a related field\nAt least 2 years of relevant experience as a Data Analyst or in a comparable role\nProficiency in SQL along with experience using database management systems, such as MySQL, PostgreSQL, or SQL Server\nFamiliarity with NoSQL data stores and JSON document modeling\nStrong understanding of data modeling concepts\nExcellent analytical, problem-solving, and critical-thinking abilities\nKnowledge of data governance, data privacy, and regulatory requirements\nStrong communication and interpersonal skills\nAbility to thrive in an agile, collaborative, and fast-paced environment\nExcellent English proficiency (C1 level or higher)\n\nNice to have\n\nExperience with data modeling tools, such as ERwin or ER/Studio\n\nWe offer\n\nInternational projects with top brands\nWork with global teams of highly skilled, diverse peers\nHealthcare benefits\nEmployee financial programs\nPaid time off and sick leave\nUpskilling, reskilling and certification courses\nUnlimited access to the LinkedIn Learning library and 22,000+ courses\nGlobal career opportunities\nVolunteer and community involvement opportunities\nEPAM Employee Groups\nAward-winning culture recognized by Glassdoor, Newsweek and LinkedIn\n\nEPAM is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, age, sexual orientation, gender identity or expression, disability, protected veteran status, or any other characteristic protected by applicable law. \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
-      "sponsorWatchlistMatch": "EPAM Systems",
-      "sponsorCareerUrl": "https://www.epam.com/careers/job-listings",
-      "sponsorCategory": "IT Services",
-      "sponsorNotes": "Watch data and analytics consulting roles",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/11_epam-systems_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/epam-systems_data-analyst.md",
-      "tailoredKeywords": [
-        "SQL",
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Data Quality Analysis",
-        "Git",
-        "Python",
         "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Data Quality Analysis",
-        "Git"
-      ],
-      "unconfirmedKeywords": [],
-      "tailoredRank": 11,
-      "tailoredGeneratedAt": "2026-09-04",
-      "baseResumeMatch": 50,
-      "tailoredResumeMatch": 88,
-      "matchDelta": 38,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "baseCoveredKeywords": [
-        "SQL",
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Data Quality Analysis",
-        "Git"
-      ],
-      "baseMissingKeywords": [],
-      "tailoredCoveredKeywords": [
-        "SQL",
-        "PostgreSQL",
-        "MySQL",
-        "SQL Server",
-        "Data Quality Analysis",
-        "Git"
+        "Supply Chain Analytics",
+        "Git",
+        "Large Language Models"
       ],
       "tailoredMissingKeywords": [],
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Data Analyst at EPAM Systems - data analytics background"
+        "outreachSubject": "Business Analyst I (Intern) United States at Cisco - data analytics background"
       }
     },
     {
@@ -822,8 +89,8 @@
       "source": "LinkedIn logged-in browser",
       "sourceRefreshId": "linkedin-browser-4449890236",
       "url": "https://www.linkedin.com/jobs/view/4449890236/",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/12_tailored-resume_data-analyst-economic-consulting-us.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/tailored-resume_data-analyst-economic-consulting-us.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/02_tailored-resume_data-analyst-economic-consulting-us.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/tailored-resume_data-analyst-economic-consulting-us.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -839,8 +106,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 12,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 2,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -883,8 +150,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-wipp-data-procurement-data-analyst-remote",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/13_wipp-data_procurement-data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/wipp-data_procurement-data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/03_wipp-data_procurement-data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/wipp-data_procurement-data-analyst.md",
       "tailoredKeywords": [
         "Procurement Analytics",
         "SQL",
@@ -897,8 +164,8 @@
         "Procurement Analytics"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 13,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 3,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -933,8 +200,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-data-driven-enterprises-data-analyst-remote-or-northglenn-co",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/14_data-driven-enterprises_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/data-driven-enterprises_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/04_data-driven-enterprises_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/data-driven-enterprises_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -950,8 +217,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 14,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 4,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -994,8 +261,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-u-s-venture-inc-data-analyst-intern-us-autoforce-appleton-wi",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/15_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/05_u-s-venture-inc_data-analyst-intern-us-autoforce.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_data-analyst-intern-us-autoforce.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1011,8 +278,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 15,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 5,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1055,8 +322,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-jpmorganchase-2027-data-ai-program-summer-internship-analyst-united-states-chicago-il",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/16_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/06_jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/jpmorganchase_2027-data-ai-program-summer-internship-analyst-united-states.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1072,8 +339,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 16,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 6,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1116,8 +383,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-sol-it-predictive-data-analyst-onsite-at-los-angeles-ca-los-angeles-ca",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/17_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/07_sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/sol-it_predictive-data-analyst-onsite-at-los-angeles-ca.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1133,8 +400,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 17,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 7,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1177,8 +444,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-state-of-california-department-of-motor-vehicles-student-assistant-ca-dmv-data-analyst-riverside-ca-",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/18_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/08_state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/state-of-california-department-of-motor-vehicles_student-assistant-ca-dmv-data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1194,8 +461,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 18,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 8,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1238,8 +505,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-northwestern-university-research-analyst-evidence-aggregation-and-data-science-chicago-il-1",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/19_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/09_northwestern-university_research-analyst-evidence-aggregation-and-data-science.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/northwestern-university_research-analyst-evidence-aggregation-and-data-science.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1255,8 +522,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 19,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 9,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1299,8 +566,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-grande-cheese-company-data-analytics-intern-fond-du-lac-wi",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/20_grande-cheese-company_data-analytics-intern.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/grande-cheese-company_data-analytics-intern.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/10_grande-cheese-company_data-analytics-intern.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/grande-cheese-company_data-analytics-intern.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1316,8 +583,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 20,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 10,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1360,8 +627,8 @@
       "source": "Handshake logged-in browser",
       "sourceRefreshId": "handshake-browser-u-s-venture-inc-business-intelligence-analyst-intern-appleton-wi",
       "url": "https://app.joinhandshake.com/job-search/11285905?query=Data+Analyst&page=1&per_page=25",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/21_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/u-s-venture-inc_business-intelligence-analyst-intern.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/11_u-s-venture-inc_business-intelligence-analyst-intern.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/u-s-venture-inc_business-intelligence-analyst-intern.md",
       "tailoredKeywords": [
         "Business Intelligence",
         "SQL",
@@ -1374,8 +641,8 @@
         "Business Intelligence"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 21,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 11,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1412,8 +679,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b6ee877e6b569c61c0754",
       "url": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/22_oscar-health_data-scientist-i.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/oscar-health_data-scientist-i.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/12_oscar-health_data-scientist-i.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/oscar-health_data-scientist-i.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1429,8 +696,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 22,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 12,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1475,8 +742,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b2f00ecfd2977075374e5",
       "url": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/23_averna_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/averna_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/13_averna_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/averna_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1492,8 +759,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 23,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 13,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1542,8 +809,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/24_tata-consultancy-services_analytics-data-engineer.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/tata-consultancy-services_analytics-data-engineer.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/14_tata-consultancy-services_analytics-data-engineer.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_analytics-data-engineer.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1559,8 +826,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 24,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 14,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1609,8 +876,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-04/25_tata-consultancy-services_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-04/tata-consultancy-services_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-16/15_tata-consultancy-services_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -1626,8 +893,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 25,
-      "tailoredGeneratedAt": "2026-09-04",
+      "tailoredRank": 15,
+      "tailoredGeneratedAt": "2026-09-16",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -1660,9 +927,9 @@
       }
     }
   ],
-  "browserImportedAt": "2026-09-04",
-  "sponsorEnrichedAt": "2026-09-04",
+  "browserImportedAt": "2026-09-16",
+  "sponsorEnrichedAt": "2026-09-16",
   "sponsorWatchlistCount": 133,
-  "sponsorMatchedJobCount": 13,
-  "tailoredGeneratedAt": "2026-09-04"
+  "sponsorMatchedJobCount": 3,
+  "tailoredGeneratedAt": "2026-09-16"
 }
