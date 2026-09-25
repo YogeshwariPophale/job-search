@@ -1,59 +1,98 @@
 {
-  "generatedAt": "2026-09-16",
+  "generatedAt": "2026-09-25",
   "resumes": [
     {
       "rank": 1,
-      "company": "Amazon",
-      "role": "Business Intelligence Engineer , North America Network Sales and Operations planning",
+      "company": "Salesforce",
+      "role": "Trailhead | Sr Data Analyst",
       "fitScore": 0,
-      "baseResumeMatch": 47,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 38,
+      "baseResumeMatch": 29,
+      "tailoredResumeMatch": 33,
+      "matchDelta": 4,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/01_amazon_business-intelligence-engineer-north-america-network-sales-and-operati.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/amazon_business-intelligence-engineer-north-america-network-sales-and-operati.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-25/01_salesforce_trailhead-sr-data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/salesforce_trailhead-sr-data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
-        "R",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Inventory Analytics",
-        "Large Language Models",
+        "Reporting",
+        "Dashboard Development",
+        "NLP",
         "Data Quality Analysis",
-        "Dashboard Development"
+        "Statistical Analysis"
       ],
       "essentialKeywords": [
         "SQL",
         "Python",
-        "R",
-        "Business Intelligence",
-        "Statistical Analysis",
-        "Operations Analytics",
-        "Supply Chain Analytics",
-        "Inventory Analytics",
-        "Large Language Models"
+        "Reporting",
+        "Dashboard Development",
+        "NLP"
       ],
       "unconfirmedKeywords": [
-        "Tableau"
+        "Tableau",
+        "Snowflake"
+      ],
+      "seniorityRisk": true,
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Do not claim Tableau, Snowflake unless Yogeshwari confirms hands-on experience.",
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Trailhead | Sr Data Analyst at Salesforce - data analytics background"
+      }
+    },
+    {
+      "rank": 2,
+      "company": "Moody's Corporation",
+      "role": "Product Analyst, Salesforce",
+      "fitScore": 0,
+      "baseResumeMatch": 41,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 44,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-25/02_moody-s-corporation_product-analyst-salesforce.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/moody-s-corporation_product-analyst-salesforce.md",
+      "keywords": [
+        "SQL",
+        "Root Cause Analysis",
+        "Production Analytics",
+        "Git",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Root Cause Analysis",
+        "Production Analytics",
+        "Git"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau",
+        "Power BI",
+        "AWS"
       ],
       "seniorityRisk": false,
       "recommendedAction": {
         "priority": "Apply today",
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Do not claim Tableau, Power BI, AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Business Intelligence Engineer , North America Network Sales and Operations planning at Amazon - data analytics background"
+        "outreachSubject": "Product Analyst, Salesforce at Moody's Corporation - data analytics background"
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "company": "Oscar Health",
       "role": "Data Scientist I",
       "fitScore": 0,
@@ -62,8 +101,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/02_oscar-health_data-scientist-i.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/oscar-health_data-scientist-i.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-25/03_oscar-health_data-scientist-i.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
         "Python",
@@ -91,7 +130,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "company": "Averna",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -100,8 +139,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/03_averna_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/averna_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-25/04_averna_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/averna_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -129,7 +168,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "company": "Tata Consultancy Services",
       "role": "Analytics / Data Engineer",
       "fitScore": 0,
@@ -138,8 +177,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/04_tata-consultancy-services_analytics-data-engineer.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_analytics-data-engineer.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-25/05_tata-consultancy-services_analytics-data-engineer.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
         "Python",
@@ -167,7 +206,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "company": "Tata Consultancy Services",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -176,8 +215,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-16/05_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-16/tata-consultancy-services_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-25/06_tata-consultancy-services_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
