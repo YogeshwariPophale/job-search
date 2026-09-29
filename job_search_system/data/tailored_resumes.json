@@ -1,24 +1,26 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-29",
   "resumes": [
     {
       "rank": 1,
-      "company": "Salesforce",
-      "role": "Trailhead | Sr Data Analyst",
+      "company": "Amazon",
+      "role": "Data Analyst - UAE National, ICQA/LND Analytics Team",
       "fitScore": 0,
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
-      "matchDelta": 4,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-25/01_salesforce_trailhead-sr-data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/salesforce_trailhead-sr-data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/01_amazon_data-analyst-uae-national-icqa-lnd-analytics-team.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_data-analyst-uae-national-icqa-lnd-analytics-team.md",
       "keywords": [
         "SQL",
         "Python",
         "Reporting",
         "Dashboard Development",
-        "NLP",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics",
         "Data Quality Analysis",
         "Statistical Analysis"
       ],
@@ -27,56 +29,11 @@
         "Python",
         "Reporting",
         "Dashboard Development",
-        "NLP"
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
-        "Snowflake"
-      ],
-      "seniorityRisk": true,
-      "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
-        "cautions": [
-          "Do not claim Tableau, Snowflake unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
-          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
-        ],
-        "outreachSubject": "Trailhead | Sr Data Analyst at Salesforce - data analytics background"
-      }
-    },
-    {
-      "rank": 2,
-      "company": "Moody's Corporation",
-      "role": "Product Analyst, Salesforce",
-      "fitScore": 0,
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
-      "baseCoveragePercent": 100,
-      "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-25/02_moody-s-corporation_product-analyst-salesforce.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/moody-s-corporation_product-analyst-salesforce.md",
-      "keywords": [
-        "SQL",
-        "Root Cause Analysis",
-        "Production Analytics",
-        "Git",
-        "Python",
-        "Data Quality Analysis",
-        "Statistical Analysis",
-        "Dashboard Development"
-      ],
-      "essentialKeywords": [
-        "SQL",
-        "Root Cause Analysis",
-        "Production Analytics",
-        "Git"
-      ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Power BI",
         "AWS"
       ],
       "seniorityRisk": false,
@@ -85,14 +42,376 @@
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
         "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, Power BI, AWS unless Yogeshwari confirms hands-on experience.",
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Product Analyst, Salesforce at Moody's Corporation - data analytics background"
+        "outreachSubject": "Data Analyst - UAE National, ICQA/LND Analytics Team at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 2,
+      "company": "Amazon",
+      "role": "Business Analyst, AMZL UTR PPT",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/02_amazon_business-analyst-amzl-utr-ppt.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amzl-utr-ppt.md",
+      "keywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, AMZL UTR PPT at Amazon - data analytics background"
       }
     },
     {
       "rank": 3,
+      "company": "EPAM Systems",
+      "role": "Business Analyst",
+      "fitScore": 0,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/03_epam-systems_business-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/epam-systems_business-analyst.md",
+      "keywords": [
+        "SAP",
+        "Git",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SAP",
+        "Git"
+      ],
+      "unconfirmedKeywords": [],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst at EPAM Systems - data analytics background"
+      }
+    },
+    {
+      "rank": 4,
+      "company": "Amazon",
+      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
+      "fitScore": 0,
+      "baseResumeMatch": 32,
+      "tailoredResumeMatch": 36,
+      "matchDelta": 4,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/04_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
+      "keywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "seniorityRisk": true,
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 5,
+      "company": "Amazon",
+      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
+      "fitScore": 0,
+      "baseResumeMatch": 32,
+      "tailoredResumeMatch": 36,
+      "matchDelta": 4,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/05_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
+      "keywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "seniorityRisk": true,
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 6,
+      "company": "Amazon",
+      "role": "Business Analyst, AMZL UTR PPT",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/06_amazon_business-analyst-amzl-utr-ppt.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amzl-utr-ppt.md",
+      "keywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, AMZL UTR PPT at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 7,
+      "company": "Amazon",
+      "role": "Data Analyst - UAE National, ICQA/LND Analytics Team",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/07_amazon_data-analyst-uae-national-icqa-lnd-analytics-team.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_data-analyst-uae-national-icqa-lnd-analytics-team.md",
+      "keywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "AWS"
+      ],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst - UAE National, ICQA/LND Analytics Team at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 8,
+      "company": "Amazon",
+      "role": "Data Analyst - UAE National, ICQA/LND Analytics Team",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/08_amazon_data-analyst-uae-national-icqa-lnd-analytics-team.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_data-analyst-uae-national-icqa-lnd-analytics-team.md",
+      "keywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "AWS"
+      ],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst - UAE National, ICQA/LND Analytics Team at Amazon - data analytics background"
+      }
+    },
+    {
+      "rank": 9,
+      "company": "Tata Consultancy Services",
+      "role": "Business Analyst",
+      "fitScore": 0,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/09_tata-consultancy-services_business-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/tata-consultancy-services_business-analyst.md",
+      "keywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "Process Improvement",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "Process Improvement"
+      ],
+      "unconfirmedKeywords": [],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst at Tata Consultancy Services - data analytics background"
+      }
+    },
+    {
+      "rank": 10,
       "company": "Oscar Health",
       "role": "Data Scientist I",
       "fitScore": 0,
@@ -101,8 +420,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-25/03_oscar-health_data-scientist-i.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/oscar-health_data-scientist-i.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/10_oscar-health_data-scientist-i.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
         "Python",
@@ -130,7 +449,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 11,
       "company": "Averna",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -139,8 +458,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-25/04_averna_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/averna_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/11_averna_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/averna_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -168,7 +487,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 12,
       "company": "Tata Consultancy Services",
       "role": "Analytics / Data Engineer",
       "fitScore": 0,
@@ -177,8 +496,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-25/05_tata-consultancy-services_analytics-data-engineer.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/tata-consultancy-services_analytics-data-engineer.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/12_tata-consultancy-services_analytics-data-engineer.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
         "Python",
@@ -206,7 +525,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 13,
       "company": "Tata Consultancy Services",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -215,8 +534,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-09-25/06_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-09-25/tata-consultancy-services_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-09-29/13_tata-consultancy-services_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-09-29/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",

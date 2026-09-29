@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-29",
   "sources": [
     "Apify actor run",
     "Jobright logged-in browser",
@@ -8,34 +8,36 @@
     "Jobot public",
     "USCIS/H-1B sponsor watchlist"
   ],
-  "rawItemCount": 12,
-  "filteredOutCount": 10,
+  "rawItemCount": 56,
+  "filteredOutCount": 47,
   "preservedNonApifyCount": 4,
   "jobs": [
     {
-      "sourceRefreshId": "4472073099",
+      "sourceRefreshId": "4473030854",
       "source": "LinkedIn via Apify",
-      "company": "Salesforce",
-      "role": "Trailhead | Sr Data Analyst",
-      "location": "Mexico City, Mexico",
+      "company": "Amazon",
+      "role": "Data Analyst - UAE National, ICQA/LND Analytics Team",
+      "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
       "salary": "Not listed",
-      "posted": "2026-09-25T00:00:00.000Z",
-      "url": "https://mx.linkedin.com/jobs/view/trailhead-sr-data-analyst-at-salesforce-4472073099?trk=public_jobs_topcard-title",
-      "applyUrl": "https://mx.linkedin.com/jobs/view/trailhead-sr-data-analyst-at-salesforce-4472073099?trk=public_jobs_topcard-title",
-      "description": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts.\n\nJob Category\n\nMarketing & Communications\n\nJob Details\n\nAbout Salesforce\n\nSalesforce is the #1 AI CRM, where humans with agents drive customer success together. Here, ambition meets action. Tech meets trust. And innovation isn\u2019t a buzzword \u2014 it\u2019s a way of life. The world of work as we know it is changing and we're looking for Trailblazers who are passionate about bettering business and the world through AI, driving innovation, and keeping Salesforce's core values at the heart of it all.\n\nReady to level-up your career at the company leading workforce transformation in the agentic era? You\u2019re in the right place! Agentforce is the future of AI, and you are the future of Salesforce.\n\nAbout Trailhead\n\nTrailhead is Salesforce's free online learning platform and the front door to the Salesforce ecosystem. It empowers anyone to build in-demand skills across AI, Agentforce, CRM, data, and business fundamentals, and helps organizations re-skill their workforce for the agentic era. Today, Trailhead is also an AI-powered learning experience, with personalized pathways and the Trailhead Learning Agent guiding learners every step of the way.\n\nThe Trailhead Content team generates ideas, writes and edits content, develops hands-on challenges, and publishes and maintains the learning content that makes all of this possible. We believe content should be accessible, educational, relevant, and enjoyable. Right now, we're building some of the most important learning content in the Salesforce ecosystem. This is your chance to be part of it.\n\nRole Description\n\nAs Senior Data Analyst, you are a senior lead and expert on the team across three connected facets of Trailhead measurement: content analytics and performance (the Content Intelligence Engine \u2014 catalog health, portfolio performance, journey tracking), learner satisfaction and feedback (structured survey data \u2014 CSAT, confidence gain, qualitative themes), and business impact (whether Trailhead engagement moves Pipeline Generation, Deal Velocity & Win Rate, and Product Adoption). You build the semantic models, data pipelines, and predictive frameworks that turn structured and unstructured signals into decisions \u2014 for content owners, executives, and increasingly, AI agents.\n\nYour Impact\n\nContent analytics and performance: Own the Content Intelligence Engine's core metrics and portfolio views (catalog-level completions, L1 product performance, content health vs. performance, journey drop-off) and lead its evolution from MVP through fast-follows and V2 capability.\nLearner satisfaction and feedback: Design how unstructured/qualitative learner feedback (open-text survey responses, confidence pre/post scores) is captured, structured, and made analyzable at catalog scale \u2014 building the pipeline from raw survey response to reportable CSAT/confidence-gain metrics and automated qualitative theme surfacing for content owners.\nBusiness impact: Own cohort design and methodology (propensity/segment matching) connecting Trailhead engagement signals (TBIDs, badges, Agentblazer status) to commercial outcomes (NNAOV, Win Rate Lift, Time-to-Close, Account Penetration), with defensible bias controls, not just directional correlation.\nArchitect and own a living semantic model of content performance spanning all three facets \u2014 shared metric and cohort definitions that persist and adapt as the Trailhead catalog, survey infrastructure, and AI tooling evolve, rather than one-off analyses that go stale.\nStructure both structured (engagement, business) and unstructured (survey/qualitative) data to be agent-queryable \u2014 usable by AI layers to reason directly over content quality, learner sentiment, and business outcome questions, not just populate a static dashboard.\nOwn the logic and definitions that connect learner identity data to business/sales records, content completions to sales opportunities, and survey responses to the specific content they reference \nLead the platform strategy for dashboards and models \u2014 keeping pace with Salesforce's evolving analytics and approved AI tooling \u2014 and lead the build of the underlying semantic model as our platform evolves.\nTranslate findings across all three facets into a single, clear narrative for content owners, Trailhead leadership, Marketing, Product, Sales and Customer Success leadership \u2014 distinguishing high-confidence findings from directional ones.\n\nRequired Skills & Experience\n\n5+ years in data analytics or data science, spanning both structured (SQL/engagement/CRM) and unstructured (qualitative/text/survey) data analysis \u2014 this is a genuinely three-sided role, not a single-discipline one.\nComfort applying data science methods (cohort/propensity matching, predictive modeling, causal inference) to answer \"does this actually work\" questions, not just descriptive reporting. \nAdvanced SQL experience querying large-scale cloud data warehouses (e.g. Snowflake), including learner activity data and sales/CRM data (opportunities, order line items, contracts). \nExperience structuring and analyzing unstructured/qualitative data \u2014 open-text survey responses, sentiment/theme extraction \u2014 turning free text into reportable, comparable signal.\nWorking knowledge of cohort/propensity-matching methodology for business impact analysis.\nExpert Tableau dashboard-building, with strong data visualization and design sense; hands-on experience using AI-assisted development tools (e.g. Claude Code, Cursor) to build, query, and maintain dashboards and models. \nExecutive-ready storytelling across content performance, learner sentiment, and commercial impact narratives.\nAdvanced English\n\nPreferred Qualifications\n\nExperience with Salesforce Agentforce, AI-driven analytics, or NLP/text-analytics workflows.\nPython for cohort modeling or qualitative theme extraction.\nDirect experience with Trailhead \nTableau Certified (Desktop Specialist or Certified Data Analyst).\nFamiliarity with agentic or AI-native BI tooling (e.g. Hex) or notebook-based visualization (e.g. Python + Plotly/Streamlit) as complements to Tableau.\nOpenness to adopting new dashboard and BI tooling as it emerges. \n\nWhat We Look For In Every Hire\n\nLearner-first mindset: You design everything with the Trailblazer in mind, not just internal stakeholder requirements.\nClear communicator: Your writing and conversations are direct, jargon-free, and respectful of people's time.\nCollaborative by default: You seek out other perspectives, share your work early, and give feedback that helps.\nHigh ownership: You are accountable for your work, proactive about blockers, and remain calm under pressure.\nCurious about AI and technology: You actively explore how emerging tools can improve what we build for learners.\n\nNOTE: By applying to the Sr Data Analyst posting recruiters and hiring managers across the organization hiring these roles will review your resume. Our goal is for you to apply once and have your resume reviewed by multiple hiring teams.\n\nBenefits & Perks\n\nComprehensive benefits package including well-being reimbursement, generous parental leave, adoption assistance, fertility benefits, and more!\nWorld-class enablement and on-demand training with Trailhead.com\nExposure to executive thought leaders and regular 1:1 coaching with leadership\nVolunteer opportunities and participation in our 1:1:1 model for giving back to the community\nFor more details, visit https://www.salesforcebenefits.com/\n\nIn school, or graduated within the past 12 months? Please visit FutureForce for opportunities. \n\nUnleash Your Potential\n\nWhen you join Salesforce, you\u2019ll be limitless in all areas of your life. Our benefits and resources support you to find balance and be your best, and our AI agents accelerate your impact so you can do your best. Together, we\u2019ll bring the power of Agentforce to organizations of all sizes and deliver amazing experiences that customers love. Apply today to not only shape the future \u2014 but to redefine what\u2019s possible \u2014 for yourself, for AI, and the world.\n\nAccommodations\n\nIf you need a reasonable accommodation during the application or the recruiting process, please submit a request via this Accommodations Request Form.\n\nPlease note that Salesforce uses artificial intelligence (AI) tools to help our recruiters assess and evaluate candidates\u2019 resumes and qualifications throughout the recruiting process. Humans will always make any candidate selection and hiring decisions. Please see our Candidate Privacy Statement for more information about how we use your personal data and your rights, including with regard to use of AI tools and opt out options.\n\nPosting Statement\n\nSalesforce is an equal opportunity employer and maintains a policy of non-discrimination with all employees and applicants for employment. What does that mean exactly? It means that at Salesforce, we believe in equality for all. And we believe we can lead the path to equality in part by creating a workplace that\u2019s inclusive, and free from discrimination. Know your rights: workplace discrimination is illegal. Any employee or potential employee will be assessed on the basis of merit, competence and qualifications \u2013 without regard to race, religion, color, national origin, sex, sexual orientation, gender expression or identity, transgender status, age, disability, veteran or marital status, political viewpoint, or other classifications protected by law. This policy applies to current and prospective employees, no matter where they are in their Salesforce employment journey. It also applies to recruiting, hiring, job assignment, compensation, promotion, benefits, training, assessment of job performance, discipline, termination, and everything in between. Recruiting, hiring, and promotion decisions at Salesforce are fair and based on merit. The same goes for compensation, benefits, promotions, transfers, reduction in workforce, recall, training, and education. \nShow more Show less",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://ae.linkedin.com/jobs/view/data-analyst-uae-national-icqa-lnd-analytics-team-at-amazon-4473030854?trk=public_jobs_topcard-title",
+      "applyUrl": "https://ae.linkedin.com/jobs/view/data-analyst-uae-national-icqa-lnd-analytics-team-at-amazon-4473030854?trk=public_jobs_topcard-title",
+      "description": "Description\n\nAmazon is a highly data driven company highly obsessive about metrics. The Data analysts play a crucial role in creating unique reports from data available in multiple locations and providing vital insights into the root cause of quality defects and inventory adjustments. ICQA Data Analyst will work closely with the ICQA, Learning and Finance departments to provide data and analytical support for the business.\n\nKey job responsibilities\n\nDevelopment of data collection processes and data management systems\nDesigning of queries, compiling of data, and generation of reports in SQL\nCharting and graphing of data for reporting purposes\nDeveloping dashboard (Amazon Quicksight) to support business decision making and dive deep activities\nDevelop automation solution for analysis (python)\nPrepare and publish reports for business reviews (Weekly Business Review, Quarterly Business Review, Project Updates)\nSupporting leadership team how to interpret data trends as needed\nIn depth research of defect trends\nData collection and entry as needed\nPresent analysis in easily digestible standard reports\nSupport to ICQA & Learning Team Projects\n\nBasic Qualifications\n\nExperience that includes strong analytical skills, attention to detail, and effective communication abilities\nExperience communicating clearly and concisely with leadership, stakeholders, and cross-functional teams\nExperience managing and executing large projects from start to finish, including project management, data gathering and modeling, problem solving, and communicating recommendations\nExperience understanding needs of business and end customers and translating them into right solutions\nExperience with AWS technologies like Redshift, S3, AWS Glue, EMR, Kinesis, FireHose, Lambda, and IAM roles and permissions\n\nPreferred Qualifications\n\nExperience with training and deploying machine learning systems to solve large-scale optimizations, or experience in development or technical support\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\n\nCompany - Q-Express Documents Transport\n\nJob ID: A10515224 \nShow more Show less",
       "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
-      "sponsorWatchlistMatch": "Salesforce",
-      "sponsorCareerUrl": "https://careers.salesforce.com/en/jobs/",
-      "sponsorCategory": "Enterprise Software",
-      "sponsorNotes": "Good target for customer data and revenue analytics",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-25/01_salesforce_trailhead-sr-data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-25/salesforce_trailhead-sr-data-analyst.md",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/01_amazon_data-analyst-uae-national-icqa-lnd-analytics-team.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_data-analyst-uae-national-icqa-lnd-analytics-team.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
         "Reporting",
         "Dashboard Development",
-        "NLP",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics",
         "Data Quality Analysis",
         "Statistical Analysis"
       ],
@@ -44,17 +46,18 @@
         "Python",
         "Reporting",
         "Dashboard Development",
-        "NLP"
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
       ],
       "unconfirmedKeywords": [
-        "Tableau",
-        "Snowflake"
+        "AWS"
       ],
       "tailoredRank": 1,
-      "tailoredGeneratedAt": "2026-09-25",
-      "baseResumeMatch": 29,
-      "tailoredResumeMatch": 33,
-      "matchDelta": 4,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
@@ -62,7 +65,9 @@
         "Python",
         "Reporting",
         "Dashboard Development",
-        "NLP"
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
       ],
       "baseMissingKeywords": [],
       "tailoredCoveredKeywords": [
@@ -70,78 +75,151 @@
         "Python",
         "Reporting",
         "Dashboard Development",
-        "NLP"
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
       ],
       "tailoredMissingKeywords": [],
       "recommendedAction": {
-        "priority": "Network first",
-        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
-        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, Snowflake unless Yogeshwari confirms hands-on experience.",
-          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Trailhead | Sr Data Analyst at Salesforce - data analytics background"
+        "outreachSubject": "Data Analyst - UAE National, ICQA/LND Analytics Team at Amazon - data analytics background"
       }
     },
     {
-      "sourceRefreshId": "4461107435",
+      "sourceRefreshId": "4473030814",
       "source": "LinkedIn via Apify",
-      "company": "Moody's Corporation",
-      "role": "Product Analyst, Salesforce",
-      "location": "New York, NY",
+      "company": "Amazon",
+      "role": "Business Analyst, AMZL UTR PPT",
+      "location": "Austin, TX",
       "salary": "Not listed",
-      "posted": "2026-09-25T00:00:00.000Z",
-      "url": "https://www.linkedin.com/jobs/view/product-analyst-salesforce-at-moody-s-corporation-4461107435?trk=public_jobs_topcard-title",
-      "applyUrl": "https://www.linkedin.com/jobs/view/product-analyst-salesforce-at-moody-s-corporation-4461107435?trk=public_jobs_topcard-title",
-      "description": "At Moody's, we unite the brightest minds to turn today\u2019s risks into tomorrow\u2019s opportunities. We do this by striving to create an inclusive environment where everyone feels welcome to be who they are\u2014with the freedom to exchange ideas, think innovatively, and listen to each other and customers in meaningful ways. Moody\u2019s is transforming how the world sees risk. As a global leader in ratings and integrated risk assessment, we\u2019re advancing AI to move from insight to action\u2014enabling intelligence that not only understands complexity but responds to it. We decode risk to unlock opportunity, helping our clients navigate uncertainty with clarity, speed, and confidence.\n\nIf you are excited about this opportunity but do not meet every single requirement, please apply! You still may be a great fit for this role or other open roles. We are seeking candidates who model our values: invest in every relationship, lead with curiosity, champion diverse perspectives, turn inputs into actions, and uphold trust through integrity.\n\nSkills And Competencies\n\nMinimum 3 years experience as a Product Analyst, Business Systems Analyst, or similar role\nExperience with software development lifecycles, Agile delivery, testing practices, and production support\nStrong requirements-gathering, process-mapping, problem-solving, and documentation skills\nExperience translating complex business requirements into actionable technical deliverables\nWorking knowledge of relational databases, data models, and SQL\nUnderstanding of REST APIs, JSON, and system-to-system integrations\nExperience with tools such as Jira, Confluence, Postman, Tableau, Power BI, Salesforce, and Salesforce CPQ and Billing\nDemonstrated proficiency in artificial intelligence concepts, with hands-on experience using AI tools to streamline workflows and enhance operational efficiency. Proven ability to implement AI-powered solutions to solve business challenges. Demonstrates a growing awareness of AI risk management and a commitment to responsible and ethical AI use\n\nEducation\n\nBachelor's degree in Information Systems, Computer Science, Finance, or a related discipline\n\nResponsibilities\n\nWe are seeking a technically capable Product Analyst to support our billing and pricing product team, combining traditional analysis skills with a strong understanding of databases, APIs, and software development practices.\n\nTranslate business requirements into user stories, process flows, functional requirements, acceptance criteria, and technical specifications\nPartner with product managers to define priorities, maintain the product backlog, and support roadmap planning\nCollaborate with developers, architects, and integration teams to ensure requirements are technically feasible and clearly understood\nUse SQL and other data analysis tools to investigate issues, validate requirements, and reconcile data\nAssist with API analysis and testing using tools such as Postman, including reviewing responses and payloads\nDefine test scenarios and support system integration testing, user acceptance testing, regression testing, and production validation\nInvestigate production issues, identify root causes, assess business impact, and coordinate resolution across technical and business teams\nParticipate in Agile ceremonies such as backlog refinement, sprint planning, demonstrations, and retrospectives\n\nAbout The Team\n\nOur Product team is responsible for defining and delivering digital solutions that empower Moody's business partners. By joining our team, you will be part of exciting work in commercial digital product development and customer experience innovation. We actively explore and adopt AI tools to improve processes and drive efficiency across our product lifecycle.\n\nFor US-based roles only: the anticipated hiring base salary range for this position is $99,200.00 - $143,900.00, depending on factors such as experience, education, level, skills, and location. This range is based on a full-time position. In addition to base salary, this role is eligible for incentive compensation. Moody\u2019s also offers a competitive benefits package, including not but limited to medical, dental, vision, parental leave, paid time off, a 401(k) plan with employee and company contribution opportunities, life, disability, and accident insurance, a discounted employee stock purchase plan, and tuition reimbursement.\n\nMoody\u2019s is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, gender, age, religion or creed, national origin, ancestry, citizenship, marital or familial status, sexual orientation, gender identity, gender expression, genetic information, physical or mental disability, military or veteran status, or any other characteristic protected by law. Moody\u2019s also provides reasonable accommodation to qualified individuals with disabilities or based on a sincerely held religious belief in accordance with applicable laws. If you need to inquire about a reasonable accommodation, or need assistance with completing the application process, please email accommodations@moodys.com. This contact information is for accommodation requests only, and cannot be used to inquire about the status of applications\n\nFor San Francisco positions, qualified applicants with criminal histories will be considered for employment consistent with the requirements of the San Francisco Fair Chance Ordinance.\n\nThis position may be considered a promotional opportunity, pursuant to the Colorado Equal Pay for Equal Work Act.\n\nClick here to view our full EEO policy statement. Click here for more information on your EEO rights under the law. Click here to view our Pay Transparency Nondiscrimination statement.\n\nCandidates for Moody's Corporation may be asked to disclose securities holdings pursuant to Moody\u2019s Policy for Securities Trading and the requirements of the position. Employment is contingent upon compliance with the Policy, including remediation of positions in those holdings as necessary. \nShow more Show less",
-      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
-      "sponsorWatchlistMatch": "Moody's",
-      "sponsorCareerUrl": "https://careers.moodys.com/",
-      "sponsorCategory": "Financial Data",
-      "sponsorNotes": "Good fit for analytics and risk data roles",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-25/02_moody-s-corporation_product-analyst-salesforce.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-25/moody-s-corporation_product-analyst-salesforce.md",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-amzl-utr-ppt-at-amazon-4473030814?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amzl-utr-ppt-at-amazon-4473030814?trk=public_jobs_topcard-title",
+      "description": "Description\n\nBusiness Analysts are responsible for converting data into actionable business insights. They are analysis experts who leverage a variety of data platforms and analytical tools to provide timely, meaningful, and consumable information. They build deep contextual and domain knowledge. They ensure data quality and build scalable tools. They communicate findings with the most effective and influential methods.\n\nAmazon is seeking an exemplary Business Analyst with broad technical skills to develop data visualizations and build automation solutions that drive business decision making and process improvement. The ideal candidate will draw upon advanced analytical, problem-solving skills, and passion for delivering business insights and analytics. We look for candidates who are excellent communicators, self-motivated, flexible, hardworking, and who like to have fun.\n\nThe complexity of research and skills for a Business Analyst is well beyond basic data entry and extraction. It involves design and development of automated data pipelines, sophisticated analytical modeling and intuitive data visualization. This role will directly be responsible for establishing scalable, efficient, automated processes for large-scale data analyses, statistical and predictive model development, validation and implementation maintaining front end code. Proficiency in the using Python, SQL, HTML, Java, and R, or other similar coding languages is not required, but an ability to be a quick learner and gain proficiency is required for a successfully candidate. This role will have high level visibility due to the nature of the toolsets being maintained, built, and the network impact of analysis conducted. This role has great exposure to a broad scope that can really help shape the future of operational fulfillment and promotes career progression.\n\nKey job responsibilities\n\nProvide data management processes such as accessing raw data feeds, organizing data and designing reports that present status-at-a-glance visualization for business performance.\nRetrieving and analyzing large sets of data using Excel, SQL, and other data management systems.\nDesigning and implementing reporting solutions to enable stakeholders to manage the business and make effective decisions.\nTaking ownership of reporting processes to ensure that each report is accurate and timely with a high degree of customer focus in resolving data discrepancies.\nBuilding and managing related key performance indicators (KPIs) to measure, control, and benchmark reporting processes.\nMonitoring existent metrics, building new metrics, and partnering with internal teams to identify process and system improvement opportunities.\nSupporting cross-functional teams on the day-to-day execution of the existent program implementation.\nDoing complex analysis to dive deep on process issues\nInnovating to improve customer experience\n\nAbout The Team\n\nAttention Amazonians exploring new roles within our company! We've streamlined the process to ensure fair consideration for all internal candidates. If you're in the US or Canada, start by using the 'Request Informational' button at the top of the job listing to set up a meeting with the hiring manager. For those in other locations or if the Request Informational button is unavailable, please reach out directly to the hiring manager.\n\nAfter making your Informational Request, allow seven days for a response from the hiring manager. You can check your status on Amazon Jobs or the internal transfer workflow portal, if available in your region. If your request is still under consideration after seven days, feel free to contact the hiring manager directly.\n\nFor more detailed information about the process, from pre-application to pre-offer stages, visit the Internal Candidate Resource on MyHR. This comprehensive guide provides FAQs and valuable guidance to support your internal transfer journey. Remember, this process is designed to make your transition as smooth as possible. If you have any questions along the way, don't hesitate to reach out to your HR partner. We're here to support your growth and development within Amazon.\n\nBasic Qualifications\n\n2+ years of tax, finance or a related analytical field experience\n2+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n2+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n3+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10562346 \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/02_amazon_business-analyst-amzl-utr-ppt.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amzl-utr-ppt.md",
       "tailoredKeywords": [
         "SQL",
-        "Root Cause Analysis",
-        "Production Analytics",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "tailoredRank": 2,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, AMZL UTR PPT at Amazon - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4471917539",
+      "source": "LinkedIn via Apify",
+      "company": "EPAM Systems",
+      "role": "Business Analyst",
+      "location": "Armenia",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://am.linkedin.com/jobs/view/business-analyst-at-epam-systems-4471917539?trk=public_jobs_topcard-title",
+      "applyUrl": "https://am.linkedin.com/jobs/view/business-analyst-at-epam-systems-4471917539?trk=public_jobs_topcard-title",
+      "description": "We are looking for an experienced Business Analyst with hands-on expertise in SAP Signavio to support the documentation, analysis, and optimization of our core business processes. In this pivotal role, you will act as a bridge between business stakeholders and IT development/implementation teams, ensuring that end-to-end (E2E) processes are accurately captured, maintained, and fully aligned with modern SAP system capabilities.\n\nResponsibilities\n\nFacilitate workshops with business stakeholders to capture, map, and document current-state (As-Is) and future-state (To-Be) business processes using SAP Signavio\nIdentify process bottlenecks, inefficiencies, and standardization opportunities; leverage process mining and analytics insights within Signavio to drive continuous improvement\nTranslate complex business requirements into clear functional specifications, user stories, and process models for SAP implementation and IT teams\nEnsure that mapped processes align with standard SAP best practices, S/4HANA capabilities, and the organization's broader digital transformation roadmap\nSupport change management initiatives by providing process documentation, training materials, and driving user adoption; maintain process governance and repository standards within SAP Signavio\nPartner closely with enterprise architects, functional SAP consultants (FI/CO, MM, SD, etc.), and project managers to ensure seamless end-to-end execution of transformation projects\n\nRequirements\n\n2+ years of professional experience as a Business Analyst, Process Analyst, or SAP Consultant, with a strong focus on business process management (BPM)\nDeep, hands-on expertise in SAP Signavio (Process Manager, Process Intelligence / Process Mining, and Collaboration Hub)\nStrong familiarity with standard SAP modules (e.g., SAP S/4HANA, ECC, or cloud solutions) and SAP Best Practices\nExperience with BPMN 2.0 notation, process modeling standards, and continuous improvement methodologies (e.g., Lean, Six Sigma)\nExcellent facilitation and workshop-leading skills; ability to translate technical concepts for business users and vice versa\nEnglish level B1+ for effective communication\n\nNice to have\n\nPrior experience in SAP S/4HANA transformation or migration projects\nCertifications related to SAP Signavio or Agile/Scrum methodologies\nStrong stakeholder management skills, problem-solving mindset, attention to detail, and ability to thrive in a fast-paced, collaborative global environment\n\nWe offer\n\nInternational projects with top brands\nWork with global teams of highly skilled, diverse peers\nHealthcare benefits\nEmployee financial programs\nPaid time off and sick leave\nUpskilling, reskilling and certification courses\nUnlimited access to the LinkedIn Learning library and 22,000+ courses\nGlobal career opportunities\nVolunteer and community involvement opportunities\nEPAM Employee Groups\nAward-winning culture recognized by Glassdoor, Newsweek and LinkedIn\nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
+      "sponsorWatchlistMatch": "EPAM Systems",
+      "sponsorCareerUrl": "https://www.epam.com/careers/job-listings",
+      "sponsorCategory": "IT Services",
+      "sponsorNotes": "Watch data and analytics consulting roles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/03_epam-systems_business-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/epam-systems_business-analyst.md",
+      "tailoredKeywords": [
+        "SAP",
         "Git",
+        "SQL",
         "Python",
         "Data Quality Analysis",
         "Statistical Analysis",
         "Dashboard Development"
       ],
       "essentialKeywords": [
-        "SQL",
-        "Root Cause Analysis",
-        "Production Analytics",
+        "SAP",
         "Git"
       ],
-      "unconfirmedKeywords": [
-        "Tableau",
-        "Power BI",
-        "AWS"
-      ],
-      "tailoredRank": 2,
-      "tailoredGeneratedAt": "2026-09-25",
-      "baseResumeMatch": 41,
-      "tailoredResumeMatch": 85,
-      "matchDelta": 44,
+      "unconfirmedKeywords": [],
+      "tailoredRank": 3,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
       "baseCoveredKeywords": [
-        "SQL",
-        "Root Cause Analysis",
-        "Production Analytics",
+        "SAP",
         "Git"
       ],
       "baseMissingKeywords": [],
       "tailoredCoveredKeywords": [
-        "SQL",
-        "Root Cause Analysis",
-        "Production Analytics",
+        "SAP",
         "Git"
       ],
       "tailoredMissingKeywords": [],
@@ -150,10 +228,469 @@
         "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
         "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
         "cautions": [
-          "Do not claim Tableau, Power BI, AWS unless Yogeshwari confirms hands-on experience.",
           "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
         ],
-        "outreachSubject": "Product Analyst, Salesforce at Moody's Corporation - data analytics background"
+        "outreachSubject": "Business Analyst at EPAM Systems - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4473045403",
+      "source": "LinkedIn via Apify",
+      "company": "Amazon",
+      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
+      "location": "Nashville, TN",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4473045403?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4473045403?trk=public_jobs_topcard-title",
+      "description": "Description\n\nAmazon Logistics (AMZL) is seeking an experienced candidate to identify, create, develop and integrate innovative solutions and programs that lead to improvements in our last mile delivery network. This position will lead the development and execution of new worldwide transportation initiatives designed to improve overall efficiency and meet the ever-growing demand for last mile capacity. The successful candidate will have strong data mining and modeling skills and is comfortable facilitating ideas and working from concept through to execution.\n\nKey job responsibilities\n\nOwn the development and maintenance of new and existing solution artifacts which are focused on driving efficiency within the business via analysis, metrics and reporting dashboards\nPartner with operations/business teams to consult, develop and implement KPI's, automated reporting/process solutions, and process improvements to meet business needs.\nEnable effective decision making by retrieving and aggregating data from multiple sources and compiling it into a digestible and actionable format.\nPrepare and deliver business requirements reviews to the senior management team regarding progress and roadblocks.\nParticipate in strategic and tactical planning discussions.\nDesign, develop and maintain scaled, automated, user-friendly systems, reports, dashboards, etc. that will support our business needs.\n\nBasic Qualifications\n\n3+ years of tax, finance or a related analytical field experience\n3+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n5+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10559451 \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/04_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "tailoredRank": 4,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 32,
+      "tailoredResumeMatch": 36,
+      "matchDelta": 4,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4473047305",
+      "source": "LinkedIn via Apify",
+      "company": "Amazon",
+      "role": "Business Analyst, Amazon Logistics, AMZL OTR Planning",
+      "location": "Bellevue, WA",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4473047305?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amazon-logistics-amzl-otr-planning-at-amazon-4473047305?trk=public_jobs_topcard-title",
+      "description": "Description\n\nAmazon Logistics (AMZL) is seeking an experienced candidate to identify, create, develop and integrate innovative solutions and programs that lead to improvements in our last mile delivery network. This position will lead the development and execution of new worldwide transportation initiatives designed to improve overall efficiency and meet the ever-growing demand for last mile capacity. The successful candidate will have strong data mining and modeling skills and is comfortable facilitating ideas and working from concept through to execution.\n\nKey job responsibilities\n\nOwn the development and maintenance of new and existing solution artifacts which are focused on driving efficiency within the business via analysis, metrics and reporting dashboards\nPartner with operations/business teams to consult, develop and implement KPI's, automated reporting/process solutions, and process improvements to meet business needs.\nEnable effective decision making by retrieving and aggregating data from multiple sources and compiling it into a digestible and actionable format.\nPrepare and deliver business requirements reviews to the senior management team regarding progress and roadblocks.\nParticipate in strategic and tactical planning discussions.\nDesign, develop and maintain scaled, automated, user-friendly systems, reports, dashboards, etc. that will support our business needs.\n\nBasic Qualifications\n\n3+ years of tax, finance or a related analytical field experience\n3+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n5+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10559451 \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/05_amazon_business-analyst-amazon-logistics-amzl-otr-planning.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amazon-logistics-amzl-otr-planning.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "tailoredRank": 5,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 32,
+      "tailoredResumeMatch": 36,
+      "matchDelta": 4,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "KPI Reporting",
+        "Process Improvement",
+        "Operations Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Network first",
+        "nextAction": "Do not lead with a cold application. Ask a recruiter whether early-career candidates are considered for this opening or adjacent roles.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Seniority appears above target. Treat this as a networking or adjacent-role opportunity.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, Amazon Logistics, AMZL OTR Planning at Amazon - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4473035745",
+      "source": "LinkedIn via Apify",
+      "company": "Amazon",
+      "role": "Business Analyst, AMZL UTR PPT",
+      "location": "Bellevue, WA",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-amzl-utr-ppt-at-amazon-4473035745?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-amzl-utr-ppt-at-amazon-4473035745?trk=public_jobs_topcard-title",
+      "description": "Description\n\nBusiness Analysts are responsible for converting data into actionable business insights. They are analysis experts who leverage a variety of data platforms and analytical tools to provide timely, meaningful, and consumable information. They build deep contextual and domain knowledge. They ensure data quality and build scalable tools. They communicate findings with the most effective and influential methods.\n\nAmazon is seeking an exemplary Business Analyst with broad technical skills to develop data visualizations and build automation solutions that drive business decision making and process improvement. The ideal candidate will draw upon advanced analytical, problem-solving skills, and passion for delivering business insights and analytics. We look for candidates who are excellent communicators, self-motivated, flexible, hardworking, and who like to have fun.\n\nThe complexity of research and skills for a Business Analyst is well beyond basic data entry and extraction. It involves design and development of automated data pipelines, sophisticated analytical modeling and intuitive data visualization. This role will directly be responsible for establishing scalable, efficient, automated processes for large-scale data analyses, statistical and predictive model development, validation and implementation maintaining front end code. Proficiency in the using Python, SQL, HTML, Java, and R, or other similar coding languages is not required, but an ability to be a quick learner and gain proficiency is required for a successfully candidate. This role will have high level visibility due to the nature of the toolsets being maintained, built, and the network impact of analysis conducted. This role has great exposure to a broad scope that can really help shape the future of operational fulfillment and promotes career progression.\n\nKey job responsibilities\n\nProvide data management processes such as accessing raw data feeds, organizing data and designing reports that present status-at-a-glance visualization for business performance.\nRetrieving and analyzing large sets of data using Excel, SQL, and other data management systems.\nDesigning and implementing reporting solutions to enable stakeholders to manage the business and make effective decisions.\nTaking ownership of reporting processes to ensure that each report is accurate and timely with a high degree of customer focus in resolving data discrepancies.\nBuilding and managing related key performance indicators (KPIs) to measure, control, and benchmark reporting processes.\nMonitoring existent metrics, building new metrics, and partnering with internal teams to identify process and system improvement opportunities.\nSupporting cross-functional teams on the day-to-day execution of the existent program implementation.\nDoing complex analysis to dive deep on process issues\nInnovating to improve customer experience\n\nAbout The Team\n\nAttention Amazonians exploring new roles within our company! We've streamlined the process to ensure fair consideration for all internal candidates. If you're in the US or Canada, start by using the 'Request Informational' button at the top of the job listing to set up a meeting with the hiring manager. For those in other locations or if the Request Informational button is unavailable, please reach out directly to the hiring manager.\n\nAfter making your Informational Request, allow seven days for a response from the hiring manager. You can check your status on Amazon Jobs or the internal transfer workflow portal, if available in your region. If your request is still under consideration after seven days, feel free to contact the hiring manager directly.\n\nFor more detailed information about the process, from pre-application to pre-offer stages, visit the Internal Candidate Resource on MyHR. This comprehensive guide provides FAQs and valuable guidance to support your internal transfer journey. Remember, this process is designed to make your transition as smooth as possible. If you have any questions along the way, don't hesitate to reach out to your HR partner. We're here to support your growth and development within Amazon.\n\nBasic Qualifications\n\n2+ years of tax, finance or a related analytical field experience\n2+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n2+ years of business or financial analysis experience\nBachelor's degree or equivalent\nExperience defining requirements and using data and metrics to draw business insights\nExperience with Excel\nExperience with SQL\nExperience making business recommendations and influencing stakeholders\n\nPreferred Qualifications\n\n3+ years of Excel (including VBA, pivot tables, array functions, power pivots, etc.) and data visualization tools such as Tableau experience\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, TN, Nashville - 66,900.00 - 117,000.00 USD annually\n\nUSA, TX, Austin - 74,300.00 - 130,100.00 USD annually\n\nUSA, WA, Bellevue - 82,700.00 - 130,100.00 USD annually\n\n\nCompany - Amazon.com Services LLC\n\nJob ID: A10562346 \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/06_amazon_business-analyst-amzl-utr-ppt.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_business-analyst-amzl-utr-ppt.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "tailoredRank": 6,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "R",
+        "Data Quality Analysis",
+        "Reporting",
+        "KPI Reporting",
+        "Process Improvement",
+        "Large Language Models"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python reporting and validation pipelines, SAP production datasets, and the PostgreSQL-Flask-Hadoop-Docker analytics platform.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst, AMZL UTR PPT at Amazon - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4473030856",
+      "source": "LinkedIn via Apify",
+      "company": "Amazon",
+      "role": "Data Analyst - UAE National, ICQA/LND Analytics Team",
+      "location": "Ras Al Khaimah, Ras al-Khaimah, United Arab Emirates",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://ae.linkedin.com/jobs/view/data-analyst-uae-national-icqa-lnd-analytics-team-at-amazon-4473030856?trk=public_jobs_topcard-title",
+      "applyUrl": "https://ae.linkedin.com/jobs/view/data-analyst-uae-national-icqa-lnd-analytics-team-at-amazon-4473030856?trk=public_jobs_topcard-title",
+      "description": "Description\n\nAmazon is a highly data driven company highly obsessive about metrics. The Data analysts play a crucial role in creating unique reports from data available in multiple locations and providing vital insights into the root cause of quality defects and inventory adjustments. ICQA Data Analyst will work closely with the ICQA, Learning and Finance departments to provide data and analytical support for the business.\n\nKey job responsibilities\n\nDevelopment of data collection processes and data management systems\nDesigning of queries, compiling of data, and generation of reports in SQL\nCharting and graphing of data for reporting purposes\nDeveloping dashboard (Amazon Quicksight) to support business decision making and dive deep activities\nDevelop automation solution for analysis (python)\nPrepare and publish reports for business reviews (Weekly Business Review, Quarterly Business Review, Project Updates)\nSupporting leadership team how to interpret data trends as needed\nIn depth research of defect trends\nData collection and entry as needed\nPresent analysis in easily digestible standard reports\nSupport to ICQA & Learning Team Projects\n\nBasic Qualifications\n\nExperience that includes strong analytical skills, attention to detail, and effective communication abilities\nExperience communicating clearly and concisely with leadership, stakeholders, and cross-functional teams\nExperience managing and executing large projects from start to finish, including project management, data gathering and modeling, problem solving, and communicating recommendations\nExperience understanding needs of business and end customers and translating them into right solutions\nExperience with AWS technologies like Redshift, S3, AWS Glue, EMR, Kinesis, FireHose, Lambda, and IAM roles and permissions\n\nPreferred Qualifications\n\nExperience with training and deploying machine learning systems to solve large-scale optimizations, or experience in development or technical support\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\n\nCompany - Q-Express Documents Transport\n\nJob ID: A10515224 \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/07_amazon_data-analyst-uae-national-icqa-lnd-analytics-team.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_data-analyst-uae-national-icqa-lnd-analytics-team.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "AWS"
+      ],
+      "tailoredRank": 7,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst - UAE National, ICQA/LND Analytics Team at Amazon - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4473042560",
+      "source": "LinkedIn via Apify",
+      "company": "Amazon",
+      "role": "Data Analyst - UAE National, ICQA/LND Analytics Team",
+      "location": "Dubai, Dubai, United Arab Emirates",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://ae.linkedin.com/jobs/view/data-analyst-uae-national-icqa-lnd-analytics-team-at-amazon-4473042560?trk=public_jobs_topcard-title",
+      "applyUrl": "https://ae.linkedin.com/jobs/view/data-analyst-uae-national-icqa-lnd-analytics-team-at-amazon-4473042560?trk=public_jobs_topcard-title",
+      "description": "Description\n\nAmazon is a highly data driven company highly obsessive about metrics. The Data analysts play a crucial role in creating unique reports from data available in multiple locations and providing vital insights into the root cause of quality defects and inventory adjustments. ICQA Data Analyst will work closely with the ICQA, Learning and Finance departments to provide data and analytical support for the business.\n\nKey job responsibilities\n\nDevelopment of data collection processes and data management systems\nDesigning of queries, compiling of data, and generation of reports in SQL\nCharting and graphing of data for reporting purposes\nDeveloping dashboard (Amazon Quicksight) to support business decision making and dive deep activities\nDevelop automation solution for analysis (python)\nPrepare and publish reports for business reviews (Weekly Business Review, Quarterly Business Review, Project Updates)\nSupporting leadership team how to interpret data trends as needed\nIn depth research of defect trends\nData collection and entry as needed\nPresent analysis in easily digestible standard reports\nSupport to ICQA & Learning Team Projects\n\nBasic Qualifications\n\nExperience that includes strong analytical skills, attention to detail, and effective communication abilities\nExperience communicating clearly and concisely with leadership, stakeholders, and cross-functional teams\nExperience managing and executing large projects from start to finish, including project management, data gathering and modeling, problem solving, and communicating recommendations\nExperience understanding needs of business and end customers and translating them into right solutions\nExperience with AWS technologies like Redshift, S3, AWS Glue, EMR, Kinesis, FireHose, Lambda, and IAM roles and permissions\n\nPreferred Qualifications\n\nExperience with training and deploying machine learning systems to solve large-scale optimizations, or experience in development or technical support\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.\n\n\nCompany - Q-Express Documents Transport\n\nJob ID: A10515224 \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Amazon",
+      "sponsorCareerUrl": "https://www.amazon.jobs/en/",
+      "sponsorCategory": "Big Tech / Retail",
+      "sponsorNotes": "Very high-volume sponsor signal; include BIE and operations analytics titles",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/08_amazon_data-analyst-uae-national-icqa-lnd-analytics-team.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/amazon_data-analyst-uae-national-icqa-lnd-analytics-team.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "AWS"
+      ],
+      "tailoredRank": 8,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Python",
+        "Reporting",
+        "Dashboard Development",
+        "Machine Learning",
+        "Root Cause Analysis",
+        "Inventory Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with Python analytics and anomaly detection from Rolls-Royce and Bajaj Auto, then connect it to ML coursework and the Gemini-powered proposal workflow project.",
+        "cautions": [
+          "Do not claim AWS unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst - UAE National, ICQA/LND Analytics Team at Amazon - data analytics background"
+      }
+    },
+    {
+      "sourceRefreshId": "4454452088",
+      "source": "LinkedIn via Apify",
+      "company": "Tata Consultancy Services",
+      "role": "Business Analyst",
+      "location": "Irving, TX",
+      "salary": "Not listed",
+      "posted": "2026-09-29T00:00:00.000Z",
+      "url": "https://www.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4454452088?trk=public_jobs_topcard-title",
+      "applyUrl": "https://www.linkedin.com/jobs/view/business-analyst-at-tata-consultancy-services-4454452088?trk=public_jobs_topcard-title",
+      "description": "Job Description\n\nMust Have Technical/Functional Skills\n\nExperience in Business Analysis within Cards Acquisitions, Fraud, Marketing, or Financial Services domains.\nStrong analytical and problem-solving skills.\nProficiency in SQL, Excel, and reporting.\nExperience with requirements gathering, process mapping, and documentation.\nStrong communication and stakeholder management skills.\nExperience working in Agile environments.\n\nRoles & Responsibilities\n\nGather, analyze, and document business requirements from stakeholders.\nAnalyze fraud trends, risks, and controls to recommend process improvements.\nDevelop reports, dashboards, and business metrics to track performance.\nCollaborate with business users, product owners, architects, and mainframe developers.\nPresent findings and recommendations to business stakeholders.\nCreate process flows, use cases, interface specifications, and data-mapping documents.\nMaintain project documentation and business process artifacts.\n\nSalary Range: $100,000 to $120,000 per year\n\nQualifications: BACHELOR OF COMPUTER SCIENCE \nShow more Show less",
+      "h1bSponsorSignal": "USCIS/H-1B sponsor watchlist: Large H-1B employer signal",
+      "sponsorWatchlistMatch": "Tata Consultancy Services",
+      "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
+      "sponsorCategory": "IT Services",
+      "sponsorNotes": "Very high-volume sponsor signal; verify client location",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/09_tata-consultancy-services_business-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/tata-consultancy-services_business-analyst.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "Process Improvement",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "Process Improvement"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 9,
+      "tailoredGeneratedAt": "2026-09-29",
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "Process Improvement"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "Reporting",
+        "Dashboard Development",
+        "Process Improvement"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Business Analyst at Tata Consultancy Services - data analytics background"
       }
     },
     {
@@ -169,8 +706,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b6ee877e6b569c61c0754",
       "url": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-25/03_oscar-health_data-scientist-i.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-25/oscar-health_data-scientist-i.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/10_oscar-health_data-scientist-i.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/oscar-health_data-scientist-i.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -186,8 +723,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 3,
-      "tailoredGeneratedAt": "2026-09-25",
+      "tailoredRank": 10,
+      "tailoredGeneratedAt": "2026-09-29",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -232,8 +769,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b2f00ecfd2977075374e5",
       "url": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-25/04_averna_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-25/averna_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/11_averna_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/averna_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -249,8 +786,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 4,
-      "tailoredGeneratedAt": "2026-09-25",
+      "tailoredRank": 11,
+      "tailoredGeneratedAt": "2026-09-29",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -299,8 +836,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-25/05_tata-consultancy-services_analytics-data-engineer.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-25/tata-consultancy-services_analytics-data-engineer.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/12_tata-consultancy-services_analytics-data-engineer.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/tata-consultancy-services_analytics-data-engineer.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -316,8 +853,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 5,
-      "tailoredGeneratedAt": "2026-09-25",
+      "tailoredRank": 12,
+      "tailoredGeneratedAt": "2026-09-29",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -366,8 +903,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-25/06_tata-consultancy-services_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-25/tata-consultancy-services_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-09-29/13_tata-consultancy-services_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-09-29/tata-consultancy-services_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -383,8 +920,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 6,
-      "tailoredGeneratedAt": "2026-09-25",
+      "tailoredRank": 13,
+      "tailoredGeneratedAt": "2026-09-29",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -417,9 +954,9 @@
       }
     }
   ],
-  "browserImportedAt": "2026-09-25",
-  "sponsorEnrichedAt": "2026-09-25",
+  "browserImportedAt": "2026-09-29",
+  "sponsorEnrichedAt": "2026-09-29",
   "sponsorWatchlistCount": 133,
-  "sponsorMatchedJobCount": 4,
-  "tailoredGeneratedAt": "2026-09-25"
+  "sponsorMatchedJobCount": 11,
+  "tailoredGeneratedAt": "2026-09-29"
 }
