@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-07",
   "sources": [
     "Apify actor run",
     "Jobright logged-in browser",
@@ -25,8 +25,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b6ee877e6b569c61c0754",
       "url": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-05/01_oscar-health_data-scientist-i.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-05/oscar-health_data-scientist-i.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/01_oscar-health_data-scientist-i.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/oscar-health_data-scientist-i.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -43,7 +43,7 @@
       ],
       "unconfirmedKeywords": [],
       "tailoredRank": 1,
-      "tailoredGeneratedAt": "2026-10-05",
+      "tailoredGeneratedAt": "2026-10-07",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -88,8 +88,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b2f00ecfd2977075374e5",
       "url": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-05/02_averna_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-05/averna_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/02_averna_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/averna_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -106,7 +106,7 @@
       ],
       "unconfirmedKeywords": [],
       "tailoredRank": 2,
-      "tailoredGeneratedAt": "2026-10-05",
+      "tailoredGeneratedAt": "2026-10-07",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -155,8 +155,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-05/03_tata-consultancy-services_analytics-data-engineer.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-05/tata-consultancy-services_analytics-data-engineer.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/03_tata-consultancy-services_analytics-data-engineer.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_analytics-data-engineer.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -173,7 +173,7 @@
       ],
       "unconfirmedKeywords": [],
       "tailoredRank": 3,
-      "tailoredGeneratedAt": "2026-10-05",
+      "tailoredGeneratedAt": "2026-10-07",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -222,8 +222,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-05/04_tata-consultancy-services_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-05/tata-consultancy-services_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/04_tata-consultancy-services_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -240,7 +240,7 @@
       ],
       "unconfirmedKeywords": [],
       "tailoredRank": 4,
-      "tailoredGeneratedAt": "2026-10-05",
+      "tailoredGeneratedAt": "2026-10-07",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -273,9 +273,9 @@
       }
     }
   ],
-  "browserImportedAt": "2026-10-05",
-  "sponsorEnrichedAt": "2026-10-05",
+  "browserImportedAt": "2026-10-07",
+  "sponsorEnrichedAt": "2026-10-07",
   "sponsorWatchlistCount": 133,
   "sponsorMatchedJobCount": 2,
-  "tailoredGeneratedAt": "2026-10-05"
+  "tailoredGeneratedAt": "2026-10-07"
 }

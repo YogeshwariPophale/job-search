@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-07",
   "resumes": [
     {
       "rank": 1,
@@ -11,8 +11,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-05/01_oscar-health_data-scientist-i.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-05/oscar-health_data-scientist-i.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-07/01_oscar-health_data-scientist-i.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
         "Python",
@@ -49,8 +49,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-05/02_averna_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-05/averna_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-07/02_averna_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/averna_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -87,8 +87,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-05/03_tata-consultancy-services_analytics-data-engineer.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-05/tata-consultancy-services_analytics-data-engineer.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-07/03_tata-consultancy-services_analytics-data-engineer.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
         "Python",
@@ -125,8 +125,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-05/04_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-05/tata-consultancy-services_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-07/04_tata-consultancy-services_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
