@@ -1,17 +1,251 @@
 {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-18",
   "sources": [
-    "Apify actor run",
-    "Jobright logged-in browser",
+    "Apify actor run (0 relevant matches)",
+    "Public employer careers feeds",
+    "LinkedIn logged-in browser checked",
+    "Handshake logged-in browser checked",
+    "Simplify login page",
     "LinkedIn logged-in browser",
     "Handshake logged-in browser",
     "Jobot public",
+    "Jobright logged-in browser",
     "USCIS/H-1B sponsor watchlist"
   ],
-  "rawItemCount": 56,
-  "filteredOutCount": 47,
-  "preservedNonApifyCount": 4,
+  "rawItemCount": 0,
+  "filteredOutCount": 0,
+  "preservedNonApifyCount": 6,
   "jobs": [
+    {
+      "company": "Bluesight",
+      "role": "Data Analyst",
+      "location": "United States (Remote)",
+      "salary": "$70,000-$82,000 per year",
+      "posted": "2026-10-15",
+      "postedAge": "1 day ago",
+      "source": "Public employer careers feed",
+      "url": "https://jobs.lever.co/bluesight/b87fa4f3-7637-4e22-9437-d6b7e8670d8f",
+      "applyUrl": "https://jobs.lever.co/bluesight/b87fa4f3-7637-4e22-9437-d6b7e8670d8f",
+      "description": "Support healthcare SaaS implementations by validating customer data, querying with SQL, and building analytics solutions. Requires 2+ years of data analysis; healthcare experience is a plus.",
+      "sourceRefreshId": "web-2026-10-16-bluesight-data-analyst",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/01_bluesight_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/bluesight_data-analyst.md",
+      "tailoredKeywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 1,
+      "tailoredGeneratedAt": "2026-10-18",
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst at Bluesight - data analytics background"
+      }
+    },
+    {
+      "company": "NIKE, Inc.",
+      "role": "Supply Chain Business Analyst II, NA",
+      "location": "Beaverton, OR (On-site)",
+      "salary": "Not listed",
+      "posted": "2026-10-15",
+      "postedAge": "1 day ago",
+      "source": "Public employer careers feed",
+      "url": "https://careers.nike.com/supply-chain-business-analyst-ii-na/job/R-95313",
+      "applyUrl": "https://careers.nike.com/supply-chain-business-analyst-ii-na/job/R-95313",
+      "description": "Analyze inventory forecasting, marketplace coverage, supply-chain KPIs, and launch readiness with cross-functional teams. Requires 2 years of relevant experience and SQL/Tableau/Excel skills. Employer-level H-1B filing signal; role-specific sponsorship is not stated.",
+      "h1bSponsorSignal": "Known H-1B filing signal (employer-level; role-specific sponsorship not stated) | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal | USCIS/H-1B sponsor watchlist: Known H-1B filing signal",
+      "sourceRefreshId": "web-2026-10-16-nike-supply-chain-business-analyst-ii-na-r-95313",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/02_nike-inc_supply-chain-business-analyst-ii-na.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/nike-inc_supply-chain-business-analyst-ii-na.md",
+      "tailoredKeywords": [
+        "SQL",
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Inventory Analytics",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Inventory Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "tailoredRank": 2,
+      "tailoredGeneratedAt": "2026-10-18",
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "SQL",
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Inventory Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "SQL",
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Inventory Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Supply Chain Business Analyst II, NA at NIKE, Inc. - data analytics background"
+      },
+      "sponsorWatchlistMatch": "Nike",
+      "sponsorCareerUrl": "https://jobs.nike.com/",
+      "sponsorCategory": "Retail / Consumer",
+      "sponsorNotes": "Good consumer and supply chain analytics target"
+    },
+    {
+      "company": "Home Chef",
+      "role": "Supply Chain Analyst",
+      "location": "Chicago, IL (On-site)",
+      "salary": "$65,000-$75,000 per year",
+      "posted": "2026-10-15",
+      "postedAge": "1 day ago",
+      "source": "Public employer careers feed",
+      "url": "https://job-boards.greenhouse.io/homechef/jobs/5450278008",
+      "applyUrl": "https://job-boards.greenhouse.io/homechef/jobs/5450278008",
+      "description": "Analyze supply-chain KPIs, vendor proposals, sourcing, contracts, and supplier performance. Requires 2+ years in market research, strategic sourcing, procurement, or supply chain.",
+      "sourceRefreshId": "web-2026-10-16-home-chef-supply-chain-analyst",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/03_home-chef_supply-chain-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/home-chef_supply-chain-analyst.md",
+      "tailoredKeywords": [
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Procurement Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Procurement Analytics"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 3,
+      "tailoredGeneratedAt": "2026-10-18",
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Procurement Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Procurement Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Supply Chain Analyst at Home Chef - data analytics background"
+      }
+    },
+    {
+      "company": "Ramp",
+      "role": "Analyst, Deal Operations",
+      "location": "San Francisco, CA (On-site)",
+      "salary": "$104,000-$130,000 per year",
+      "posted": "2026-10-15",
+      "postedAge": "1 day ago",
+      "source": "Public employer careers feed",
+      "url": "https://jobs.ashbyhq.com/ramp/7e531974-caac-46a2-804e-c6c3140bfda4",
+      "applyUrl": "https://jobs.ashbyhq.com/ramp/7e531974-caac-46a2-804e-c6c3140bfda4",
+      "description": "Support sales quoting, pricing, contract workflows, and deal controls; partner with Sales, Legal, and Accounting. Requires 1+ year in Deal Desk, preferably at a SaaS company.",
+      "sourceRefreshId": "web-2026-10-16-ramp-analyst-deal-operations",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/04_ramp_analyst-deal-operations.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/ramp_analyst-deal-operations.md",
+      "tailoredKeywords": [
+        "Operations Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [],
+      "tailoredRank": 4,
+      "tailoredGeneratedAt": "2026-10-18",
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "baseCoveredKeywords": [
+        "Operations Analytics"
+      ],
+      "baseMissingKeywords": [],
+      "tailoredCoveredKeywords": [
+        "Operations Analytics"
+      ],
+      "tailoredMissingKeywords": [],
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Analyst, Deal Operations at Ramp - data analytics background"
+      }
+    },
     {
       "applyUrl": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
       "company": "Oscar Health",
@@ -25,8 +259,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b6ee877e6b569c61c0754",
       "url": "https://jobright.ai/jobs/info/6a7b6ee877e6b569c61c0754",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/01_oscar-health_data-scientist-i.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/oscar-health_data-scientist-i.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/05_oscar-health_data-scientist-i.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/oscar-health_data-scientist-i.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -42,8 +276,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 1,
-      "tailoredGeneratedAt": "2026-10-07",
+      "tailoredRank": 5,
+      "tailoredGeneratedAt": "2026-10-18",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -88,8 +322,8 @@
       "sourceFitScore": null,
       "sourceRefreshId": "jobright-browser-6a7b2f00ecfd2977075374e5",
       "url": "https://jobright.ai/jobs/info/6a7b2f00ecfd2977075374e5",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/02_averna_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/averna_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/06_averna_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/averna_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -105,8 +339,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 2,
-      "tailoredGeneratedAt": "2026-10-07",
+      "tailoredRank": 6,
+      "tailoredGeneratedAt": "2026-10-18",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -155,8 +389,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/03_tata-consultancy-services_analytics-data-engineer.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_analytics-data-engineer.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/07_tata-consultancy-services_analytics-data-engineer.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/tata-consultancy-services_analytics-data-engineer.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -172,8 +406,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 3,
-      "tailoredGeneratedAt": "2026-10-07",
+      "tailoredRank": 7,
+      "tailoredGeneratedAt": "2026-10-18",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -222,8 +456,8 @@
       "sponsorCareerUrl": "https://www.tcs.com/careers/united-states",
       "sponsorCategory": "IT Services",
       "sponsorNotes": "Very high-volume sponsor signal; verify client location",
-      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-07/04_tata-consultancy-services_data-analyst.pdf",
-      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_data-analyst.md",
+      "tailoredResumePdf": "../output/pdf/tailored_resumes/2026-10-18/08_tata-consultancy-services_data-analyst.pdf",
+      "tailoredResumeSource": "../job_search_system/outputs/tailored_resumes/2026-10-18/tata-consultancy-services_data-analyst.md",
       "tailoredKeywords": [
         "SQL",
         "Python",
@@ -239,8 +473,8 @@
         "Dashboard Development"
       ],
       "unconfirmedKeywords": [],
-      "tailoredRank": 4,
-      "tailoredGeneratedAt": "2026-10-07",
+      "tailoredRank": 8,
+      "tailoredGeneratedAt": "2026-10-18",
       "baseResumeMatch": 50,
       "tailoredResumeMatch": 88,
       "matchDelta": 38,
@@ -273,9 +507,9 @@
       }
     }
   ],
-  "browserImportedAt": "2026-10-07",
-  "sponsorEnrichedAt": "2026-10-07",
+  "browserImportedAt": "2026-10-18",
+  "sponsorEnrichedAt": "2026-10-18",
   "sponsorWatchlistCount": 133,
-  "sponsorMatchedJobCount": 2,
-  "tailoredGeneratedAt": "2026-10-07"
+  "sponsorMatchedJobCount": 3,
+  "tailoredGeneratedAt": "2026-10-18"
 }

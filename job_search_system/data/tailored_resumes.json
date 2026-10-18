@@ -1,8 +1,159 @@
 {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-18",
   "resumes": [
     {
       "rank": 1,
+      "company": "Bluesight",
+      "role": "Data Analyst",
+      "fitScore": 0,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/01_bluesight_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/bluesight_data-analyst.md",
+      "keywords": [
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL"
+      ],
+      "unconfirmedKeywords": [],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with the 40% reporting-effort reduction at Bajaj Auto, then connect it to SQL/Python data quality, KPI visibility, and cross-functional manufacturing or operations decisions.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Data Analyst at Bluesight - data analytics background"
+      }
+    },
+    {
+      "rank": 2,
+      "company": "NIKE, Inc.",
+      "role": "Supply Chain Business Analyst II, NA",
+      "fitScore": 0,
+      "baseResumeMatch": 47,
+      "tailoredResumeMatch": 85,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/02_nike-inc_supply-chain-business-analyst-ii-na.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/nike-inc_supply-chain-business-analyst-ii-na.md",
+      "keywords": [
+        "SQL",
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Inventory Analytics",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "SQL",
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Inventory Analytics"
+      ],
+      "unconfirmedKeywords": [
+        "Tableau"
+      ],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Do not claim Tableau unless Yogeshwari confirms hands-on experience.",
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Supply Chain Business Analyst II, NA at NIKE, Inc. - data analytics background"
+      }
+    },
+    {
+      "rank": 3,
+      "company": "Home Chef",
+      "role": "Supply Chain Analyst",
+      "fitScore": 0,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/03_home-chef_supply-chain-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/home-chef_supply-chain-analyst.md",
+      "keywords": [
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Procurement Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "KPI Reporting",
+        "Supply Chain Analytics",
+        "Procurement Analytics"
+      ],
+      "unconfirmedKeywords": [],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Supply Chain Analyst at Home Chef - data analytics background"
+      }
+    },
+    {
+      "rank": 4,
+      "company": "Ramp",
+      "role": "Analyst, Deal Operations",
+      "fitScore": 0,
+      "baseResumeMatch": 50,
+      "tailoredResumeMatch": 88,
+      "matchDelta": 38,
+      "baseCoveragePercent": 100,
+      "tailoredCoveragePercent": 100,
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/04_ramp_analyst-deal-operations.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/ramp_analyst-deal-operations.md",
+      "keywords": [
+        "Operations Analytics",
+        "SQL",
+        "Python",
+        "Data Quality Analysis",
+        "Statistical Analysis",
+        "Dashboard Development"
+      ],
+      "essentialKeywords": [
+        "Operations Analytics"
+      ],
+      "unconfirmedKeywords": [],
+      "seniorityRisk": false,
+      "recommendedAction": {
+        "priority": "Apply today",
+        "nextAction": "Use the tailored resume, apply directly, and send a short recruiter or hiring-team note.",
+        "interviewHook": "Lead with SAP BOM, procurement, inventory, and production analytics across 200+ components, plus KPI dashboards and process optimization.",
+        "cautions": [
+          "Tailoring has limited lift because the base resume already covers most supported keywords or the JD is sparse."
+        ],
+        "outreachSubject": "Analyst, Deal Operations at Ramp - data analytics background"
+      }
+    },
+    {
+      "rank": 5,
       "company": "Oscar Health",
       "role": "Data Scientist I",
       "fitScore": 0,
@@ -11,8 +162,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-07/01_oscar-health_data-scientist-i.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/oscar-health_data-scientist-i.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/05_oscar-health_data-scientist-i.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/oscar-health_data-scientist-i.md",
       "keywords": [
         "SQL",
         "Python",
@@ -40,7 +191,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 6,
       "company": "Averna",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -49,8 +200,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-07/02_averna_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/averna_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/06_averna_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/averna_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
@@ -78,7 +229,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 7,
       "company": "Tata Consultancy Services",
       "role": "Analytics / Data Engineer",
       "fitScore": 0,
@@ -87,8 +238,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-07/03_tata-consultancy-services_analytics-data-engineer.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_analytics-data-engineer.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/07_tata-consultancy-services_analytics-data-engineer.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/tata-consultancy-services_analytics-data-engineer.md",
       "keywords": [
         "SQL",
         "Python",
@@ -116,7 +267,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 8,
       "company": "Tata Consultancy Services",
       "role": "Data Analyst",
       "fitScore": 0,
@@ -125,8 +276,8 @@
       "matchDelta": 38,
       "baseCoveragePercent": 100,
       "tailoredCoveragePercent": 100,
-      "pdf": "../output/pdf/tailored_resumes/2026-10-07/04_tata-consultancy-services_data-analyst.pdf",
-      "source": "../job_search_system/outputs/tailored_resumes/2026-10-07/tata-consultancy-services_data-analyst.md",
+      "pdf": "../output/pdf/tailored_resumes/2026-10-18/08_tata-consultancy-services_data-analyst.pdf",
+      "source": "../job_search_system/outputs/tailored_resumes/2026-10-18/tata-consultancy-services_data-analyst.md",
       "keywords": [
         "SQL",
         "Python",
